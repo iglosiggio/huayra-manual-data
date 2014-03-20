@@ -47,16 +47,27 @@
 	    <h3 id="siteSub">De Huayra</h3>
 	    <div id="contentSub"></div>
 	    	    	    <!-- start content -->
-	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><div class="isa_tip"> Recordá que sólo necesitás un <a href="../../../../articles/c/r/e/Crear_un_pendrive_con_Huayra.html" title="Crear un pendrive con Huayra">pendrive LIVE de Huayra</a> y seguir atentamente los pasos siguientes.<br />
+	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><div class="isa_important"> Este tutorial está pensado para computadoras que ya tienen otro sistema operativo (Microsoft Windows, etc.) y quieren instalar Huayra para usar ambos. Esto se llama <b>doble booteo</b> y al cada vez que prendas la computadora te va a preguntar con qué sistema operativo querés iniciarla o <i>bootearla</i>. Recordá que sólo necesitás un <a href="../../../../articles/c/r/e/Crear_un_pendrive_con_Huayra.html" title="Crear un pendrive con Huayra">pendrive LIVE de Huayra</a> y seguir atentamente los pasos siguientes.<br />
 <b>¡Acordate siempre de hacer un backup de tus archivos antes!</b></div>
 <p><br />
 </p>
 <table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contenido</h2></div>
 <ul>
 <li class="toclevel-1 tocsection-1"><a href="#Prepar.C3.A1_tu_computadora:_cre.C3.A1_el_espacio_donde_instalar_Huayra"><span class="tocnumber">1</span> <span class="toctext">Prepará tu computadora: creá el espacio donde instalar Huayra</span></a></li>
-<li class="toclevel-1 tocsection-2"><a href="#Inici.C3.A1_tu_computadora_con_Huayra"><span class="tocnumber">2</span> <span class="toctext">Iniciá tu computadora con Huayra</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Inici.C3.A1_tu_computadora_con_Huayra_LIVE"><span class="tocnumber">2</span> <span class="toctext">Iniciá tu computadora con Huayra LIVE</span></a></li>
 <li class="toclevel-1 tocsection-3"><a href="#Cre.C3.A1_el_espacio_en_disco_donde_instalar_Huayra"><span class="tocnumber">3</span> <span class="toctext">Creá el espacio en disco donde instalar Huayra</span></a></li>
-<li class="toclevel-1 tocsection-4"><a href="#Instalar_Huayra"><span class="tocnumber">4</span> <span class="toctext">Instalar Huayra</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Instalar_Huayra_en_el_espacio_vac.C3.ADo"><span class="tocnumber">4</span> <span class="toctext">Instalar Huayra en el espacio vacío</span></a>
+<ul>
+<li class="toclevel-2 tocsection-5"><a href="#Paso_1._Instal.C3.A1_Huayra_en_tu_disco"><span class="tocnumber">4.1</span> <span class="toctext">Paso 1. Instalá Huayra en tu disco</span></a></li>
+<li class="toclevel-2 tocsection-6"><a href="#Paso_2._Configuraci.C3.B3n_de_teclado"><span class="tocnumber">4.2</span> <span class="toctext">Paso 2. Configuración de teclado</span></a></li>
+<li class="toclevel-2 tocsection-7"><a href="#Paso_3._Particionado_de_discos"><span class="tocnumber">4.3</span> <span class="toctext">Paso 3. Particionado de discos</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#Paso_4._Elegir_esquema_de_particionado"><span class="tocnumber">4.4</span> <span class="toctext">Paso 4. Elegir esquema de particionado</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#Paso_5._Finalizar_particionado"><span class="tocnumber">4.5</span> <span class="toctext">Paso 5. Finalizar particionado</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#Paso_6._Confirmar_la_partici.C3.B3n"><span class="tocnumber">4.6</span> <span class="toctext">Paso 6. Confirmar la partición</span></a></li>
+<li class="toclevel-2 tocsection-11"><a href="#Paso_7._Instalar_GRUB"><span class="tocnumber">4.7</span> <span class="toctext">Paso 7. Instalar GRUB</span></a></li>
+<li class="toclevel-2 tocsection-12"><a href="#Paso_8._Finalizar_la_instalaci.C3.B3n"><span class="tocnumber">4.8</span> <span class="toctext">Paso 8. Finalizar la instalación</span></a></li>
+</ul>
+</li>
 </ul>
 </td></tr></table>
 <h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=1" title="Editar sección: Prepará tu computadora: creá el espacio donde instalar Huayra">editar</a>]</span> <span class="mw-headline" id="Prepar.C3.A1_tu_computadora:_cre.C3.A1_el_espacio_donde_instalar_Huayra">Prepará tu computadora: creá el espacio donde instalar Huayra</span></h1>
@@ -64,33 +75,46 @@
 </p>
 <div class="isa_warning">¡Antes de seguir te recomendamos que usando tu sistema operativo tradicional hagas un back up de todos tus archivos imoprtantes que quieras guardar!. A su vez, si tenés Microsoft Windows defragmentes el disco. Hay muchos tutoriales en internet de cómo hacerlo de acuerdo a la versión de MS Windows que tengas.</div>
 <p><br />
-Una vez que hayas hecho un back up y defragmentado tu disco, apagá tu computadora y <b>poné el pendrive LIVE de Huayra</b>.
+Una vez que hayas hecho un back up y defragmentado tu disco, apagá tu computadora y poné <a href="../../../../articles/c/r/e/Crear_un_pendrive_con_Huayra.html" title="Crear un pendrive con Huayra">el pendrive LIVE de Huayra</a>.
 </p>
-<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=2" title="Editar sección: Iniciá tu computadora con Huayra">editar</a>]</span> <span class="mw-headline" id="Inici.C3.A1_tu_computadora_con_Huayra">Iniciá tu computadora con Huayra</span></h1>
-<dl><dt>1- Prendé la computadora y bootea en Huayra con el pendrive
-</dt><dd>Para que tu computadora arranque con Huayra al prenderla vas a tener que apretar la tecla de Booteo. Esto cambia con cada computadora, puede ser F11, F10, F2, F8. Sabrás cuál es esa tecla porque aparecerá abajo a la derecha (o a veces en el centro) en el monitor, al comienzo del arranque. <br />
-</dd><dd><b>¡Prestá atención porque este aviso dura pocos segundos en la pantalla no bien arranca!</b><br />
-</dd></dl>
-<dl><dt>2- Una vez que se abra el Boot Menu, elegí el pendrive, por ejemplo USB HDD</dt><dd> Generic Flash Disk (puede también aparecer la marca de tu pendrive) y dale Enter.
-</dd></dl>
-<dl><dt>3- Elegí Huayra (Live). Esto hará que puedas ejecutar Huayra en tu computadora en su versión Live, tal cual se explica más arriba.
-</dt></dl>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=2" title="Editar sección: Iniciá tu computadora con Huayra LIVE">editar</a>]</span> <span class="mw-headline" id="Inici.C3.A1_tu_computadora_con_Huayra_LIVE">Iniciá tu computadora con Huayra LIVE</span></h1>
+<p>Ahora sí, poné el pendrive en la netbook. Reiniciá tu net. Pero ¡ojo!, tenés poco tiempo entre que arranca el sistema y podes ingresar al Menú de inicio o Boot Menu.
+Mantené apretado F10, F11, según la máquina que tengas para ingresar a la próxima pantalla.
+</p>
+<div class="isa_note"><b>¿No sabes cuál es el Menú de inicio/Boot Menu?</b> <br />
+<p>Fijate que apenas aparece la primer pantalla abajo te dice algo como “para ingresar al bios apriete... y para entrar al Menú de inicio/Boot Menu, &lt;f11&gt;". Esta tecla cambia según la computadora. Va a aparecer abajo a la izquierda del monitor ni bien arranques. Si no pudiste entrar a ninguna pantalla, y volvió a correr el sistema operativo que ya tenías, vas a tener que volver a reiniciar 
+</p>
+</div>
+<p><br />
+</p><p>Ya una vez que entres al menú, elegí la opción de <i>USB HDD</i> o <i>USB HDD: Generic Flash Disk</i> (puede también aparecer la marca de tu pendrive). Luego elegí Huayra Live. 
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/o/o/Archivo:Boot_live.png.html" class="image"><img alt="Boot live.png" src="../../../../images/thumb/f/f7/Boot_live.png/250px-Boot_live.png" width="250" height="187" class="thumbimage" srcset="../../../../images/thumb/f/f7/Boot_live.png/375px-Boot_live.png 1.5x, ../../../../images/thumb/f/f7/Boot_live.png/500px-Boot_live.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/o/o/Archivo:Boot_live.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
 <h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=3" title="Editar sección: Creá el espacio en disco donde instalar Huayra">editar</a>]</span> <span class="mw-headline" id="Cre.C3.A1_el_espacio_en_disco_donde_instalar_Huayra">Creá el espacio en disco donde instalar Huayra</span></h1>
-<dl><dt>1- Andá al Menú que está en la esquina superior izquierda. Andá a Sistema → Administración → GParted.
+<dl><dt>1- Andá al Menú que está en la esquina superior izquierda.  Andá a Sistema → Administración → GParted.
 </dt></dl>
 <dl><dt>2- GParted es una aplicación que te muestra el disco rígido de tu computadora y te permite hacerle modificaciones. 
-</dt><dd>Como esta aplicación también reconocer el pendrive desde donde estas booteando Huayra, asegurate de que estés observando tu disco rígido y no el pendrive. En la imagen de abajo, podés ver que en la esquina superior dice /dev/sdc (149,05GiB). Si bien sdc puede cambiar, para asegurarte de que estés viendo tu disco, fijate que la cantidad de Gigas de memoria no sea baja. Los pendrives generalmente tienen 4, 8, 16 GiB y los discos rígidos muchísimo más.
+</dt><dd>Como esta aplicación también reconoce el pendrive desde donde estas booteando Huayra, asegurate de que estés observando tu disco rígido y no el pendrive. En la imagen de abajo, podés ver que en la esquina superior derecha dice <i>/dev/sda (298,09GiB)</i>. Si bien <i>sda</i> puede cambiar, para asegurarte de que estés viendo tu disco, fijate que la cantidad de Gigas de memoria no sea baja. Los pendrives generalmente tienen 4, 8, 16 GiB y los discos rígidos muchísimo más.
 </dd></dl>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/g/p/a/Archivo:Gparted--dev-sda_-_GParted.png.html" class="image"><img alt="" src="../../../../images/thumb/6/6f/Gparted--dev-sda_-_GParted.png/350px-Gparted--dev-sda_-_GParted.png" width="350" height="235" class="thumbimage" srcset="../../../../images/thumb/6/6f/Gparted--dev-sda_-_GParted.png/525px-Gparted--dev-sda_-_GParted.png 1.5x, ../../../../images/thumb/6/6f/Gparted--dev-sda_-_GParted.png/700px-Gparted--dev-sda_-_GParted.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/g/p/a/Archivo:Gparted--dev-sda_-_GParted.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>GParted</div></div></div></div>
 <dl><dt>3- Hacé clic derecho sobre la partición ntfs más grande y elegí Redimensionar/mover
 </dt></dl>
+<p>Ahora vas a poder modificar el disco usando esta ventana para crear un espacio libre donde instalar Huayra:
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/g/p/a/Archivo:GParted-Redimensionar-mover_Partici%C3%B3n_nueva_-1.png.html" class="image"><img alt="" src="../../../../images/thumb/f/fa/GParted-Redimensionar-mover_Partición_nueva_-1.png/350px-GParted-Redimensionar-mover_Partición_nueva_-1.png" width="350" height="180" class="thumbimage" srcset="../../../../images/thumb/f/fa/GParted-Redimensionar-mover_Partición_nueva_-1.png/525px-GParted-Redimensionar-mover_Partición_nueva_-1.png 1.5x, ../../../../images/f/fa/GParted-Redimensionar-mover_Partición_nueva_-1.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/g/p/a/Archivo:GParted-Redimensionar-mover_Partici%C3%B3n_nueva_-1.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>GParted</div></div></div></div>
+<p><br />
+</p>
 <dl><dt>4- En este paso estás particionando el disco y creando un espacio vacío. 
-</dt><dd>En el espacio vacío vas a instalar Huayra Usando las flechas o los casilleros podés asignarle el espacio a cada uno. 
-</dd><dd><b>¿Cuánto espacio asignar al espacio vacío?</b> Esto depende mucho del tamaño de tu disco, pero te recomendamos un espacio mínimo de 20 GiB para instalar Huayra. En el espacio libre a continuación debe quedar como minimo 20500 (MiB).
+</dt><dd>Usando las flechas o los casilleros podés crear un espacio vacío y asignarle una cantidad de espacio determinado. En el espacio vacío vas a instalar Huayra. 
+</dd></dl>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/g/p/a/Archivo:GParted-Redimensionar-mover_Partici%C3%B3n_nueva_-1-2.png.html" class="image"><img alt="" src="../../../../images/thumb/7/74/GParted-Redimensionar-mover_Partición_nueva_-1-2.png/350px-GParted-Redimensionar-mover_Partición_nueva_-1-2.png" width="350" height="180" class="thumbimage" srcset="../../../../images/thumb/7/74/GParted-Redimensionar-mover_Partición_nueva_-1-2.png/525px-GParted-Redimensionar-mover_Partición_nueva_-1-2.png 1.5x, ../../../../images/7/74/GParted-Redimensionar-mover_Partición_nueva_-1-2.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/g/p/a/Archivo:GParted-Redimensionar-mover_Partici%C3%B3n_nueva_-1-2.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>GParted</div></div></div></div>
+<p><br />
+</p>
+<dl><dd><b>¿Cuánto espacio asignar al espacio vacío?</b> Esto depende mucho del tamaño de tu disco, pero te recomendamos un espacio mínimo de 20 GiB para instalar Huayra. En el espacio libre a continuación debe quedar como minimo 20500 (MiB).
 </dd></dl>
 <div class="isa_tip"><b>Si querés saber más...</b> <br />
-<p>En la computadora si bien sólo tenemos un disco duro podemos "particionarlo". Eso significa que podemos "partirlo" en dos o más partes, de forma que el sistema operativo que tengamos piense que tenemos dos o más discos, aunque físicamente haya uno.<br />
+<p>En la computadora si bien sólo tenemos un disco duro podemos "<a href="../../../../articles/p/a/r/Particiones.html" title="Particiones" class="mw-redirect">particionarlo</a>". Eso significa que podemos "partirlo" en dos o más partes, de forma que el sistema operativo que tengamos piense que tenemos dos o más discos, aunque físicamente haya uno.<br />
 Por ejemplo, si nuestro disco duro es de 100 Gigas, podemos "partirlo" en dos discos duros de 60 y 40 Gigas. La suma son los 100 que teníamos inicialmente. Si lo hacemos así, Windows pensará que hay dos discos y los llamará C: y D:, Linux, sin embargo, no asigna letras o nombres a los discos, los llama HDA1 (la partición de 60Gb), HDA2 (la partición de 40Gb), HDB1 (el pendrive), etc. <br />
-<b>¿Por qué hacer particiones?</b> <br />
+<b>¿Por qué hacer <a href="../../../../articles/p/a/r/Particiones.html" title="Particiones" class="mw-redirect">particiones</a>?</b> <br />
 No hay ningún motivo importante o que haga que sea obligatorio partir el disco duro. Sin embargo suele ser buena idea por los siguientes motivos:
 </p>
 <ul><li>Por motivos de organización, para tener las cosas un poco más separadas.
@@ -99,51 +123,85 @@ No hay ningún motivo importante o que haga que sea obligatorio partir el disco 
 </li></ul>
 <p><br />
 El disco debería quedar aproximadamente algo así
-</p><p>IMAGEN
-</p><p><br />
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/g/p/a/Archivo:GParted--dev-sda_-_GParted-2.png.html" class="image"><img alt="" src="../../../../images/thumb/e/e9/GParted--dev-sda_-_GParted-2.png/350px-GParted--dev-sda_-_GParted-2.png" width="350" height="235" class="thumbimage" srcset="../../../../images/thumb/e/e9/GParted--dev-sda_-_GParted-2.png/525px-GParted--dev-sda_-_GParted-2.png 1.5x, ../../../../images/thumb/e/e9/GParted--dev-sda_-_GParted-2.png/700px-GParted--dev-sda_-_GParted-2.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/g/p/a/Archivo:GParted--dev-sda_-_GParted-2.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>GParted</div></div></div></div>
+<p><br />
 </p>
 <dl><dt>5- Aplicá los cambios haciendo clic en el ícono de la barra superior en forma de tic.
 </dt></dl>
 <dl><dt>6- Hacé clic en Aplicar para terminar el proceso
 </dt></dl>
-<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=4" title="Editar sección: Instalar Huayra">editar</a>]</span> <span class="mw-headline" id="Instalar_Huayra">Instalar Huayra</span></h1>
-<dl><dt>1- Ahora, vamos a instalar Huayra en ese espacio vacío que creamos. 
-</dt><dd>Andá al Menú Huayra ubicado arriba a la izquierda. Una vez ahí, andá a Huayra y elegí Instalar Huayra en tu disco.
-</dd></dl>
-<dl><dt>2- La primer pantalla te permite elegir la configuración de idioma del teclado. Dale clic en Continuar.
-</dt></dl>
-<dl><dt>3- A continuación Huayra va a comenzar a detectar discos y a hacer el particionado. 
-</dt><dd>Si querés instalar Huayra en el espacio vacío que creaste en la primer parte del tutorial, elegí “Guiado – utilizar el espacio libre contiguo más grande” y apretá el botón Continuar.
-</dd></dl>
-<dl><dt>4- Elegí el esquema de particionado. 
-</dt><dd>Recomendamos elegir “Todos los ficheros en una partición”.
-</dd><dd>Separar los ficheros te permitirá, que si tenés varias distribuciones de GNU/Linux, puedas mantener los archivos de cada usuario y las aplicaciones instaladas, separados e independientes de la distribución que estés usando. Es decir, sirve para que se mantengan separados los datos del sistema operativo.
-</dd></dl>
-<dl><dt>6- Esta pantalla muestra cómo va a quedar particionado el disco. 
-</dt><dd>Confirmá los cambios con “Finalizar el particionado y escribir los cambios en disco” y dale clic en Continuar.
-</dd></dl>
-<dl><dt>7- El instalador va a preguntar si deseamos escribir los cambios en los discos. 
-</dt><dd>Respondé “SI” y “Continuar”. Con esto comienza la partición de discos y la instalación del sistema base. Este es el paso que más tiempo demora.
-</dd></dl>
-<dl><dt>8- YA CASI TERMINAMOS. PACIENCIA.
-</dt><dd>El paso que sigue es la configuración del cargador grub. Hacé clic en Continuar ya que el instalador de Huayra toma automáticamente la configuración correcta.
-</dd></dl>
-<dl><dt>9- LLEGAMOS AL FINAL. 
-</dt><dd>Terminaste la instalación. En la pantalla dirá “Instalación completada”. Solamente te queda cliquear en “Continuar”, esperar que la barra de instalación se complete, sacar el pendrive y reiniciar la PC.
-</dd></dl>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=4" title="Editar sección: Instalar Huayra en el espacio vacío">editar</a>]</span> <span class="mw-headline" id="Instalar_Huayra_en_el_espacio_vac.C3.ADo">Instalar Huayra en el espacio vacío</span></h1>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=5" title="Editar sección: Paso 1. Instalá Huayra en tu disco">editar</a>]</span> <span class="mw-headline" id="Paso_1._Instal.C3.A1_Huayra_en_tu_disco">Paso 1. Instalá Huayra en tu disco</span></h2>
+<p>Para continuar con la instalación e instalar Huayra en el disco tenés que ir a <i>Menú &gt; Huayra &gt; Instalar Huayra en tu disco</i>.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/i/n/s/Archivo:Instalar_huayra_en_disco.png.html" class="image"><img alt="" src="../../../../images/thumb/f/ff/Instalar_huayra_en_disco.png/350px-Instalar_huayra_en_disco.png" width="350" height="289" class="thumbimage" srcset="../../../../images/thumb/f/ff/Instalar_huayra_en_disco.png/525px-Instalar_huayra_en_disco.png 1.5x, ../../../../images/thumb/f/ff/Instalar_huayra_en_disco.png/700px-Instalar_huayra_en_disco.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/i/n/s/Archivo:Instalar_huayra_en_disco.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Instalar Huayra en tu disco</div></div></div></div>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=6" title="Editar sección: Paso 2. Configuración de teclado">editar</a>]</span> <span class="mw-headline" id="Paso_2._Configuraci.C3.B3n_de_teclado">Paso 2. Configuración de teclado</span></h2>
+<p>Cuando te pregunte por la configuración de tu teclado, tenés que elegir “Latinoamericano”.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/k/e/y/Archivo:Keyboard-configuration_xkb-keymap_0.png.html" class="image"><img alt="" src="../../../../images/thumb/4/44/Keyboard-configuration_xkb-keymap_0.png/350px-Keyboard-configuration_xkb-keymap_0.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/4/44/Keyboard-configuration_xkb-keymap_0.png/525px-Keyboard-configuration_xkb-keymap_0.png 1.5x, ../../../../images/thumb/4/44/Keyboard-configuration_xkb-keymap_0.png/700px-Keyboard-configuration_xkb-keymap_0.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/k/e/y/Archivo:Keyboard-configuration_xkb-keymap_0.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Configurar teclado</div></div></div></div>
+<p><br />
+</p>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=7" title="Editar sección: Paso 3. Particionado de discos">editar</a>]</span> <span class="mw-headline" id="Paso_3._Particionado_de_discos">Paso 3. Particionado de discos</span></h2>
+<p>A continuación Huayra va a comenzar a detectar discos y a hacer el particionado. En este caso, como vas a instalar Huayra en el espacio libre contiguo más grande. Por eso elegí la opción <b>Guiado – utilizar el espacio libre contiguo más grande</b> y apretá el botón <i>Continuar</i>. 
+</p><p>Para otras opciones de instalación podés seguir los siguientes tutoriales
+</p>
+<ul><li><a href="../../../../articles/i/n/s/Instalar_Huayra_como_%C3%BAnico_sistema_operativo.html" title="Instalar Huayra como único sistema operativo">Instalar Huayra como único sistema operativo</a>
+</li><li><a href="../../../../articles/r/e/e/Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra.html" title="Reemplazá el Linux de tu computadora con Huayra">Reemplaza la versión anterior de Linux por Huayra en tu netbook de Conectar</a>
+</li></ul>
+<p><br />
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/i/n/s/Archivo:Instalar_espacio_vacio.png.html" class="image"><img alt="" src="../../../../images/thumb/4/4f/Instalar_espacio_vacio.png/350px-Instalar_espacio_vacio.png" width="350" height="262" class="thumbimage" srcset="../../../../images/thumb/4/4f/Instalar_espacio_vacio.png/525px-Instalar_espacio_vacio.png 1.5x, ../../../../images/thumb/4/4f/Instalar_espacio_vacio.png/700px-Instalar_espacio_vacio.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/i/n/s/Archivo:Instalar_espacio_vacio.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Particionado guiado</div></div></div></div>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=8" title="Editar sección: Paso 4. Elegir esquema de particionado">editar</a>]</span> <span class="mw-headline" id="Paso_4._Elegir_esquema_de_particionado">Paso 4. Elegir esquema de particionado</span></h2>
+<p>Elegí el esquema de particionado. Recomendamos elegir <i>Todos los ficheros en una partición</i>.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Particionado_todos_una.png.html" class="image"><img alt="" src="../../../../images/thumb/b/bf/Particionado_todos_una.png/350px-Particionado_todos_una.png" width="350" height="261" class="thumbimage" srcset="../../../../images/thumb/b/bf/Particionado_todos_una.png/525px-Particionado_todos_una.png 1.5x, ../../../../images/thumb/b/bf/Particionado_todos_una.png/700px-Particionado_todos_una.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Particionado_todos_una.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Todos los ficheros en una partición</div></div></div></div>
+<p><br />
+Separar los ficheros te permitirá, que si tenés varias distribuciones de GNU/Linux, puedas mantener los archivos de cada usuario y las aplicaciones instaladas, separados e independientes de la distribución que estés usando. Es decir, sirve para que desde diferentes sistemas operativos GNU/Linux puedas acceder a una estructura común de archivos comunes utilizados por todos.
+</p><p><br />
+</p>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=9" title="Editar sección: Paso 5. Finalizar particionado">editar</a>]</span> <span class="mw-headline" id="Paso_5._Finalizar_particionado">Paso 5. Finalizar particionado</span></h2>
+<p>Esta pantalla muestra cómo va a quedar particionado el disco. Confirmá los cambios con <b>Finalizar el particionado y escribir los cambios en disco</b> y dale clic en <i>Continuar</i>.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Partman_choose_partition_1.png.html" class="image"><img alt="" src="../../../../images/thumb/e/e3/Partman_choose_partition_1.png/350px-Partman_choose_partition_1.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/e/e3/Partman_choose_partition_1.png/525px-Partman_choose_partition_1.png 1.5x, ../../../../images/thumb/e/e3/Partman_choose_partition_1.png/700px-Partman_choose_partition_1.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Partman_choose_partition_1.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Finalizar</div></div></div></div>
+<p><br />
+</p>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=10" title="Editar sección: Paso 6. Confirmar la partición">editar</a>]</span> <span class="mw-headline" id="Paso_6._Confirmar_la_partici.C3.B3n">Paso 6. Confirmar la partición</span></h2>
+<p>El instalador va a preguntar si deseás escribir los cambios en los discos.
+Hacé clic en <b>Si</b> y después en <i>Continuar</i>. Con esto comienza la partición de discos y la instalación del sistema base. Este es el paso que más tiempo demora.
+</p><p><br />
+</p>
+<div class="isa_tip"><b>PACIENCIA:</b> Ahora se va a tardar unos minutos hasta que termine de instalar el sistema.</div>
+<p><br />
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Partman_confirm_0.png.html" class="image"><img alt="" src="../../../../images/thumb/c/c4/Partman_confirm_0.png/350px-Partman_confirm_0.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/c/c4/Partman_confirm_0.png/525px-Partman_confirm_0.png 1.5x, ../../../../images/thumb/c/c4/Partman_confirm_0.png/700px-Partman_confirm_0.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Partman_confirm_0.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Confirmar el particionado</div></div></div></div>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=11" title="Editar sección: Paso 7. Instalar GRUB">editar</a>]</span> <span class="mw-headline" id="Paso_7._Instalar_GRUB">Paso 7. Instalar GRUB</span></h2>
+<p><b>YA CASI TERMINAMOS. PACIENCIA.</b>
+</p><p>Cuando termine de instalar el sistema base, aparece el menú que pregunta si querés instalar GRUB. El GRUB es el menú que aparece al comienzo donde podés elegir qué sistema operativo usar cada vez que prendas la máquina. En la mayoría de los casos pregunta directamente si querés instalarla en el registro principal de arranque. Hay que elegir <b>Si</b> y <i>Continuar</i>.
+</p><p>Pero a veces puede aparecer una pantalla, con un recuadro de texto donde hay que ingresar el dispositivo donde instalás el GRUB. <b>¡A no temer!</b>. El instalador lo completa automáticamente con la opción correcta (ejemplo <i>/dev/sdc</i> o <i>/dev/sda</i>). Con lo cual solamente hay que hacé clic en <i>Continuar</i>.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/g/r/u/Archivo:Grub.png.html" class="image"><img alt="" src="../../../../images/thumb/0/0c/Grub.png/350px-Grub.png" width="350" height="260" class="thumbimage" srcset="../../../../images/thumb/0/0c/Grub.png/525px-Grub.png 1.5x, ../../../../images/thumb/0/0c/Grub.png/700px-Grub.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/g/r/u/Archivo:Grub.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>GRUB</div></div></div></div>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo&amp;action=edit&amp;section=12" title="Editar sección: Paso 8. Finalizar la instalación">editar</a>]</span> <span class="mw-headline" id="Paso_8._Finalizar_la_instalaci.C3.B3n">Paso 8. Finalizar la instalación</span></h2>
+<p><b>LLEGAMOS AL FINAL</b>
+</p><p>Terminaste la instalación. En la pantalla dirá <b>Instalación completada</b>. Solamente te queda cliquear en <i>Continuar</i>, esperar que la barra de instalación se complete, sacar el pendrive y reiniciar la PC.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/f/i/n/Archivo:Finish-install_reboot_in_progress_0.png.html" class="image"><img alt="" src="../../../../images/thumb/c/c9/Finish-install_reboot_in_progress_0.png/350px-Finish-install_reboot_in_progress_0.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/c/c9/Finish-install_reboot_in_progress_0.png/525px-Finish-install_reboot_in_progress_0.png 1.5x, ../../../../images/thumb/c/c9/Finish-install_reboot_in_progress_0.png/700px-Finish-install_reboot_in_progress_0.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/f/i/n/Archivo:Finish-install_reboot_in_progress_0.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Finalizar instalación</div></div></div></div>
+<p><b>¡Ahora sí! A disfrutar de Huayra.</b>
+</p><p><br />
+</p>
 <div class="isa_tip">Cuando vuelvás a prender la computadora aparecerá el menú de GRUB, que te va a permitir elegir el sistema operativo. ¡Confiamos en que cuando empieces a usar Huayra no vas a querer cambiar!<br />
 <p><b>¡Ahora sí! A disfrutar de Huayra</b><br />
-En el ícono de Ayuda y Primeros Pasos vas a encontrar recomendaciones para los Primeros pasos con Huayra. No dejes de leerlos, ¡¡te serán de mucha
+En el ícono de <b>Ayuda</b> y <b>Primeros Pasos</b> vas a encontrar recomendaciones para los Primeros pasos con Huayra. No dejes de leerlos, ¡¡te serán de mucha
 ayuda!!<br />
 </p>
 Si encontraste una manera que te pareció más práctica, o algún paso no te quedo claro, y lo querés compartir con nosotros podes escribirnos al foro de Huayra. (<a rel="nofollow" class="external free" href="http://huayra.conectarigualdad.gob.ar/foro/">http://huayra.conectarigualdad.gob.ar/foro/</a> )</div>
 
 <!-- 
 NewPP limit report
-Preprocessor visited node count: 52/1000000
-Preprocessor generated node count: 160/1000000
-Post‐expand include size: 2391/2097152 bytes
-Template argument size: 2291/2097152 bytes
+Preprocessor visited node count: 104/1000000
+Preprocessor generated node count: 256/1000000
+Post‐expand include size: 3342/2097152 bytes
+Template argument size: 3192/2097152 bytes
 Highest expansion depth: 2/40
 Expensive parser function count: 0/100
 -->
@@ -225,7 +283,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/wiki/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 14:41, 6 dic 2013 por <a href="http://200.55.245.7:89/wiki/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. </li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 15:07, 18 mar 2014 por <a href="http://200.55.245.7:89/wiki/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://200.55.245.7:89/wiki/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

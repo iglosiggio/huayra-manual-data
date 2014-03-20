@@ -47,135 +47,139 @@
 	    <h3 id="siteSub">De Huayra</h3>
 	    <div id="contentSub"></div>
 	    	    	    <!-- start content -->
-	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><div class="isa_tip"> Este tutorial fue pensado y realizado para las netbooks del
-<p>Programa Conectar Igualdad y para que puedas reemplazar la versión anterior de Linux, dejando Windows como está.
-¿Cómo? Es fácil, sólo necesitás un <a href="../../../../articles/c/r/e/Crear_un_pendrive_con_Huayra.html" title="Crear un pendrive con Huayra">pendrive LIVE de Huayra</a> y seguir
-atentamente los pasos siguientes. Vas a poder hacerlo en solo 9 pasos
-(aproximadamente 20 minutos).
+	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><div class="isa_tip"> Este tutorial fue pensado y realizado para las netbooks del Programa Conectar Igualdad y para que puedas reemplazar la versión anterior de Linux, dejando Windows como está.
+<p>¿Cómo? Es fácil, sólo necesitás un <a href="../../../../articles/c/r/e/Crear_un_pendrive_con_Huayra.html" title="Crear un pendrive con Huayra">pendrive LIVE de Huayra</a> y seguir atentamente los pasos siguientes. Vas a poder hacerlo en solo 10 pasos (aproximadamente 20 minutos).
 </p>
 <b>¡Acordate siempre de hacer un backup de tus archivos antes!</b></div>
+<p><br />
+</p><p><br />
+</p><p>Este tutorial está pensado para instalar Huayra en las netbooks del Programa Conectar Igualdad, reemplazando la versión anterior de <a href="../../../../articles/g/n/u/GNU/Linux.html" title="GNU/Linux">GNU/Linux</a> por Huayra. Por lo tanto, hay que instalarlo en la <a href="../../../../articles/p/a/r/Partici%C3%B3n.html" title="Partición">partición</a> que corresponde. El disco de las netbooks tiene varias <a href="../../../../articles/p/a/r/Particiones.html" title="Particiones" class="mw-redirect">particiones</a>. Una partición es como tener dos discos rígidos diferentes, en este caso cada uno con un <a href="../../../../articles/s/i/s/Sistema_Operativo.html" title="Sistema Operativo">Sistema Operativo</a> diferente. Por eso hay que saber identificar la que corresponde a la de la versión anterior de Linux para poder instalar Huayra ahí. Con este tutorial lo que vas a hacer es instalar Huayra en la partición que tenía la versión anterior de Linux, dejando el resto de la netbook como estaba. <b>Es muy fácil y el tutorial va a mostrarte paso a paso cómo hacerlo.</b> Para más información podés leer <a href="../../../../articles/e/s/t/Estructura_de_los_directorios_en_GNU/Linux.html" title="Estructura de los directorios en GNU/Linux">Estructura de los directorios en GNU/Linux</a>. 
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:402px;"><a href="../../../../articles/p/a/r/Archivo:Particiones_disco.png.html" class="image"><img alt="" src="../../../../images/thumb/f/f7/Particiones_disco.png/400px-Particiones_disco.png" width="400" height="169" class="thumbimage" srcset="../../../../images/thumb/f/f7/Particiones_disco.png/600px-Particiones_disco.png 1.5x, ../../../../images/thumb/f/f7/Particiones_disco.png/800px-Particiones_disco.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Particiones_disco.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Particiones del disco de las netbooks</div></div></div>
 <p><br />
 </p>
 <table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contenido</h2></div>
 <ul>
-<li class="toclevel-1 tocsection-1"><a href="#Probar_e_Instalar_Huayra"><span class="tocnumber">1</span> <span class="toctext">Probar e Instalar Huayra</span></a>
+<li class="toclevel-1 tocsection-1"><a href="#Paso_1._Generar_el_pendrive_de_instalaci.C3.B3n"><span class="tocnumber">1</span> <span class="toctext">Paso 1. Generar el pendrive de instalación</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Paso_2._Iniciar_la_netbook_con_Huayra_Live"><span class="tocnumber">2</span> <span class="toctext">Paso 2. Iniciar la netbook con Huayra Live</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Paso_3._Instal.C3.A1_Huayra_en_tu_disco"><span class="tocnumber">3</span> <span class="toctext">Paso 3. Instalá Huayra en tu disco</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Paso_4._Configuraci.C3.B3n_de_teclado"><span class="tocnumber">4</span> <span class="toctext">Paso 4. Configuración de teclado</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Paso_5._Particionado_de_discos"><span class="tocnumber">5</span> <span class="toctext">Paso 5. Particionado de discos</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Paso_6._Seleccionar_la_partici.C3.B3n_de_Linux"><span class="tocnumber">6</span> <span class="toctext">Paso 6. Seleccionar la partición de Linux</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Paso_7._Editar_la_partici.C3.B3n_de_Linux"><span class="tocnumber">7</span> <span class="toctext">Paso 7. Editar la partición de Linux</span></a>
 <ul>
-<li class="toclevel-2 tocsection-2"><a href="#Paso_1._Generar_ISO"><span class="tocnumber">1.1</span> <span class="toctext">Paso 1. Generar ISO</span></a></li>
-<li class="toclevel-2 tocsection-3"><a href="#Paso_2._Instalar_Huayra_Live"><span class="tocnumber">1.2</span> <span class="toctext">Paso 2. Instalar Huayra Live</span></a></li>
-<li class="toclevel-2 tocsection-4"><a href="#Paso_3._Instalaci.C3.B3n_Huayra"><span class="tocnumber">1.3</span> <span class="toctext">Paso 3. Instalación Huayra</span></a></li>
-<li class="toclevel-2 tocsection-5"><a href="#Paso_4_Configuraci.C3.B3n_de_teclado"><span class="tocnumber">1.4</span> <span class="toctext">Paso 4 Configuración de teclado</span></a></li>
-<li class="toclevel-2 tocsection-6"><a href="#Paso_5-_Particionado_de_discos"><span class="tocnumber">1.5</span> <span class="toctext">Paso 5- Particionado de discos</span></a></li>
-<li class="toclevel-2 tocsection-7"><a href="#Paso_6-_Particionado_de_discos"><span class="tocnumber">1.6</span> <span class="toctext">Paso 6- Particionado de discos</span></a></li>
-<li class="toclevel-2 tocsection-8"><a href="#Paso_6-_Continuando_con_el_particionado_de_discos"><span class="tocnumber">1.7</span> <span class="toctext">Paso 6- Continuando con el particionado de discos</span></a></li>
-<li class="toclevel-2 tocsection-9"><a href="#Paso_7-_Editar_la_partici.C3.B3n_de_Linux"><span class="tocnumber">1.8</span> <span class="toctext">Paso 7- Editar la partición de Linux</span></a></li>
-<li class="toclevel-2 tocsection-10"><a href="#Paso_8-_Confirmar_la_partici.C3.B3n_de_Linux"><span class="tocnumber">1.9</span> <span class="toctext">Paso 8- Confirmar la partición de Linux</span></a></li>
-<li class="toclevel-2 tocsection-11"><a href="#Paso_9-_Instalar_GRUB"><span class="tocnumber">1.10</span> <span class="toctext">Paso 9- Instalar GRUB</span></a></li>
-<li class="toclevel-2 tocsection-12"><a href="#Paso_Final_.E2.80.93_Huayra_Post_Instalaci.C3.B3n"><span class="tocnumber">1.11</span> <span class="toctext">Paso Final – Huayra Post Instalación</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#7.1_.E2.80.93_Sistema_de_archivos"><span class="tocnumber">7.1</span> <span class="toctext">7.1 – Sistema de archivos</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#7.2_.E2.80.93_Formateo_de_la_partici.C3.B3n"><span class="tocnumber">7.2</span> <span class="toctext">7.2 – Formateo de la partición</span></a></li>
+<li class="toclevel-2 tocsection-10"><a href="#7.3_.E2.80.93_Punto_de_montaje"><span class="tocnumber">7.3</span> <span class="toctext">7.3 – Punto de montaje</span></a></li>
 </ul>
 </li>
+<li class="toclevel-1 tocsection-11"><a href="#Paso_8-_Confirmar_la_partici.C3.B3n_de_Linux"><span class="tocnumber">8</span> <span class="toctext">Paso 8- Confirmar la partición de Linux</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Paso_9-_Instalar_GRUB"><span class="tocnumber">9</span> <span class="toctext">Paso 9- Instalar GRUB</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Paso_Final_.E2.80.93_Huayra_Post_Instalaci.C3.B3n"><span class="tocnumber">10</span> <span class="toctext">Paso Final – Huayra Post Instalación</span></a></li>
 </ul>
 </td></tr></table>
-<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=1" title="Editar sección: Probar e Instalar Huayra">editar</a>]</span> <span class="mw-headline" id="Probar_e_Instalar_Huayra">Probar e Instalar Huayra</span></h1>
-<p>Ya tenés la versión LIVE Instalable de Huayra GNU/Linux. Una versión LIVE te deja probar Huayra en tu propia computadora sin modificar tus archivos o programas. De este modo podés usarla y sacarte las dudas sin los miedos que a veces hay cuando uno prueba algo nuevo. Huayra se prueba como LIVE sin instalarse en el disco rígido.
-Por ser un pendrive que se puede trasladar e instalar en cualquier lugar del país, este tutorial está pensado para que la instalación de Huayra pueda hacerse en cualquier parte sin depender de la conectividad. 
-No te preocupes, vas a poder conectarte a Internet sin problemas porque en la imagen vienen todos los paquetes necesarios.
-</p><p><br />
-<b>¿Qué es una partición?</b>
-</p><p>Este tutorial esta pensado para instalar Huayra en una de las
-particiones del disco de la netbook. Una partición de un disco duro es una división lógica en una unidad de almacenamiento (por ejemplo el disco duro de tu netbook o un pendrive), en la cual se alojan y organizan los archivos mediante un sistema de archivos. Es como tener dos discos rígidos diferentes, en este caso cada uno con un <a href="../../../../articles/s/i/s/Sistema_Operativo.html" title="Sistema Operativo">Sistema Operativo</a> diferente. Con este tutorial lo que vas a hacer es instalar Huayra en la partición que tenía la versión anterior de Linux, dejando el resto de la netbook como estaba.
-</p><p><br />
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=1" title="Editar sección: Paso 1. Generar el pendrive de instalación">editar</a>]</span> <span class="mw-headline" id="Paso_1._Generar_el_pendrive_de_instalaci.C3.B3n">Paso 1. Generar el pendrive de instalación</span></h1>
+<p>Para poder instalar Huayra en tu netbook del Programa Conectar Igualdad, primero tenés que tener el pendrive de Huayra LIVE. Si no lo tenés, acá te mostramos como <a href="../../../../articles/c/r/e/Crear_un_pendrive_con_Huayra.html" title="Crear un pendrive con Huayra">crear un pendrive con Huayra</a>. Este pendrive va a contener una versión LIVE Instalable de Huayra GNU/Linux. Una versión LIVE te deja probar Huayra en tu propia computadora sin modificar tus archivos o programas. De este modo podés usarla y sacarte las dudas sin los miedos que a veces hay cuando uno prueba algo nuevo. Huayra se prueba como LIVE sin instalarse en el disco rígido. Una vez que tengas la versión LIVE de Huayra tenés que seguir estos 12 pasos que llevan aproximadamente 20 minutos.
 </p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=2" title="Editar sección: Paso 1. Generar ISO">editar</a>]</span> <span class="mw-headline" id="Paso_1._Generar_ISO">Paso 1. Generar ISO</span></h2>
-<p>Primero descargá la ISO a tu netbook y generá la imagen usando el Unetbootin en un pendrive. Ver el Paso 4 de <a href="../../../../articles/c/r/e/Crear_un_pendrive_con_Huayra.html" title="Crear un pendrive con Huayra">Crear un pendrive con Huayra</a>.
-</p><p><br />
-</p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=3" title="Editar sección: Paso 2. Instalar Huayra Live">editar</a>]</span> <span class="mw-headline" id="Paso_2._Instalar_Huayra_Live">Paso 2. Instalar Huayra Live</span></h2>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=2" title="Editar sección: Paso 2. Iniciar la netbook con Huayra Live">editar</a>]</span> <span class="mw-headline" id="Paso_2._Iniciar_la_netbook_con_Huayra_Live">Paso 2. Iniciar la netbook con Huayra Live</span></h1>
 <p>Ahora sí, poné el pendrive en la netbook. Reiniciá tu net. Pero ¡ojo!, tenés poco tiempo entre que arranca el sistema y podes ingresar al Menú de inicio o Boot Menu.
 Mantené apretado F10, F11, según la máquina que tengas para ingresar a la próxima pantalla.
 </p>
-<div class="isa_important">Esta tecla cambia según la computadora. Va a aparecer abajo a la izquierda del monitor ni bien arranques. Si no pudiste entrar a ninguna pantalla, y volvió a correr el sistema operativo que ya tenías, vas a tener que volver a reiniciar 
+<div class="isa_note"><b>¿No sabes cuál es el Menú de inicio/Boot Menu?</b> <br />
+<p>Fijate que apenas aparece la primer pantalla abajo te dice algo como “para ingresar al bios apriete... y para entrar al Menú de inicio/Boot Menu, &lt;f11&gt;". Esta tecla cambia según la computadora. Va a aparecer abajo a la izquierda del monitor ni bien arranques. Si no pudiste entrar a ninguna pantalla, y volvió a correr el sistema operativo que ya tenías, vas a tener que volver a reiniciar 
+</p>
 </div>
 <p><br />
+</p><p>Ya una vez que entres al menú, elegí la opción de <i>USB HDD</i> o <i>USB HDD: Generic Flash Disk</i> (puede también aparecer la marca de tu pendrive). Luego elegí Huayra Live. 
 </p>
-<div class="isa_important"><b>¿No sabes cuál es el Menú de inicio/Boot Menu?</b> <br />
-Fijate que apenas aparece la primer pantalla abajo te dice algo como “para ingresar al bios apriete... y para entrar al Menú de inicio/Boot Menu, &lt;f11&gt; “ </div>
-<p><br />
-Ya una vez que entramos al menú, elegimos la opción de
-USB HDD: USB HDD: Generic Flash Disk (puede también aparecer la marca de tu pendrive). Luego elegí Huayra Live.
-Esto va a iniciar un sistema Huayra que todavía no está instalado en tu net, pero vas a poder ver el nuevo escritorio Huayra, y probar todas sus aplicaciones.
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/o/o/Archivo:Boot_live.png.html" class="image"><img alt="Boot live.png" src="../../../../images/thumb/f/f7/Boot_live.png/250px-Boot_live.png" width="250" height="187" class="thumbimage" srcset="../../../../images/thumb/f/f7/Boot_live.png/375px-Boot_live.png 1.5x, ../../../../images/thumb/f/f7/Boot_live.png/500px-Boot_live.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/o/o/Archivo:Boot_live.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=3" title="Editar sección: Paso 3. Instalá Huayra en tu disco">editar</a>]</span> <span class="mw-headline" id="Paso_3._Instal.C3.A1_Huayra_en_tu_disco">Paso 3. Instalá Huayra en tu disco</span></h1>
+<p>En este paso estas usando <a href="../../../../articles/h/u/a/Huayra_Live.html" title="Huayra Live">Huayra Live</a>. Podés usarlo y probarlo para lo que quieras. Para continuar con la instalación e instalar Huayra en el disco tenés que ir a <i>Menú &gt; Huayra &gt; Instalar Huayra en tu disco</i>.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/i/n/s/Archivo:Instalar_huayra_en_disco.png.html" class="image"><img alt="" src="../../../../images/thumb/f/ff/Instalar_huayra_en_disco.png/350px-Instalar_huayra_en_disco.png" width="350" height="289" class="thumbimage" srcset="../../../../images/thumb/f/ff/Instalar_huayra_en_disco.png/525px-Instalar_huayra_en_disco.png 1.5x, ../../../../images/thumb/f/ff/Instalar_huayra_en_disco.png/700px-Instalar_huayra_en_disco.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/i/n/s/Archivo:Instalar_huayra_en_disco.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Instalar Huayra en tu disco</div></div></div></div>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=4" title="Editar sección: Paso 4. Configuración de teclado">editar</a>]</span> <span class="mw-headline" id="Paso_4._Configuraci.C3.B3n_de_teclado">Paso 4. Configuración de teclado</span></h1>
+<p>Cuando te pregunte por la configuración de tu teclado, tenés que elegir “Latinoamericano”.
 </p><p><br />
 </p>
-<div class="isa_tip"><b>Si querés saber más...</b>  En la netbook si bien sólo tenemos un disco duro podemos "particionarlo". Eso significa que podemos "partirlo" en dos o más partes, de forma que el sistema operativo que tengamos piense que tenemos dos o más discos, aunque físicamente haya uno.
-<p>Por ejemplo, si nuestro disco duro es de 100 Gigas, podemos "partirlo" en dos discos duros de 60 y 40 Gigas. La suma son los 100 que teníamos inicialmente. Si lo hacemos así, Windows pensará que hay dos discos y los llamará C: y D:, Linux, sin embargo, no asigna letras o nombres a los discos, los llama HDA1 (la partición de 60Gb), HDA2 (la partición de 40Gb), HDB1 (el pendrive), etc. <br />
-<b>¿Por qué hacer particiones?</b>
-No hay ningún motivo importante o que haga que sea obligatorio partir el disco duro. Sin embargo suele ser buena idea por los siguientes motivos: 
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/k/e/y/Archivo:Keyboard-configuration_xkb-keymap_0.png.html" class="image"><img alt="" src="../../../../images/thumb/4/44/Keyboard-configuration_xkb-keymap_0.png/350px-Keyboard-configuration_xkb-keymap_0.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/4/44/Keyboard-configuration_xkb-keymap_0.png/525px-Keyboard-configuration_xkb-keymap_0.png 1.5x, ../../../../images/thumb/4/44/Keyboard-configuration_xkb-keymap_0.png/700px-Keyboard-configuration_xkb-keymap_0.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/k/e/y/Archivo:Keyboard-configuration_xkb-keymap_0.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Configurar teclado</div></div></div></div>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=5" title="Editar sección: Paso 5. Particionado de discos">editar</a>]</span> <span class="mw-headline" id="Paso_5._Particionado_de_discos">Paso 5. Particionado de discos</span></h1>
+<p>Este paso te pregunta sobre el particionado del disco. La idea es instalar Huayra en la <a href="../../../../articles/p/a/r/Partici%C3%B3n.html" title="Partición">partición</a> donde estaba la versión anterior de Linux. Para eso elegí “Manual”, y poné “continuar”. En el paso siguiente vas a poder elegir instalar Huayra en esa partición. 
+</p><p>Las otras opciones <i>guiadas</i> instalan Huayra en todo el disco como único <a href="../../../../articles/s/i/s/Sistema_Operativo.html" title="Sistema Operativo">Sistema Operativo</a> (<i>Guiado utilizar todo el disco</i>) o lo instala en un espacio vacío para instalar Huayra en una computadora que tenía un solo sistema operativo y se le creo un espacio vacío para agregar otro (<i>Guiado - utilizar el espacio vacío contiguo más grande</i>). Los otros tutoriales de instalación muestran paso a paso como hacer ambos casos:
 </p>
-<ul><li> Por motivos de organización, para tener las cosas un poco más separadas. <br />
-</li><li> Si en un momento dado hay que formatear el disco, podemos formatear sólo una de las particiones, manteniendo la otra
+<ul><li><a href="../../../../articles/i/n/s/Instalar_Huayra_como_%C3%BAnico_sistema_operativo.html" title="Instalar Huayra como único sistema operativo">Instalar Huayra como único sistema operativo</a>
+</li><li><a href="../../../../articles/i/n/s/Instal%C3%A1_Huayra_manteniendo_otro_sistema_operativo.html" title="Instalá Huayra manteniendo otro sistema operativo">Instalá Huayra manteniendo otro sistema operativo</a>
 </li></ul>
-<p>intacta. 
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Particion_manual.png.html" class="image"><img alt="" src="../../../../images/thumb/3/32/Particion_manual.png/350px-Particion_manual.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/3/32/Particion_manual.png/525px-Particion_manual.png 1.5x, ../../../../images/thumb/3/32/Particion_manual.png/700px-Particion_manual.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Particion_manual.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Particionado manual</div></div></div></div>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=6" title="Editar sección: Paso 6. Seleccionar la partición de Linux">editar</a>]</span> <span class="mw-headline" id="Paso_6._Seleccionar_la_partici.C3.B3n_de_Linux">Paso 6. Seleccionar la partición de Linux</span></h1>
+<p>Lo que vas a ver a continuación es un listado con las particiones y puntos de montaje que la netbook tiene configurados actualmente. Vas a instalar Huayra en la misma partición que en la que tenías el GNU/Linux anterior, dejando en la otra partición Windows tal cual estaba. Para esto tenés que poder reconocer cuál es la partición sobre la que vamos a instalar Huayra, posicionarte sobre esa y presionar <i>Continuar</i>. Pero <b>¿Cómo saber cuál es la partición de Linux? Es muy fácil.</b> Es la que cumple con estas condiciones:
 </p>
-<ul><li> O para poder tener instalado más de un sistema operativo.</div>
+<ul><li>Primaria
+</li><li>Más de 40GB
+</li><li>ext4 o ext3
 </li></ul>
+<p>En la imagen de abajo se puede ver un caso de ejemplo señalado con colores. Las particiones no están hechas igual en todas las netbooks, pero con estos tres elementos se puede identificar claramente. Deben cumplirse los 3.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/e/l/e/Archivo:Elegir_particion.png.html" class="image"><img alt="" src="../../../../images/thumb/f/fe/Elegir_particion.png/450px-Elegir_particion.png" width="450" height="264" class="thumbimage" srcset="../../../../images/thumb/f/fe/Elegir_particion.png/675px-Elegir_particion.png 1.5x, ../../../../images/thumb/f/fe/Elegir_particion.png/900px-Elegir_particion.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/e/l/e/Archivo:Elegir_particion.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Elegir partición</div></div></div></div>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=7" title="Editar sección: Paso 7. Editar la partición de Linux">editar</a>]</span> <span class="mw-headline" id="Paso_7._Editar_la_partici.C3.B3n_de_Linux">Paso 7. Editar la partición de Linux</span></h1>
+<p>Ya seleccionaste la <a href="../../../../articles/p/a/r/Partici%C3%B3n.html" title="Partición">partición</a> que tenía la versión anterior de Linux. Ahora vas a trabajar con esa partición para instalar ahí Huayra. A la configuración de esta unidad le vas a hacer 3 cambios: (1) el Sistema de ficheros, (2) vas a formatear la partición borrando los datos viejos y (3) el punto de montaje. Estos 3 elementos aparecen en el instalador bajo estos títulos:
+</p>
+<ol><li><b>Utilizar como:</b>
+</li><li><b>Formatear la partición:</b>
+</li><li><b>Punto de montaje:</b>
+</li></ol>
+<p><br /> 
+</p>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=8" title="Editar sección: 7.1 – Sistema de archivos">editar</a>]</span> <span class="mw-headline" id="7.1_.E2.80.93_Sistema_de_archivos">7.1 – Sistema de archivos</span></h2>
+<p>Seleccioná <b>Utilizar como</b>, y después <i>Continuar</i>. Elegí <b>Sistema de ficheros ext4 transaccional</b> y después <i>Continuar</i>. Ext4 es el sistema de archivos que se usa por defecto al instalar sistemas Linux. Tiene muchas ventajas por sobre el sistema ntfs que utiliza Windows en términos de uso de CPU y velocidad de lectura y escritura.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Partman-target_choose_method_0.png.html" class="image"><img alt="" src="../../../../images/thumb/e/ed/Partman-target_choose_method_0.png/350px-Partman-target_choose_method_0.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/e/ed/Partman-target_choose_method_0.png/525px-Partman-target_choose_method_0.png 1.5x, ../../../../images/thumb/e/ed/Partman-target_choose_method_0.png/700px-Partman-target_choose_method_0.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Partman-target_choose_method_0.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Elegir sistema de archivos ext4</div></div></div></div>
+<p>Volvés a esta pantalla, donde ya debería aparecer el primer cambio. Donde dice <b>Utilizar como:</b> ahora debería aparece <i>sistema de ficheros ext4 transaccional</i>.
+</p>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=9" title="Editar sección: 7.2 – Formateo de la partición">editar</a>]</span> <span class="mw-headline" id="7.2_.E2.80.93_Formateo_de_la_partici.C3.B3n">7.2 – Formateo de la partición</span></h2>
+<p>El siguiente paso te permite formatear esta partición y borrar los datos viejos del Linux anterior que tenías. Seleccioná <b>Formatear la partición</b> y al hacer clic en <i>Continuar</i> cambia a <b>Sí, formatearla</b>. Con solo presionar <i>Continuar</i> esto va a cambiar, no te va a llevar a ninguna pantalla nueva.
+</p>
+<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=10" title="Editar sección: 7.3 – Punto de montaje">editar</a>]</span> <span class="mw-headline" id="7.3_.E2.80.93_Punto_de_montaje">7.3 – Punto de montaje</span></h2>
+<p>Cambiá el punto de montaje, seleccionando “Punto de montaje” y haciendo clic en “Continuar”. En la siguiente pantalla elegí “sistema de ficheros raíz” y después “Continuar”.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Partman-basicfilesystems_mountpoint_0.png.html" class="image"><img alt="" src="../../../../images/thumb/c/c6/Partman-basicfilesystems_mountpoint_0.png/350px-Partman-basicfilesystems_mountpoint_0.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/c/c6/Partman-basicfilesystems_mountpoint_0.png/525px-Partman-basicfilesystems_mountpoint_0.png 1.5x, ../../../../images/thumb/c/c6/Partman-basicfilesystems_mountpoint_0.png/700px-Partman-basicfilesystems_mountpoint_0.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Partman-basicfilesystems_mountpoint_0.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Punto de montaje</div></div></div></div>
 <p><br />
+La pantalla debería quedarte con una barra “/” al lado de “Punto de montaje”. La imagen de abajo muestra el resultado final:
 </p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=4" title="Editar sección: Paso 3. Instalación Huayra">editar</a>]</span> <span class="mw-headline" id="Paso_3._Instalaci.C3.B3n_Huayra">Paso 3. Instalación Huayra</span></h2>
-<p>Ahora vamos a hacer que Huayra se instale en una de las particiones de la net.
-</p><p>Para eso tenés que ir a Menú &gt; Huayra &gt; Instalar Huayra en tu disco.
-</p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=5" title="Editar sección: Paso 4 Configuración de teclado">editar</a>]</span> <span class="mw-headline" id="Paso_4_Configuraci.C3.B3n_de_teclado">Paso 4 Configuración de teclado</span></h2>
-<p>Cuando te pregunte por la configuración de tu teclado, tenés que elegir “Latinoamericano”
-</p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=6" title="Editar sección: Paso 5- Particionado de discos">editar</a>]</span> <span class="mw-headline" id="Paso_5-_Particionado_de_discos">Paso 5- Particionado de discos</span></h2>
-<p>Elegí “Manual”, y poné “continuar”.
-</p><p><br />
-</p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=7" title="Editar sección: Paso 6- Particionado de discos">editar</a>]</span> <span class="mw-headline" id="Paso_6-_Particionado_de_discos">Paso 6- Particionado de discos</span></h2>
-<p>Lo que vas a ver a continuación es un listado con las particiones y puntos de montaje que la netbook tiene configurados actualmente. Vamos a instalar Huayra en la misma partición que en la que tenías el GNU/Linux, dejando en la otra partición Windows tal cual estaba. Para esto tenés que poder reconocer cuál es la partición sobre la que vamos a instalar Huayra.
-</p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=8" title="Editar sección: Paso 6- Continuando con el particionado de discos">editar</a>]</span> <span class="mw-headline" id="Paso_6-_Continuando_con_el_particionado_de_discos">Paso 6- Continuando con el particionado de discos</span></h2>
-<p>Para poder instalar Huayra en la partición donde tenías el Linux anterior, vas a usar la partición primaria No 1 ext4 (el número puede cambiar, lo importante es que no sea la partición primaria en sistema ntfs). Seleccionala y hace clic en “Continuar”.
-</p>
-<div class="isa_tip"><b>RECORDÁ</b> que a través de todo el proceso de instalación, se avanza con el botón “Continuar”y que si no estás seguro de algún paso,
-podes volver atrás con el botón “Retroceder”.</div>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Partman_active_partition_0.png.html" class="image"><img alt="" src="../../../../images/thumb/f/f3/Partman_active_partition_0.png/350px-Partman_active_partition_0.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/f/f3/Partman_active_partition_0.png/525px-Partman_active_partition_0.png 1.5x, ../../../../images/thumb/f/f3/Partman_active_partition_0.png/700px-Partman_active_partition_0.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Partman_active_partition_0.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Partición final</div></div></div></div>
 <p><br />
+<b>Ya terminaste con la configuración de la partición donde vas a instalar Huayra</b>. Andá abajo de todo de la pantalla con la barra de scroll de la derecha, seleccioná “Se ha terminado de definir la partición” y “Continuar”.
 </p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=9" title="Editar sección: Paso 7- Editar la partición de Linux">editar</a>]</span> <span class="mw-headline" id="Paso_7-_Editar_la_partici.C3.B3n_de_Linux">Paso 7- Editar la partición de Linux</span></h2>
-<p>A la configuración de esta unidad le vas a hacer 3 cambios: (1) el Sistema de ficheros, (2) vas a formatear la partición borrando los datos viejos y (3) el punto de montaje.. A continuación te mostramos en un cuadro comparativo cómo lo vas a ver al inicio, y cómo debería quedarte al finalizar toda la información. Los cambios se ven en las primeras tres líneas.
-</p><p><b>7.1- Sistema de archivos</b>
-</p><p>Seleccioná “Utilizar como”, y después “Continuar”. Elegí “sistema de ficheros ext4 transaccional” y después “Continuar”. Ext4 es el sistema de archivos que se usa por defecto al instalar sistemas Linux. Tiene muchas ventajas por sobre el sistema ntfs que utiliza Windows en términos de uso de CPU y velocidad de lectura y escritura.
-</p><p>Volvés a esta pantalla, donde ya debería aparecer el primer cambio. Donde dice “Utilizar como:” ahora debería aparece “sistema de ficheros etx4
-transaccional”.
-</p><p><b>7.2 – Formateo de la partición</b>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Partman_active_partition_1.png.html" class="image"><img alt="" src="../../../../images/thumb/b/b9/Partman_active_partition_1.png/350px-Partman_active_partition_1.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/b/b9/Partman_active_partition_1.png/525px-Partman_active_partition_1.png 1.5x, ../../../../images/thumb/b/b9/Partman_active_partition_1.png/700px-Partman_active_partition_1.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Partman_active_partition_1.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Finalizar la partición</div></div></div></div>
+<p><br />
+Ahora en el listado de las particiones, tu partición de Linux debería aparecer con su tamaño en gigas, una <b>F</b> que indica que va a ser formateada, el sistema de archivos <b>ext4</b> y el punto de montaje en <b>/</b>.
 </p>
-<pre>El siguiente paso te permite formatear esta partición y borrar los datos viejos del Linux anterior que tenías. Seleccioná “Formatear la partición” y al hacer clic en “Continuar” cambia a “Sí, formatearla”.
-</pre>
-<p><b>7.3 – Punto de montaje</b> 
-Cambiá el punto de montaje, seleccionando “Punto de montaje” y haciendo clic en “Continuar”. En la siguiente pantalla
-elegí “sistema de ficheros raíz” y después “Continuar”.
-</p><p>La pantalla debería quedarte así, con una barra “/” al lado de “Punto de montaje”
-</p><p><b>Ya terminaste con la configuración de la partición donde vas a instalar Huayra</b>. Andá abajo de todo de la pantalla con la barra de scroll de la derecha, seleccioná “Se ha terminado de definir la partición” y “Continuar”.
-</p><p>Ahora en el listado de las particiones, tu partición de Linux debería aparecer con su tamaño en gigas, una F que indica que va a ser formateada, el sistema de archivos ext4 y el punto de montaje en “/”.
-</p><p>Abajo en la pantalla y hacé clic en “Finalizar el particionado y escribir los cambios en el disco” para terminar el proceso.
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/r/i/Archivo:Principio-fin.png.html" class="image"><img alt="" src="../../../../images/thumb/6/60/Principio-fin.png/350px-Principio-fin.png" width="350" height="106" class="thumbimage" srcset="../../../../images/thumb/6/60/Principio-fin.png/525px-Principio-fin.png 1.5x, ../../../../images/thumb/6/60/Principio-fin.png/700px-Principio-fin.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/r/i/Archivo:Principio-fin.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Comparación</div></div></div></div>
+<p><br />
+Abajo en la pantalla y hacé clic en <i>Finalizar el particionado y escribir los cambios en el disco</i> para terminar el proceso.
 </p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=10" title="Editar sección: Paso 8- Confirmar la partición de Linux">editar</a>]</span> <span class="mw-headline" id="Paso_8-_Confirmar_la_partici.C3.B3n_de_Linux">Paso 8- Confirmar la partición de Linux</span></h2>
-<p>Hacé clic en “Si” y después en “Continuar”. 
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Partman_choose_partition_1.png.html" class="image"><img alt="" src="../../../../images/thumb/e/e3/Partman_choose_partition_1.png/350px-Partman_choose_partition_1.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/e/e3/Partman_choose_partition_1.png/525px-Partman_choose_partition_1.png 1.5x, ../../../../images/thumb/e/e3/Partman_choose_partition_1.png/700px-Partman_choose_partition_1.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Partman_choose_partition_1.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Finalizar</div></div></div></div>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=11" title="Editar sección: Paso 8- Confirmar la partición de Linux">editar</a>]</span> <span class="mw-headline" id="Paso_8-_Confirmar_la_partici.C3.B3n_de_Linux">Paso 8- Confirmar la partición de Linux</span></h1>
+<p>Hacé clic en <b>Si</b> y después en <i>Continuar</i>. 
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/p/a/r/Archivo:Partman_confirm_0.png.html" class="image"><img alt="" src="../../../../images/thumb/c/c4/Partman_confirm_0.png/350px-Partman_confirm_0.png" width="350" height="205" class="thumbimage" srcset="../../../../images/thumb/c/c4/Partman_confirm_0.png/525px-Partman_confirm_0.png 1.5x, ../../../../images/thumb/c/c4/Partman_confirm_0.png/700px-Partman_confirm_0.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/r/Archivo:Partman_confirm_0.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Confirmar el particionado</div></div></div></div>
+<p><br />
 </p>
 <div class="isa_tip"><b>PACIENCIA:</b> Ahora se va a tardar unos minutos hasta que termine de instalar el sistema.</div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=11" title="Editar sección: Paso 9- Instalar GRUB">editar</a>]</span> <span class="mw-headline" id="Paso_9-_Instalar_GRUB">Paso 9- Instalar GRUB</span></h2>
-<p>Cuando termine, en el menú que pregunta si queremos instalar GRUB. El GRUB es el menú que aparece al comienzo donde elegimos qué sistema operativo
-usar cada vez que arrancamos la máquina. En la mayoría de los casos pregunta directamente queremos instalarla en el registro principal de arranque. Hay que elegir “Si” y “Continuar”.
-</p><p>Pero a veces puede aparecer una pantalla, con un recuadro de texto donde hay que ingresar el dispositivo donde instalamos el GRUB. <b>¡A no temer!</b>. El instalador lo completa automáticamente con la opción correcta (ejemplo /dev/sdc). Con lo cual solamente hay que elegir “Continuar”.
-</p><p><b>Ya finalizaste la instalación</b>. Elegí “Continuar” y pasemos a los procesos post instalación que tenés que hacer para que Huayra funcione bien en tu netbook y en la escuela.
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=12" title="Editar sección: Paso 9- Instalar GRUB">editar</a>]</span> <span class="mw-headline" id="Paso_9-_Instalar_GRUB">Paso 9- Instalar GRUB</span></h1>
+<p>Cuando termine de instalar el sistema base, aparece el menú que pregunta si querés instalar GRUB. El GRUB es el menú que aparece al comienzo donde podés elegir qué sistema operativo usar cada vez que prendas la máquina. En la mayoría de los casos pregunta directamente si querés instalarla en el registro principal de arranque. Hay que elegir <b>Si</b> y <i>Continuar</i>.
+</p><p>Pero a veces puede aparecer una pantalla, con un recuadro de texto donde hay que ingresar el dispositivo donde instalás el GRUB. <b>¡A no temer!</b>. El instalador lo completa automáticamente con la opción correcta (ejemplo <i>/dev/sdc</i> o <i>/dev/sda</i>). Con lo cual solamente hay que hacé clic en <i>Continuar</i>.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/g/r/u/Archivo:Grub.png.html" class="image"><img alt="" src="../../../../images/thumb/0/0c/Grub.png/350px-Grub.png" width="350" height="260" class="thumbimage" srcset="../../../../images/thumb/0/0c/Grub.png/525px-Grub.png 1.5x, ../../../../images/thumb/0/0c/Grub.png/700px-Grub.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/g/r/u/Archivo:Grub.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>GRUB</div></div></div></div>
+<p><br />
+<b>Ya finalizaste la instalación</b>. Hacé clic en <i>Continuar</i> 
 </p><p><br />
 </p>
-<div class="isa_important">Hasta acá hicimos que Huayra se instale en tu netbook. Una vez instalado Huayra en tu netbook del Programa Conectar Igualdad, tenés
-que hacer un paso final.</div>
+<div class="isa_important">Hasta acá hicimos que Huayra se instale en tu netbook. Una vez instalado Huayra en tu netbook del Programa Conectar Igualdad, tenés que hacer un paso final.</div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=12" title="Editar sección: Paso Final – Huayra Post Instalación">editar</a>]</span> <span class="mw-headline" id="Paso_Final_.E2.80.93_Huayra_Post_Instalaci.C3.B3n">Paso Final – Huayra Post Instalación</span></h2>
+<h1><span class="editsection">[<a href="http://200.55.245.7:89/wiki/index.php?title=Reemplaz%C3%A1_el_Linux_de_tu_computadora_con_Huayra&amp;action=edit&amp;section=13" title="Editar sección: Paso Final – Huayra Post Instalación">editar</a>]</span> <span class="mw-headline" id="Paso_Final_.E2.80.93_Huayra_Post_Instalaci.C3.B3n">Paso Final – Huayra Post Instalación</span></h1>
 <p>Se trata de instalar un paquete que realice automáticamente algunas tareas necesarias para que la netbook te quede como si la recién la hubieses recibido con Huayra instalado desde fábrica.
 Un paquete es una aplicación y en este caso es un archivo con extensión .deb. Para más información podés ver el tutorial de como instalar
 aplicaciones en Huayra.
@@ -213,10 +217,10 @@ ayuda!!
 </p>
 <!-- 
 NewPP limit report
-Preprocessor visited node count: 124/1000000
-Preprocessor generated node count: 320/1000000
-Post‐expand include size: 2967/2097152 bytes
-Template argument size: 2767/2097152 bytes
+Preprocessor visited node count: 98/1000000
+Preprocessor generated node count: 228/1000000
+Post‐expand include size: 1539/2097152 bytes
+Template argument size: 1414/2097152 bytes
 Highest expansion depth: 2/40
 Expensive parser function count: 0/100
 -->
@@ -298,7 +302,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/wiki/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 15:02, 4 dic 2013 por <a href="http://200.55.245.7:89/wiki/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. </li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 14:44, 17 mar 2014 por <a href="http://200.55.245.7:89/wiki/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://200.55.245.7:89/wiki/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>
