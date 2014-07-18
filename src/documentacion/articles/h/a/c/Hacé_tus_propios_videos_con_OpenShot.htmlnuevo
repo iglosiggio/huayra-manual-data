@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- headlinks removed -->
+	<link rel="shortcut icon" href="../../../../misc/favicon.ico"/>
+    <title>Hacé tus propios videos con OpenShot - Huayra</title>
+    <style type="text/css">/*<![CDATA[*/ @import "../../../../skins/offline/main.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="../../../../skins/common/commonPrint.css" />
+    <!--[if lt IE 5.5000]><style type="text/css">@import "../../../../skins/monobook/IE50Fixes.css";</style><![endif]-->
+    <!--[if IE 5.5000]><style type="text/css">@import "../../../../skins/monobook/IE55Fixes.css";</style><![endif]-->
+    <!--[if IE 6]><style type="text/css">@import "../../../../skins/monobook/IE60Fixes.css";</style><![endif]-->
+    <!--[if IE]><script type="text/javascript" src="../../../../skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+    <script type="text/javascript" src="../../../../skins/common/wikibits.js"></script>
+    <script type="text/javascript" src="../../../../skins/offline/md5.js"></script>
+    <script type="text/javascript" src="../../../../skins/offline/utf8.js"></script>
+    <script type="text/javascript" src="../../../../skins/offline/lookup.js"></script>
+                      </head>
+  <body class="mediawiki ltr ns-0 ns-subject page-Hacé_tus_propios_videos_con_OpenShot">
+    <div id="globalWrapper">
+      <div id="column-content">
+	
+<link rel="stylesheet" type="text/css" href="app://./css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="app://./css/estilo.css"/>
+<link rel="stylesheet" type="text/css" href="app://./css/magnific-popup.css"/>
+<script type="text/javascript" src="app://./js/jquery.min.js"></script>
+
+<script type="text/javascript" src="app://./js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript" src="app://./js/bootstrap.js"></script>
+
+<script type="text/javascript" src="app://./js/barra.js"></script>
+
+<script type="text/javascript" src="app://./js/imagenes.js"></script>
+
+<div id='navegador'> 
+  <a class='btn btn-success btn-xs' onclick='history.back()'>« Atrás</a> 
+  <a class='btn btn-success btn-xs' href='app://./documentacion/index.html'>Inicio</a> 
+  <a class='btn btn-success btn-xs' onclick='history.forward()'>Adelante »</a> 
+  <a class='btn btn-info btn-xs derecha' href='app://./documentacion/buscar.html'>Buscar</a> 
+</div> 
+<div class="contenido" id="content">
+	  <a name="top" id="contentTop"></a>
+	        <h1 class="firstHeading">Hacé tus propios videos con OpenShot</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">De Huayra</h3>
+	    <div id="contentSub"></div>
+	    	    	    <!-- start content -->
+	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><div class="thumb tright"><div class="thumbinner" style="width:258px;"><a href="../../../../articles/o/p/e/Archivo:OpenShot.jpg.html" class="image"><img alt="" src="../../../../images/thumb/d/d0/OpenShot.jpg/256px-OpenShot.jpg" width="256" height="256" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/o/p/e/Archivo:OpenShot.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>OpenShot</div></div></div>
+<p>¿Querés armar un video para un trabajo en la escuela? ¿ O hacer un video para el cumple de un amigo, con música, fotos? Ahora te vamos a mostrar como podés combinar todo eso desde <a href="../../../../articles/o/p/e/OpenShot.html" title="OpenShot">OpenShot</a>, un programa de edición de Videos que te permite trabajar múltiples videos, audios e imágenes de una forma rápida y muy sencilla. 
+</p><p>Para abrir <a href="../../../../articles/o/p/e/OpenShot.html" title="OpenShot">OpenShot</a> andá al  "Menú Huayra" dentro de  "Sonido y video" o lanzalo con <a href="../../../../articles/s/y/n/Synapse.html" title="Synapse">Synapse</a>.
+</p><p>Apenas se abra vas a ver una pantalla que tiene tres sectores, a la izquierda, la pantalla blanca, que es el espacio de trabajo, y a la derecha, la pre-visualización del trabajo y abajo, la línea de tiempo (escala temporal).
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/o/p/-/Archivo:Op-presentacion.jpg.html" class="image"><img alt="" src="../../../../images/thumb/a/a7/Op-presentacion.jpg/450px-Op-presentacion.jpg" width="450" height="360" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/o/p/-/Archivo:Op-presentacion.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>OpenShot al abrir</div></div></div></div>
+<p><br />
+En <a href="../../../../articles/o/p/e/OpenShot.html" title="OpenShot">OpenShot</a>, tenés dos barras de herramientas, la principal en la parte superior y la de edición, arriba de la línea de tiempo:
+</p>
+<table class="wikitable" align="middle">
+<tr>
+<th> Principal </th>
+<th> De edición
+</th></tr>
+<tr>
+<td> <a href="../../../../articles/o/p/1/Archivo:Op1.png.html" class="image"><img alt="Op1.png" src="../../../../images/1/1d/Op1.png" width="36" height="35" /></a> <b>Crea</b> un nuevo archivo de proyecto OpenShot (*.OSP). </td>
+<td> <a href="../../../../articles/o/p/7/Archivo:Op7.png.html" class="image"><img alt="Op7.png" src="../../../../images/8/86/Op7.png" width="45" height="38" /></a> <b>Añade</b> una nueva pista al comienzo de la lista.
+</td></tr>
+<tr>
+<td> <a href="../../../../articles/o/p/2/Archivo:Op2.png.html" class="image"><img alt="Op2.png" src="../../../../images/f/f9/Op2.png" width="37" height="35" /></a> <b>Guarda</b> el proyecto que estés trabajando.  </td>
+<td> <a href="../../../../articles/o/p/8/Archivo:Op8.png.html" class="image"><img alt="Op8.png" src="../../../../images/2/2e/Op8.png" width="37" height="39" /></a> <b>Selecciona y mueve</b> clips.
+</td></tr>
+<tr>
+<td> <a href="../../../../articles/o/p/3/Archivo:Op3.png.html" class="image"><img alt="Op3.png" src="../../../../images/b/bb/Op3.png" width="39" height="35" /></a> <b>Deshace</b> la última acción </td>
+<td> <a href="../../../../articles/o/p/9/Archivo:Op9.png.html" class="image"><img alt="Op9.png" src="../../../../images/9/92/Op9.png" width="38" height="37" /></a> <b>Divide</b> un clip en cualquier lugar donde haga clic.
+</td></tr>
+<tr>
+<td> <a href="../../../../articles/o/p/4/Archivo:Op4.png.html" class="image"><img alt="Op4.png" src="../../../../images/8/84/Op4.png" width="36" height="34" /></a> <b>Rehace</b> la acción anterior </td>
+<td> <a href="../../../../articles/o/p/1/Archivo:Op10.png.html" class="image"><img alt="Op10.png" src="../../../../images/2/2a/Op10.png" width="36" height="38" /></a> Te permite sujetar los extremos de un clip y arrastrarlos para re-dimensionarlo (o recortarlo).
+</td></tr>
+<tr>
+<td> <a href="../../../../articles/o/p/5/Archivo:Op5.png.html" class="image"><img alt="Op5.png" src="../../../../images/7/76/Op5.png" width="38" height="34" /></a> <b>Importa</b> 1 o más archivos al proyecto  </td>
+<td> <a href="../../../../articles/o/p/1/Archivo:Op11.png.html" class="image"><img alt="Op11.png" src="../../../../images/c/c5/Op11.png" width="38" height="38" /></a> <b>Ajusta</b> o saltea al clip más próximo.
+</td></tr>
+<tr>
+<td> <a href="../../../../articles/o/p/6/Archivo:Op6.png.html" class="image"><img alt="Op6.png" src="../../../../images/7/70/Op6.png" width="35" height="32" /></a> <b>Exporta</b> al proyecto un archivo de vídeo. </td>
+<td> <a href="../../../../articles/o/p/1/Archivo:Op12.png.html" class="image"><img alt="Op12.png" src="../../../../images/4/41/Op12.png" width="38" height="39" /></a> <b>Añade</b> un nuevo marcador (o punto de partida), que te permite saltar de vuelta a este punto exacto mientras reproduces.
+</td></tr>
+<tr>
+<td></td>
+<td> <a href="../../../../articles/o/p/1/Archivo:Op13.png.html" class="image"><img alt="Op13.png" src="../../../../images/4/4e/Op13.png" width="37" height="38" /></a> <b>Salta</b> al marcador anterior
+</td></tr>
+<tr>
+<td></td>
+<td> <a href="../../../../articles/o/p/1/Archivo:Op14.png.html" class="image"><img alt="Op14.png" src="../../../../images/5/58/Op14.png" width="39" height="38" /></a> <b>Salta</b> al siguiente marcador
+</td></tr></table>
+<p><br />
+</p>
+<div class="isa_tip">
+<p>Antes de empezar a trabajar te recomendamos organizar el material de trabajo. 
+</p>
+<ol><li>Creá un directorio con el nombre de tu proyecto en una carpeta (Puede ser <i>Videos</i> u otra)
+</li><li>Poné ahí todo el material que vas a usar.
+</li><li>Organizá adentro por carpetas, separando tipo de materiales “Foto”, “Sonido”, “Videos”.  
+</li></ol>
+<p>Así cuando empieces vas a tener todo centralizado y va a ser más cómodo y rápido a la hora de crear y diseñar el Video.
+</p>
+</div>
+<p><br />
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contenido</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Paso_1_-_Crear_un_proyecto"><span class="tocnumber">1</span> <span class="toctext">Paso 1 - Crear un proyecto</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Paso_2_-_Organizaci.C3.B3n"><span class="tocnumber">2</span> <span class="toctext">Paso 2 - Organización</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#Paso_3_-_Previsualizaci.C3.B3n"><span class="tocnumber">3</span> <span class="toctext">Paso 3 - Previsualización</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Paso_4_-_Grabaci.C3.B3n.2FExportaci.C3.B3n_del_video"><span class="tocnumber">4</span> <span class="toctext">Paso 4 - Grabación/Exportación del video</span></a></li>
+</ul>
+</td></tr></table>
+<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Hac%C3%A9_tus_propios_videos_con_OpenShot&amp;action=edit&amp;section=1" title="Editar sección: Paso 1 - Crear un proyecto">editar</a>]</span> <span class="mw-headline" id="Paso_1_-_Crear_un_proyecto"> Paso 1 - Crear un proyecto </span></h2>
+<p>Para comenzar entonces hacé clic en el signo de <i>+</i> de arriba a la izquierda en la barra principal para Crear un proyecto. 
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/v/e/n/Archivo:Ventana-opshot1.jpg.html" class="image"><img alt="" src="../../../../images/thumb/2/22/Ventana-opshot1.jpg/450px-Ventana-opshot1.jpg" width="450" height="366" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/v/e/n/Archivo:Ventana-opshot1.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>OpenShot al abrir</div></div></div></div>
+<p><br />
+Se va a abrir “Crear un proyecto”.  Le ponés el nombre que quieras y lo guardás. 
+</p>
+<div class="isa_tip">
+<p>También tenés que elegir el <i>Perfil del proyecto</i>. Este es mejor que coincida con el modo en que capturaste el video. Desde Huayra sugerimos para los videos capturados con <a href="../../../../articles/g/u/v/GUVCView.html" title="GUVCView">GUVCView</a> lo hagan a 15 fps (frames per second) con contenedor AVI y <i>codec MPEG4-AVC(H264)</i> o <i>YUY2 - s/comp TUV</i>que pesa más pero tiene más calidad. Por ejemplo para un video capturado de ese modo, lo mejor es usar <i>QVGA 15 fps</i> como <b>Perfil del proyecto</b> en <b>OpenShot</b>. Si tienen un video capturado, por ejemplo, en una cámara full HD de 24 fps, podés elegir <i>HD 1080p 24 fps</i>. Para más información podés leer sobre <a href="../../../../articles/f/o/r/Formatos_de_video.html" title="Formatos de video">Formatos de video</a>
+</p>
+</div>
+<p><br />
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/o/s/_/Archivo:Os_nuevo.jpg.html" class="image"><img alt="" src="../../../../images/thumb/4/4b/Os_nuevo.jpg/450px-Os_nuevo.jpg" width="450" height="308" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/o/s/_/Archivo:Os_nuevo.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Nuevo proyecto con OpenShot</div></div></div></div>
+<p><br />
+También te va a pedir que le asignes una duración aproximada (no te preocupes si no sabes cuánto puede durar, si no le asignás nada te pone 1 min por default, y a medida que avances en la confección de tu video lo podés ajustar).
+</p><p>Ahora sí, ya podés empezar con la carga de fotos, videos y sonidos que quieras. Para eso hacé clic en  <i>Importar archivos</i>  (signo de +) y elegí los archivos a añadir (o directamente arrastrálos desde las carpetas a la ventana blanca donde se almacenan los archivos). 
+</p><p>Podés trabajar con un archivo por vez, o cargar todos los archivos con los que trabajes o supongas que vas a utilizar.
+</p>
+<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Hac%C3%A9_tus_propios_videos_con_OpenShot&amp;action=edit&amp;section=2" title="Editar sección: Paso 2 - Organización">editar</a>]</span> <span class="mw-headline" id="Paso_2_-_Organizaci.C3.B3n"> Paso 2 - Organización </span></h2>
+<p>Una vez que tenés todos los archivos empezá a <b>organizarlos</b> arrastrándolos hasta las pistas uno por vez y acomodarlos según el orden que quieras.  Acordate de que podés tener tantas pistas como quieras pero las mismas funcionan <b>superpuestas</b>, es decir que si ponés simultáneamente en la Pista 1 un archivo de sonido y en la Pista 2 otro archivo de sonido, van a mezclarse los audios. Si no querés que pase esto, los podŕs organizar en la <b>línea temporal</b> para que queden uno después del otro.
+</p><p>Desde Huayra también te recomendamos que organices los archivos desde la ventana principal, creando carpetas, e incluyendo ahí los distintos archivos.
+</p><p><br />
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/o/s/_/Archivo:Os_organizacion.jpg.html" class="image"><img alt="" src="../../../../images/thumb/4/47/Os_organizacion.jpg/450px-Os_organizacion.jpg" width="450" height="281" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/o/s/_/Archivo:Os_organizacion.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Organizar los materiales en OpenShot</div></div></div></div>
+<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Hac%C3%A9_tus_propios_videos_con_OpenShot&amp;action=edit&amp;section=3" title="Editar sección: Paso 3 - Previsualización">editar</a>]</span> <span class="mw-headline" id="Paso_3_-_Previsualizaci.C3.B3n"> Paso 3 - Previsualización </span></h2>
+<p>Una vez que añadiste el sonido y las fotos a la línea de tiempo podés previsualizar el video, haciendo clic en <i>Play</i> debajo de la ventana negra. 
+</p><p>Recordá que en el caso de que notes que algo no quedó bien siempre podés volver a acomodar los archivos de ser necesario.
+</p><p><br />
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/o/s/_/Archivo:Os_previsualizacion.jpg.html" class="image"><img alt="" src="../../../../images/thumb/b/b6/Os_previsualizacion.jpg/450px-Os_previsualizacion.jpg" width="450" height="321" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/o/s/_/Archivo:Os_previsualizacion.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Previsualización en OpenShot</div></div></div></div>
+<p><br />
+</p><p><br />
+</p>
+<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Hac%C3%A9_tus_propios_videos_con_OpenShot&amp;action=edit&amp;section=4" title="Editar sección: Paso 4 - Grabación/Exportación del video">editar</a>]</span> <span class="mw-headline" id="Paso_4_-_Grabaci.C3.B3n.2FExportaci.C3.B3n_del_video"> Paso 4 - Grabación/Exportación del video</span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:232px;"><a href="../../../../articles/o/s/_/Archivo:Os_final.jpg.html" class="image"><img alt="Os final.jpg" src="../../../../images/thumb/d/d4/Os_final.jpg/230px-Os_final.jpg" width="230" height="245" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/o/s/_/Archivo:Os_final.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div>
+<p>Una vez que tengas el proyecto listo, lo guardás, y exportás.
+</p><p>Cuando termine, te va a mostrar una notificación indicando que el proyecto ya esta exportado.
+</p><p>Si querés subir rápido un video a internet elegí el Perfil Web y en Objetivo el formato del sitio al que quieras subirlo. Por ejemplo Objetivo  YouTube HD y Perfil de video HD 720p 25 fps. En la imagen están las configuraciones para exportar un video para ver en DVD.
+</p><p>Siempre que exportás un video elegís en que formato exportarlo. Por un lado está el el contenedor (o “codec”) y por el otro el tamaño y los cuadros por y segundo. En el ejemplo de YouTube-HD el video va a tener 720 píxeles de ancho y va a reproducir 25 cuadros por segundo.
+</p><p>La opción Perfil lo que hace es presentar formatos predefinidos. Para elegir libremente cualquier formato elegí Todos los formatos. Te recomendamos usar los formatos más comunes como mp4 (h.264), mp4(mpeg4) o mpeg (mpeg2). El formato que usa los códecs más libre es Ogg (theora/vorbis). 
+</p><p>Finalmente en Perfil de video elegí la opción que más coincida con la captura original de tu vídeo, la misma definición en píxeles y en cuadros por segundo. Para configurar los Perfiles predefinidos, podés ir a Editar → Preferencias → Perfiles.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:202px;"><a href="../../../../articles/o/s/_/Archivo:Os_indicador.jpg.html" class="image"><img alt="Os indicador.jpg" src="../../../../images/thumb/d/de/Os_indicador.jpg/200px-Os_indicador.jpg" width="200" height="50" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/o/s/_/Archivo:Os_indicador.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 35/1000000
+Preprocessor generated node count: 96/1000000
+Post‐expand include size: 1149/2097152 bytes
+Template argument size: 1099/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+</div><div class="printfooter">
+</div>
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/t/u/t/Categor%C3%ADa:Tutoriales.html" title="Categoría:Tutoriales">Tutoriales</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-main"
+	       class="selected"	       ><a href="../../../../articles/h/a/c/Hac%C3%A9_tus_propios_videos_con_OpenShot.html">Página</a></li><li id="ca-talk"
+	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Hac%C3%A9_tus_propios_videos_con_OpenShot&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Hac%C3%A9_tus_propios_videos_con_OpenShot">Revisión actual</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(../../../../misc/wiki.png);"
+	    href="../../../../index.html"
+	    title="¡Bienvenidos a Huayra GNU/Linux!"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+	  <h5>Navegación</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-Bienvenidos"><a href="../../../../index.html">Bienvenidos</a></li>
+	     	      <li id="n-Primeros-pasos"><a href="../../../../articles/p/r/i/Primeros_pasos.html">Primeros pasos</a></li>
+	     	      <li id="n-Tu-escritorio"><a href="../../../../articles/t/u/_/Tu_escritorio.html">Tu escritorio</a></li>
+	     	      <li id="n-Huayra-en-la-Escuela"><a href="../../../../articles/h/u/a/Huayra_en_la_Escuela.html">Huayra en la Escuela</a></li>
+	     	      <li id="n-Instalaci.C3.B3n"><a href="../../../../articles/i/n/s/Instalaci%C3%B3n.html">Instalación</a></li>
+	     	      <li id="n-Aplicaciones"><a href="../../../../articles/a/p/l/Aplicaciones.html">Aplicaciones</a></li>
+	     	      <li id="n-Archivos-y-carpetas"><a href="../../../../articles/a/r/c/Archivos_y_carpetas.html">Archivos y carpetas</a></li>
+	     	      <li id="n-Internet-y-conectividad"><a href="../../../../articles/i/n/t/Internet_y_conectividad.html">Internet y conectividad</a></li>
+	     	      <li id="n-Multimedia"><a href="../../../../articles/m/u/l/Multimedia.html">Multimedia</a></li>
+	     	      <li id="n-Hardware"><a href="../../../../articles/h/a/r/Hardware.html">Hardware</a></li>
+	     	      <li id="n-Usuarios-y-sesiones"><a href="../../../../articles/u/s/u/Usuarios_y_sesiones.html">Usuarios y sesiones</a></li>
+	     	      <li id="n-Accesibilidad"><a href="../../../../articles/a/c/c/Accesibilidad.html">Accesibilidad</a></li>
+	     	      <li id="n-Tutoriales-Huayra"><a href="../../../../articles/t/u/t/Tutoriales_Huayra.html">Tutoriales Huayra</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-SEARCH'>
+	  <h5>SEARCH</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-TOOLBOX'>
+	  <h5>TOOLBOX</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-LANGUAGES'>
+	  <h5>LANGUAGES</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Buscar</label></h5>
+	  <div id="searchBody" class="pBody">
+	    <form action="javascript:goToStatic(3)" id="searchform"><div>
+	      <input id="searchInput" name="search" type="text"
+	        accesskey="f" value="" />
+	      <input type='submit' name="go" class="searchButton" id="searchGoButton"
+	        value="Ir" />
+	    </div></form>
+	  </div>
+	</div>
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+    <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 13:04, 24 abr 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+      </div>
+    </div>
+  </body>
+</html>
