@@ -49,11 +49,11 @@
 	    	    	    <!-- start content -->
 	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><p>Este artículo te va a mostrar cómo crear rápidamente documentos desde archivos de plantillas personalizados. Si a menudo creás documentos basados en el mismo contenido, podés beneficiarte del uso de archivos de plantilla. Un archivo de plantilla puede ser un documento de cualquier tipo con el formato o el contenido que quieras reutilizar. Por ejemplo, podés crear una plantilla de documento con su membrete, y cada vez que necesites crear un documento con ese estilo directamente <a href="#Crear_un_archivo_nuevo">creas</a> ese tipo de archivo.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantillas:_crear_documentos_usados_com%C3%BAnmente&amp;action=edit&amp;section=1" title="Editar sección: Crear una plantilla nueva:">editar</a>]</span> <span class="mw-headline" id="Crear_una_plantilla_nueva:">Crear una plantilla nueva:</span></h2>
+<h2> <span class="mw-headline" id="Crear_una_plantilla_nueva:">Crear una plantilla nueva:</span></h2>
 <ol><li> Creá un documento que vayas a usar como una plantilla. Por ejemplo, podés hacer su membrete en una aplicación de procesador de textos.
 </li><li> Guardá el archivo con el contenido de la plantilla en la carpeta Plantillas en tu Carpeta Personal. Si la carpeta Plantillas no existe deberás crearla primero.
 </li></ol>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantillas:_crear_documentos_usados_com%C3%BAnmente&amp;action=edit&amp;section=2" title="Editar sección: Usar una plantilla para crear un documento">editar</a>]</span> <span class="mw-headline" id="Usar_una_plantilla_para_crear_un_documento">Usar una plantilla para crear un documento</span></h2>
+<h2> <span class="mw-headline" id="Usar_una_plantilla_para_crear_un_documento">Usar una plantilla para crear un documento</span></h2>
 <ol><li> Abrí la carpeta donde querés ubicar el documento nuevo.
 </li><li> Pulsá con el botón derecho en el espacio vacío en la carpeta y elegí Crear documento nuevo. Los nombres de las plantillas disponibles se listarán en el submenú.
 </li><li> Elegí la plantilla que quieras de la lista.
@@ -72,7 +72,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/a/r/c/Categor%C3%ADa:Archivos_y_carpetas.html" title="Categoría:Archivos y carpetas">Archivos y carpetas</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/a/r/c/Categor%C3%ADa:Archivos_y_carpetas.html" title="Categoría:Archivos y carpetas">Archivos y carpetas</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -83,8 +83,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/c/r/e/Plantillas:_crear_documentos_usados_com%C3%BAnmente.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Plantillas:_crear_documentos_usados_com%C3%BAnmente&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Plantillas:_crear_documentos_usados_com%C3%BAnmente">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Plantillas:_crear_documentos_usados_com%C3%BAnmente&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Plantillas:_crear_documentos_usados_com%C3%BAnmente">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -148,7 +148,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 17:01, 6 dic 2013 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. </li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 17:01, 6 dic 2013 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. </li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

@@ -52,7 +52,7 @@
 </p><p>Cada ventana no es necesariamente una aplicación diferente. Una aplicación usualmente tiene una ventana principal, y podría abrir ventanas adicionales a petición del usuario.
 </p><p>El resto de esta sección describe los diferentes tipos de ventanas y cómo podés interactuar con ellas.
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Ventanas&amp;action=edit&amp;section=1" title="Editar sección: Tipos de ventanas">editar</a>]</span> <span class="mw-headline" id="Tipos_de_ventanas">Tipos de ventanas</span></h1>
+<h1> <span class="mw-headline" id="Tipos_de_ventanas">Tipos de ventanas</span></h1>
 <p>Hay dos tipos principales de ventana:
 </p>
 <ul><li> <i>Ventanas de aplicación</i>
@@ -68,7 +68,7 @@
 <div class="isa_note">Podés seleccionar el texto en un diálogo con el mouse. Esto permite copiarlo al portapapeles (pulsando con el botón derecho del mouse y seleccionando Copiar), y pegarlo en otra aplicación. Es útil si querés citar el texto que ve en un diálogo al pedir soporte en Internet.</div>
 <p><br />
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Ventanas&amp;action=edit&amp;section=2" title="Editar sección: Manipular ventanas">editar</a>]</span> <span class="mw-headline" id="Manipular_ventanas">Manipular ventanas</span></h1>
+<h1> <span class="mw-headline" id="Manipular_ventanas">Manipular ventanas</span></h1>
 <p>Podés cambiar el tamaño y posición de las ventanas en la pantalla. Esto te permite ver más de una aplicación y hacer tareas diferentes al mismo tiempo. Por ejemplo, quizá quiera leer texto en una página web y escribir con un procesador de textos, o simplemente cambiar a otra aplicación para hacer una tarea diferente o ver el progreso.
 </p><p>Podés minimizar una ventana si no está interesado actualmente en verla. Esto la oculta de la vista. podés maximizar una ventana para llenar la pantalla completamente para que pueda darle toda su atención.
 </p><p>La mayoría de estas acciones se realizan usando el mouse en partes diferentes del marco de la ventana. El borde superior del marco de la ventana, llamada la barra de título porque además muestra el título de la ventana, contiene varios botones que cambian la forma en que se muestra la ventana.
@@ -103,7 +103,7 @@ podés además pulsar-y-mantener Mayús mientras mueve la ventana para hacer só
 </p><p><i><b>Cerrar la ventana</b></i>
 </p><p>Pulse el botón Cerrar, el botón más a la derecha del grupo de tres botones a la derecha. Cerrar la ventana podría cerrar la aplicación también. La aplicación te pedirá que confirme el cierre de una ventana que contiene trabajo no guardado.
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Ventanas&amp;action=edit&amp;section=3" title="Editar sección: Dar el foco a una ventana">editar</a>]</span> <span class="mw-headline" id="Dar_el_foco_a_una_ventana">Dar el foco a una ventana</span></h1>
+<h1> <span class="mw-headline" id="Dar_el_foco_a_una_ventana">Dar el foco a una ventana</span></h1>
 <p>Para trabajar con una aplicación, necesita dar el foco a su ventana. Cuando una ventana tiene el foco, cualquier acción como las pulsaciones del mouse, teclear texto, o los atajos del teclado se dirigen a la aplicación en esa ventana. Sólo una ventana podés tener el foco a la vez. La ventana que tiene el foco aparecerá encima de otras ventanas, así que nada cubre ninguna parte de ella. También podés tener una apariencia diferente de las otras ventanas, dependiendo de su elección del tema .
 </p><p>Podés dar el foco a una ventana de cualquiera de las siguientes maneras:
 </p>
@@ -125,7 +125,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/e/s/c/Categor%C3%ADa:Escritorio_y_apariencia.html" title="Categoría:Escritorio y apariencia">Escritorio y apariencia</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/e/s/c/Categor%C3%ADa:Escritorio_y_apariencia.html" title="Categoría:Escritorio y apariencia">Escritorio y apariencia</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -136,8 +136,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/v/e/n/Ventanas.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Ventanas&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Ventanas">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Ventanas&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Ventanas">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -201,7 +201,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 14:29, 16 ene 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 14:29, 16 ene 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

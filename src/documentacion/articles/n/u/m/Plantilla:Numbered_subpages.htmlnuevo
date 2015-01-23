@@ -49,7 +49,7 @@
 	    	    	    <!-- start content -->
 	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><p><br />
 </p>
-<div id="template-documentation" class="template-documentation iezoomfix"><div style="padding-bottom: 3px; border-bottom: 1px solid #aaa; margin-bottom: 1ex;"><span style="font-weight: bold; font-size: 125%"><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Especial:SubirArchivo&amp;wpDestFile=Template-info.png" class="new" title="Archivo:Template-info.png">50px</a> Template documentation</span><span class="mw-editsection plainlinks" id="doc_editlinks">&#91;<a href="../../../../articles/n/u/m/Plantilla:Numbered_subpages/doc.html" title="Plantilla:Numbered subpages/doc">view</a>&#93; [<a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit">edit</a>] [<a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=history">history</a>] [<span class="noprint plainlinks purgelink"><a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages&amp;action=purge"><span title="Purge this page">purge</span></a></span>]</span></div>
+<div id="template-documentation" class="template-documentation iezoomfix"><div style="padding-bottom: 3px; border-bottom: 1px solid #aaa; margin-bottom: 1ex;"><span style="font-weight: bold; font-size: 125%"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Especial:SubirArchivo&amp;wpDestFile=Template-info.png" class="new" title="Archivo:Template-info.png">50px</a> Template documentation</span><span class="mw-editsection plainlinks" id="doc_editlinks">&#91;<a href="../../../../articles/n/u/m/Plantilla:Numbered_subpages/doc.html" title="Plantilla:Numbered subpages/doc">view</a>&#93; [<a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit">edit</a>] [<a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=history">history</a>] [<span class="noprint plainlinks purgelink"><a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Numbered_subpages&amp;action=purge"><span title="Purge this page">purge</span></a></span>]</span></div>
 <table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contenido</h2></div>
 <ul>
 <li class="toclevel-1"><a href="#Template_layout"><span class="tocnumber">1</span> <span class="toctext">Template layout</span></a></li>
@@ -63,16 +63,16 @@
 <li class="toclevel-1"><a href="#See_also"><span class="tocnumber">5</span> <span class="toctext">See also</span></a></li>
 </ul>
 </td></tr></table>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit&amp;section=T-1" title="Plantilla:Numbered subpages/doc">editar</a>]</span> <span class="mw-headline" id="Template_layout"> Template layout </span></h2>
+<h2> <span class="mw-headline" id="Template_layout"> Template layout </span></h2>
 <pre width="50%">
 {{Numbered subpages}}
 </pre>
-<p>Additionally, you can use the {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:25_numbered_subpages&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:25 numbered subpages (la página no existe)">25 numbered subpages</a>}} or {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:75_numbered_subpages&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:75 numbered subpages (la página no existe)">75 numbered subpages</a>}} templates to change the number of links on the subpages.
+<p>Additionally, you can use the {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:25_numbered_subpages&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:25 numbered subpages (la página no existe)">25 numbered subpages</a>}} or {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:75_numbered_subpages&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:75 numbered subpages (la página no existe)">75 numbered subpages</a>}} templates to change the number of links on the subpages.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit&amp;section=T-2" title="Plantilla:Numbered subpages/doc">editar</a>]</span> <span class="mw-headline" id="Usage">Usage</span></h2>
+<h2> <span class="mw-headline" id="Usage">Usage</span></h2>
 <p>Template to show numbered sub-pages arranged ascendingly from 1 to maximum. Max must be defined in Template by repeating parameters used in forLoop template till maximum. Maximum is defined as 25, 50, 75, or 100, depending on the version used. 
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit&amp;section=T-3" title="Plantilla:Numbered subpages/doc">editar</a>]</span> <span class="mw-headline" id="Example"> Example </span></h3>
+<h3> <span class="mw-headline" id="Example"> Example </span></h3>
 <p>This is an example of use of the template as it would be found on the "Selected articles" sub-page that is a component of a portal created using the {{<a href="../../../../articles/b/o/x/Plantilla:Box_portal_skeleton.html" title="Plantilla:Box portal skeleton">box portal skeleton</a>}}. Simply placing the template on the page is all that is needed to show all selected articles stored in sub-pages linked to it, however using the template as part of a fully formed description makes it easier for other editors to modify the page as needed.
 </p>
 <pre>
@@ -87,15 +87,15 @@ The template used for the creation of these sub-pages is located at {{tl|Selecte
 
 {{purgepage}}
 </pre>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit&amp;section=T-4" title="Plantilla:Numbered subpages/doc">editar</a>]</span> <span class="mw-headline" id="Trivial">Trivial</span></h2>
+<h2> <span class="mw-headline" id="Trivial">Trivial</span></h2>
 <p>passing parameter as maximum is not supported yet. In fact its only way is by using #for (MediaWiki 1.7+);In fact this template would be much easier if used #for but it is a part of MediaWiki 1.7 (not used yet).
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit&amp;section=T-5" title="Plantilla:Numbered subpages/doc">editar</a>]</span> <span class="mw-headline" id="Used_Templates">Used Templates</span></h2>
+<h2> <span class="mw-headline" id="Used_Templates">Used Templates</span></h2>
 <ul><li><a href="../../../../articles/f/o/r/Plantilla:For_loop.html" title="Plantilla:For loop">Template:For loop</a>
 </li><li><a href="../../../../articles/f/o/r/Plantilla:For/aux.html" title="Plantilla:For/aux" class="mw-redirect">Template:For/aux</a>
 </li><li><a href="../../../../articles/s/u/b/Plantilla:Subpage.html" title="Plantilla:Subpage">Template:subpage</a>
 </li></ul>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit&amp;section=T-6" title="Plantilla:Numbered subpages/doc">editar</a>]</span> <span class="mw-headline" id="See_also"> See also </span></h2>
+<h2> <span class="mw-headline" id="See_also"> See also </span></h2>
 <dl><dt>Main portal creation templates -
 </dt></dl>
 <ul><li> {{<a href="../../../../articles/b/o/x/Plantilla:Box_portal_skeleton.html" title="Plantilla:Box portal skeleton">Box portal skeleton</a>}} - used to create portal main pages
@@ -103,10 +103,10 @@ The template used for the creation of these sub-pages is located at {{tl|Selecte
 </li><li> {{<a href="../../../../articles/r/a/n/Plantilla:Random_portal_component_with_nominate.html" title="Plantilla:Random portal component with nominate">Random portal component with nominate</a>}} - used on the portal main page to randomly display articles from the portal sub-pages, adding the option to nominate other <b>Featured <i>foo</i></b> articles.
 </li><li> {{<a href="../../../../articles/r/a/n/Plantilla:Random_subpage.html" title="Plantilla:Random subpage">Random subpage</a>}} - used on the portal main page to randomly display articles from the portal sub-pages. This template is best used for creating randomly populated <i>Did you know...</i> sections on the portal main page that are intended to include multiple <i>Did you know...</i> facts.
 </li><li> {{<strong class="selflink">Numbered subpages</strong>}} - used to create article links on portal sub-pages with 50 links.
-<ul><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:25_Numbered_subpages&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:25 Numbered subpages (la página no existe)">25 Numbered subpages</a>}} - As above, but with 25 links.
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:75_Numbered_subpages&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:75 Numbered subpages (la página no existe)">75 Numbered subpages</a>}} - As above, but with 75 links.
+<ul><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:25_Numbered_subpages&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:25 Numbered subpages (la página no existe)">25 Numbered subpages</a>}} - As above, but with 25 links.
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:75_Numbered_subpages&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:75 Numbered subpages (la página no existe)">75 Numbered subpages</a>}} - As above, but with 75 links.
 </li></ul>
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Random_box-header_subpage&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Random box-header subpage (la página no existe)">Random box-header subpage</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Random_box-header_subpage&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Random box-header subpage (la página no existe)">Random box-header subpage</a>}}
 </li></ul>
 <dl><dt>Main portal page formatting templates -
 </dt></dl>
@@ -115,29 +115,29 @@ The template used for the creation of these sub-pages is located at {{tl|Selecte
 
 <tr valign="top">
 <td><div style="margin-right:20px;">
-<ul><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Boxheader&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Boxheader (la página no existe)">Boxheader</a>}}
+<ul><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Boxheader&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Boxheader (la página no existe)">Boxheader</a>}}
 </li><li> {{<a href="../../../../articles/b/o/x/Plantilla:Box-header.html" title="Plantilla:Box-header">Box-header</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-header1&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header1 (la página no existe)">Box-header1</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-header2&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header2 (la página no existe)">Box-header2</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-header1&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header1 (la página no existe)">Box-header1</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-header2&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header2 (la página no existe)">Box-header2</a>}}
 </li></ul>
 </div>
 </td>
 <td><div style="margin-right: 20px;">
-<ul><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Boxfooter&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Boxfooter (la página no existe)">Boxfooter</a>}}
+<ul><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Boxfooter&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Boxfooter (la página no existe)">Boxfooter</a>}}
 </li><li> {{<a href="../../../../articles/b/o/x/Plantilla:Box-footer.html" title="Plantilla:Box-footer">Box-footer</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-footer2&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-footer2 (la página no existe)">Box-footer2</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-Header_II&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-Header II (la página no existe)">Box-Header II</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-header-blank&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-blank (la página no existe)">Box-header-blank</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-header-groovy&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-groovy (la página no existe)">Box-header-groovy</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-footer2&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-footer2 (la página no existe)">Box-footer2</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-Header_II&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-Header II (la página no existe)">Box-Header II</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-header-blank&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-blank (la página no existe)">Box-header-blank</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-header-groovy&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-groovy (la página no existe)">Box-header-groovy</a>}}
 </li></ul>
 </div>
 </td>
 <td><div style="margin-right: 20px;">
-<ul><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-header-health&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-health (la página no existe)">Box-header-health</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-header-round&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-round (la página no existe)">Box-header-round</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-header-square&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-square (la página no existe)">Box-header-square</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-header-watch&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-watch (la página no existe)">Box-header-watch</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Box-header-plain&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-plain (la página no existe)">Box-header-plain</a>}}
+<ul><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-header-health&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-health (la página no existe)">Box-header-health</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-header-round&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-round (la página no existe)">Box-header-round</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-header-square&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-square (la página no existe)">Box-header-square</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-header-watch&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-watch (la página no existe)">Box-header-watch</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Box-header-plain&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Box-header-plain (la página no existe)">Box-header-plain</a>}}
 </li></ul>
 </div>
 </td></tr></table></div>
@@ -154,50 +154,50 @@ The template used for the creation of these sub-pages is located at {{tl|Selecte
 <tr valign="top">
 <td><div style="margin-right:20px;">
 <ul><li> {{<a href="../../../../articles/s/e/l/Plantilla:Selected_article.html" title="Plantilla:Selected article" class="mw-redirect">Selected article</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_biography&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected biography (la página no existe)">Selected biography</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_business&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected business (la página no existe)">Selected business</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_biography&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected biography (la página no existe)">Selected biography</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_business&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected business (la página no existe)">Selected business</a>}}
 </li></ul>
 </div>
 </td>
 <td><div style="margin-right: 20px;">
-<ul><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_DYK&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected DYK (la página no existe)">Selected DYK</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_ingredient&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected ingredient (la página no existe)">Selected ingredient</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_location&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected location (la página no existe)">Selected location</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_quote&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected quote (la página no existe)">Selected quote</a>}}
+<ul><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_DYK&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected DYK (la página no existe)">Selected DYK</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_ingredient&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected ingredient (la página no existe)">Selected ingredient</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_location&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected location (la página no existe)">Selected location</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_quote&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected quote (la página no existe)">Selected quote</a>}}
 </li></ul>
 </div>
 </td>
 <td><div style="margin-right: 20px;">
-<ul><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_picture&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected picture (la página no existe)">Selected picture</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_product&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected product (la página no existe)">Selected product</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_publication&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected publication (la página no existe)">Selected publication</a>}}
-</li><li> {{<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Selected_recipe&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected recipe (la página no existe)">Selected recipe</a>}}
+<ul><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_picture&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected picture (la página no existe)">Selected picture</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_product&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected product (la página no existe)">Selected product</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_publication&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected publication (la página no existe)">Selected publication</a>}}
+</li><li> {{<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Selected_recipe&amp;action=edit&amp;redlink=1" class="new" title="Plantilla:Selected recipe (la página no existe)">Selected recipe</a>}}
 </li></ul>
 </div>
 </td></tr></table></div>
-<div class="noprint plainlinks hlist navbar" style=""><span style="word-spacing:0;">This box: </span><ul><li class="nv-view"><a href="../../../../articles/p/o/r/Plantilla:Portal_template_list.html" title="Plantilla:Portal template list"><span title="View this template" style="">view</span></a></li><li class="nv-talk"><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla_discusi%C3%B3n:Portal_template_list&amp;action=edit&amp;redlink=1" class="new" title="Plantilla discusión:Portal template list (la página no existe)"><span title="Discuss this template" style="">talk</span></a></li><li class="nv-edit"><a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Portal_template_list&amp;action=edit"><span title="Edit this template" style="">edit</span></a></li></ul></div><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Pt:Predefini%C3%A7%C3%A3o:Subp%C3%A1ginas_numeradas&amp;action=edit&amp;redlink=1" class="new" title="Pt:Predefinição:Subpáginas numeradas (la página no existe)">pt:Predefinição:Subpáginas numeradas</a>
+<div class="noprint plainlinks hlist navbar" style=""><span style="word-spacing:0;">This box: </span><ul><li class="nv-view"><a href="../../../../articles/p/o/r/Plantilla:Portal_template_list.html" title="Plantilla:Portal template list"><span title="View this template" style="">view</span></a></li><li class="nv-talk"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla_discusi%C3%B3n:Portal_template_list&amp;action=edit&amp;redlink=1" class="new" title="Plantilla discusión:Portal template list (la página no existe)"><span title="Discuss this template" style="">talk</span></a></li><li class="nv-edit"><a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Portal_template_list&amp;action=edit"><span title="Edit this template" style="">edit</span></a></li></ul></div><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Pt:Predefini%C3%A7%C3%A3o:Subp%C3%A1ginas_numeradas&amp;action=edit&amp;redlink=1" class="new" title="Pt:Predefinição:Subpáginas numeradas (la página no existe)">pt:Predefinição:Subpáginas numeradas</a>
 <div style="clear: both;"></div>
 </div><table id="documentation-meta-data" class="plainlinks fmbox fmbox-system" style="background-color: #ecfcf4;">
 <tr>
 
-<td class="mbox-text" style="font-style: italic;"> The above <a href="http://en.wikipedia.org/wiki/Template_documentation" class="extiw" title="wikipedia:Template documentation">documentation</a> is <a href="http://en.wikipedia.org/wiki/Transclusion" class="extiw" title="wikipedia:Transclusion">transcluded</a> from <a href="../../../../articles/n/u/m/Plantilla:Numbered_subpages/doc.html" title="Plantilla:Numbered subpages/doc">Plantilla:Numbered subpages/doc</a>. <small style="font-style: normal">(<a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit">edit</a> &#124; <a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=history">history</a>)</small> <br />Editors can experiment in this template's sandbox <small style="font-style: normal">(<a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/sandbox&amp;action=edit&amp;preload=Template:Documentation/preload-sandbox">create</a> | <a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/sandbox&amp;action=edit&amp;preload=Plantilla%3ANumbered+subpages&amp;summary=Create+sandbox+version+of+%5B%5BPlantilla%3ANumbered+subpages%5D%5D">mirror</a>)</small> and testcases <small style="font-style: normal">(<a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages/testcases&amp;action=edit&amp;preload=Template:Documentation/preload-testcases">create</a>)</small> pages. <br />Please add categories to the <a href="../../../../articles/n/u/m/Plantilla:Numbered_subpages/doc.html" title="Plantilla:Numbered subpages/doc">/doc</a> subpage.&#32;<a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:P%C3%A1ginasPorPrefijo/Plantilla:Numbered_subpages/" title="Especial:PáginasPorPrefijo/Plantilla:Numbered subpages/">Subpages of this template</a>. </td>
+<td class="mbox-text" style="font-style: italic;"> The above <a href="http://en.wikipedia.org/wiki/Template_documentation" class="extiw" title="wikipedia:Template documentation">documentation</a> is <a href="http://en.wikipedia.org/wiki/Transclusion" class="extiw" title="wikipedia:Transclusion">transcluded</a> from <a href="../../../../articles/n/u/m/Plantilla:Numbered_subpages/doc.html" title="Plantilla:Numbered subpages/doc">Plantilla:Numbered subpages/doc</a>. <small style="font-style: normal">(<a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=edit">edit</a> &#124; <a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Numbered_subpages/doc&amp;action=history">history</a>)</small> <br />Editors can experiment in this template's sandbox <small style="font-style: normal">(<a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Numbered_subpages/sandbox&amp;action=edit&amp;preload=Template:Documentation/preload-sandbox">create</a> | <a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Numbered_subpages/sandbox&amp;action=edit&amp;preload=Plantilla%3ANumbered+subpages&amp;summary=Create+sandbox+version+of+%5B%5BPlantilla%3ANumbered+subpages%5D%5D">mirror</a>)</small> and testcases <small style="font-style: normal">(<a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Numbered_subpages/testcases&amp;action=edit&amp;preload=Template:Documentation/preload-testcases">create</a>)</small> pages. <br />Please add categories to the <a href="../../../../articles/n/u/m/Plantilla:Numbered_subpages/doc.html" title="Plantilla:Numbered subpages/doc">/doc</a> subpage.&#32;<a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:P%C3%A1ginasPorPrefijo/Plantilla:Numbered_subpages/" title="Especial:PáginasPorPrefijo/Plantilla:Numbered subpages/">Subpages of this template</a>. </td>
 </tr>
 </table>
-<p><i class="noprint plainlinks"><a rel="nofollow" class="external text" href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla:Numbered_subpages&amp;action=purge"><small>Purge server cache</small></a></i>
+<p><i class="noprint plainlinks"><a rel="nofollow" class="external text" href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla:Numbered_subpages&amp;action=purge"><small>Purge server cache</small></a></i>
 </p><p><br />
 </p>
 <!-- 
 NewPP limit report
 Preprocessor visited node count: 743/1000000
 Preprocessor generated node count: 4123/1000000
-Post‐expand include size: 41463/2097152 bytes
-Template argument size: 3639/2097152 bytes
+Post‐expand include size: 42129/2097152 bytes
+Template argument size: 3684/2097152 bytes
 Highest expansion depth: 13/40
 Expensive parser function count: 6/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categorías</a>: <ul><li><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Categor%C3%ADa:P%C3%A1ginas_con_enlaces_rotos_a_archivos&amp;action=edit&amp;redlink=1" class="new" title="Categoría:Páginas con enlaces rotos a archivos (la página no existe)">Páginas con enlaces rotos a archivos</a></li><li><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Categor%C3%ADa:Wikipedia_Portal_templates&amp;action=edit&amp;redlink=1" class="new" title="Categoría:Wikipedia Portal templates (la página no existe)">Wikipedia Portal templates</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categorías</a>: <ul><li><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Categor%C3%ADa:P%C3%A1ginas_con_enlaces_rotos_a_archivos&amp;action=edit&amp;redlink=1" class="new" title="Categoría:Páginas con enlaces rotos a archivos (la página no existe)">Páginas con enlaces rotos a archivos</a></li><li><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Categor%C3%ADa:Wikipedia_Portal_templates&amp;action=edit&amp;redlink=1" class="new" title="Categoría:Wikipedia Portal templates (la página no existe)">Wikipedia Portal templates</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -208,8 +208,8 @@ Expensive parser function count: 6/100
 	  <ul>
 	    <li id="ca-nstab-template"
 	       class="selected"	       ><a href="../../../../articles/n/u/m/Plantilla:Numbered_subpages.html">Plantilla</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Plantilla_discusi%C3%B3n:Numbered_subpages&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Plantilla:Numbered_subpages">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Plantilla_discusi%C3%B3n:Numbered_subpages&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Plantilla:Numbered_subpages">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -273,7 +273,7 @@ Expensive parser function count: 6/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 16:15, 23 oct 2013 por Usuario <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Ragnarok&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Ragnarok (la página no existe)">Ragnarok</a> de Huayra. Basado en el trabajo de Huayra usuario anónimos <a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Contribuciones/Root" title="Especial:Contribuciones/Root">Root</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 16:15, 23 oct 2013 por Usuario <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Ragnarok&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Ragnarok (la página no existe)">Ragnarok</a> de Huayra. Basado en el trabajo de Huayra usuario anónimos <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Contribuciones/Root" title="Especial:Contribuciones/Root">Root</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

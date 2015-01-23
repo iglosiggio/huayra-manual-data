@@ -106,7 +106,7 @@
 <li class="toclevel-1 tocsection-22"><a href="#.C2.BFC.C3.B3mo_agregar_un_usuario_a_un_grupo.3F"><span class="tocnumber">13</span> <span class="toctext">¿Cómo agregar un usuario a un grupo?</span></a></li>
 </ul>
 </td></tr></table>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=1" title="Editar sección: ¿Cómo añadir una cuenta de usuario?">editar</a>]</span> <span class="mw-headline" id=".C2.BFC.C3.B3mo_a.C3.B1adir_una_cuenta_de_usuario.3F">¿Cómo añadir una cuenta de usuario?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFC.C3.B3mo_a.C3.B1adir_una_cuenta_de_usuario.3F">¿Cómo añadir una cuenta de usuario?</span></h2>
 <div class="thumb tright"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/c/r/e/Archivo:Crearusuario-mate.jpg.html" class="image"><img alt="" src="../../../../images/thumb/7/78/Crearusuario-mate.jpg/350px-Crearusuario-mate.jpg" width="350" height="226" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/c/r/e/Archivo:Crearusuario-mate.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Crear tu usuario en Huayra</div></div></div>
 <p>Para añadir una cuenta tenés que:
 </p>
@@ -125,14 +125,14 @@
 <p><br />
 Una vez que hayas añadido la cuenta de usuario, podés asignarle una imagen desde <a href="../../../../articles/c/e/n/Centro_de_control.html" title="Centro de control">Centro de control</a> o <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a>/Sistema/Preferencias en la aplicación <b>Acerca de mi</b>.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=2" title="Editar sección: ¿Qué son los &quot;Privilegios de administrador&quot;?">editar</a>]</span> <span class="mw-headline" id=".C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">¿Qué son los "Privilegios de administrador"?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F">¿Qué son los "Privilegios de administrador"?</span></h2>
 <p>Tu equipo tiene un número de archivos que el sistema necesita para trabajar adecuadamente. Si estos archivos se llegaran  a cambiar incorrectamente, puede llegar a causar varios problemas a tu Huayra, y es por esto que están <b>protegidos</b> de los cambios de manera predeterminada. Lo mismo sucede con ciertas aplicaciones que como pueden modificar partes importantes del sistema, están protegidas con <b><a href="../../../../articles/p/e/r/Permisos.html" title="Permisos">Permisos</a></b> especiales.
 </p><p>Por eso sólo los usuarios con privilegios administrativos (o de administración) pueden cambiar los archivos o usar esas aplicaciones. Pero como a veces es necesario utilizar estas aplicaciones, se puede obtener temporalmente privilegios de administrador para poder realizar los cambios que necesites. 
 Si una aplicación necesita privilegios de administrador, te va a pedir tu contraseña. Por ejemplo, si querés instalar un software nuevo, el instalador te pedirá tu contraseña de administrador para que puedas hacerlo. Una vez que hayas terminado, tus privilegios de administrador se te quitarán de nuevo.
 Los privilegios de administrador están asociados con tu cuenta de usuario. Algunos usuarios pueden tener privilegios de administrador y otros no. Sin privilegios de administrador no podrán instalar software.
 En resumen, los privilegios de administrador te permiten cambiar partes importantes de tu sistema cuando lo necesites, pero te impiden hacerlo accidentalmente.
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=3" title="Editar sección: ¿Por qué son útiles los privilegios de administrador?">editar</a>]</span> <span class="mw-headline" id=".C2.BFPor_qu.C3.A9_son_.C3.BAtiles_los_privilegios_de_administrador.3F">¿Por qué son útiles los privilegios de administrador?</span></h3>
+<h3> <span class="mw-headline" id=".C2.BFPor_qu.C3.A9_son_.C3.BAtiles_los_privilegios_de_administrador.3F">¿Por qué son útiles los privilegios de administrador?</span></h3>
 <p>Exigir a los usuarios tener privilegios de administrador antes de realizar cambios importantes del sistema es útil, porque ayuda a evitar que tu sistema se rompa, de manera intencionada o accidental.
 Si tuvieras privilegios de administrador todo el tiempo, podrías cambiar accidentalmente un archivo importante, o ejecutar una aplicación que cambia algo importante por error. Tener privilegios de administrador de manera temporal, cuando los necesitás, reduce el riesgo de que sucedan estos errores. Los privilegios de administrador son una manera de decidir quién puede hacer cambios a ciertas partes importantes del sistema Huayra.  
 </p><p>Podés cambiar qué usuarios tienen privilegios de administrador y cuáles no. Esto es una buena manera de mantener tu sistema seguro y evitar posibles daños por cambios no autorizados.
@@ -149,14 +149,14 @@ Si tuvieras privilegios de administrador todo el tiempo, podrías cambiar accide
 <div class="isa_tip">Desde el equipo Huayra te aconsejamos no tener demasiados usuarios con privilegios de Administrador para evitar inconvenientes.</div>
 <p><br />
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=4" title="Editar sección: Problemas causados por no tener permisos de administración">editar</a>]</span> <span class="mw-headline" id="Problemas_causados_por_no_tener_permisos_de_administraci.C3.B3n">Problemas causados por no tener permisos de administración</span></h3>
+<h3> <span class="mw-headline" id="Problemas_causados_por_no_tener_permisos_de_administraci.C3.B3n">Problemas causados por no tener permisos de administración</span></h3>
 <p>Acá te listamos algunos problemas que podés llegar a tener sino tenés los privilegios de administrador. Por ejemplo:
 </p>
 <ul><li> Al querer conectarse a algunas redes cableadas/inalámbricas
 </li><li> Para ver el contenido de un disco extraíble conectado al equipo, o el contenido de una partición de disco diferente (ej. una <a href="../../../../articles/p/a/r/Partici%C3%B3n.html" title="Partición">partición</a> de Windows)
 </li><li> Al querer instalar aplicaciones nuevas
 </li></ul>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=5" title="Editar sección: ¿Cómo cambiar la contraseña?">editar</a>]</span> <span class="mw-headline" id=".C2.BFC.C3.B3mo_cambiar_la_contrase.C3.B1a.3F">¿Cómo cambiar la contraseña?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFC.C3.B3mo_cambiar_la_contrase.C3.B1a.3F">¿Cómo cambiar la contraseña?</span></h2>
 <p>Para cambiar una contraseña, tenes que: 
 </p>
 <ol><li> En el <a href="../../../../articles/p/a/n/Panel_Superior.html" title="Panel Superior" class="mw-redirect">Panel Superior</a>, hacé clic en el ícono de <a href="../../../../articles/c/o/n/Configuraci%C3%B3n_del_sistema.html" title="Configuración del sistema" class="mw-redirect">Configuración del sistema</a> , y después en "Usuarios y grupos" (en el apartado "Sistema").
@@ -169,7 +169,7 @@ Si tuvieras privilegios de administrador todo el tiempo, podrías cambiar accide
 <div class="isa_important"><b>¡Dos cosas importantes!</b><br /> La primera, es una buena idea cambiar tu contraseña de vez en cuando, especialmente cuando al comienzo todas las contraseñas de las netbooks son idénticas (alumno).<br /> La segunda, asegurate de que estás eligiendo una buena contraseña, para ayudar a mantener la cuenta de usuario segura. Para más info, mira el apartado siguiente.</div>
 <p><br />
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=6" title="Editar sección: ¿Elegir una contraseña segura?¿Para qué?">editar</a>]</span> <span class="mw-headline" id=".C2.BFElegir_una_contrase.C3.B1a_segura.3F.C2.BFPara_qu.C3.A9.3F">¿Elegir una contraseña segura?¿Para qué?</span></h3>
+<h3> <span class="mw-headline" id=".C2.BFElegir_una_contrase.C3.B1a_segura.3F.C2.BFPara_qu.C3.A9.3F">¿Elegir una contraseña segura?¿Para qué?</span></h3>
 <p>Elegir una buena contraseña te va ayudar a mantener tu equipo e información de manera segura. Si tu contraseña es fácil de adivinar, alguien puede hacerlo y tener acceso a toda tu información personal.
 Incluso, alguien puede usar equipos para intentar sistemáticamente adivinar tu contraseña, lo que para una persona puede ser difícil de adivinar, puede ser fácil de obtener para un programa que, por ejemplo, ingresa en segundos todas las palabras que existen en un diccionario en español.
 Pero no te preocupes, acá te dejamos algunos consejos para elegir una buena contraseña:
@@ -191,11 +191,11 @@ Pero no te preocupes, acá te dejamos algunos consejos para elegir una buena con
 <div class="isa_important">Si esta información te pareció interesante, sería bueno la compartas con tus amigos, conocidos y familiares, o incluso en tu escuela, así ayudas a otros a proteger su información personal.</div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=7" title="Editar sección: ¿Cómo cambiar el avatar del usuario?">editar</a>]</span> <span class="mw-headline" id=".C2.BFC.C3.B3mo_cambiar_el_avatar_del_usuario.3F">¿Cómo cambiar el avatar del usuario?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFC.C3.B3mo_cambiar_el_avatar_del_usuario.3F">¿Cómo cambiar el avatar del usuario?</span></h2>
 <div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:355px;"><a href="../../../../articles/a/c/e/Archivo:Acerca_de_mi.jpg.html" class="image"><img alt="" src="../../../../images/thumb/4/41/Acerca_de_mi.jpg/353px-Acerca_de_mi.jpg" width="353" height="188" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/a/c/e/Archivo:Acerca_de_mi.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Usuarios y sesiones</div></div></div></div>
-<p>Cada usuario tiene una imagen o avatar. Para cambiarlo podés ir al Centro de configuración en el <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Panel_superior&amp;action=edit&amp;redlink=1" class="new" title="Panel superior (la página no existe)">panel superior</a> a la derecha y después a <b>Acerca de mí</b>. En este lugar vas a poder cambiar tanto el avatar como la contraseña.
+<p>Cada usuario tiene una imagen o avatar. Para cambiarlo podés ir al Centro de configuración en el <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Panel_superior&amp;action=edit&amp;redlink=1" class="new" title="Panel superior (la página no existe)">panel superior</a> a la derecha y después a <b>Acerca de mí</b>. En este lugar vas a poder cambiar tanto el avatar como la contraseña.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=8" title="Editar sección: ¿Cómo cambiar el nombre de la netbook Huayra?">editar</a>]</span> <span class="mw-headline" id=".C2.BFC.C3.B3mo_cambiar_el_nombre_de_la_netbook_Huayra.3F">¿Cómo cambiar el nombre de la netbook Huayra?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFC.C3.B3mo_cambiar_el_nombre_de_la_netbook_Huayra.3F">¿Cómo cambiar el nombre de la netbook Huayra?</span></h2>
 <p>Cambiar el nombre de la net es muy sencillo:
 </p><p><a href="../../../../articles/i/d/e/Archivo:Identinet.jpg.html" class="image"><img alt="Identinet.jpg" src="../../../../images/b/b5/Identinet.jpg" width="529" height="370" /></a>
 </p>
@@ -207,18 +207,18 @@ Pero no te preocupes, acá te dejamos algunos consejos para elegir una buena con
 Sí, en Huayra tenemos un aplicación que te va a permitir intercambiar archivos con tus compañeros en el aula sin necesidad de usar un pendrive o intenet. La aplicación se llama <a href="../../../../articles/i/p/t/IpTux.html" title="IpTux">IpTux</a>. Si te interesa aprender, mira cómo en <a href="../../../../articles/c/o/m/Compartir_tus_archivos.html" title="Compartir tus archivos">Compartir tus archivos</a> y ¡listo!</div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=9" title="Editar sección: ¿Por qué cambiar el nombre de tu Huayra?">editar</a>]</span> <span class="mw-headline" id=".C2.BFPor_qu.C3.A9_cambiar_el_nombre_de_tu_Huayra.3F">¿Por qué cambiar el nombre de tu Huayra?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFPor_qu.C3.A9_cambiar_el_nombre_de_tu_Huayra.3F">¿Por qué cambiar el nombre de tu Huayra?</span></h2>
 <p>Es recomendable que cambies el nombre de tu netbook para cuando quieras usar algunas aplicaciones como <a href="../../../../articles/c/o/m/Compartir_tus_archivos.html" title="Compartir tus archivos">Compartir tus archivos</a>, ya sea para chatear y/o compartir archivos con otros compañeros, ya que vas a necesitar identificar tu net y la del resto, y de no cambiarla, cuando busques a alguien para compartir un archivo todos te van a figurar con el mismo nombre "alumno" y va a ser imposible saber quién es quién.
 </p><p><br />
 </p><p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=10" title="Editar sección: ¿Qué es una sesión?">editar</a>]</span> <span class="mw-headline" id=".C2.BFQu.C3.A9_es_una_sesi.C3.B3n.3F">¿Qué es una sesión?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFQu.C3.A9_es_una_sesi.C3.B3n.3F">¿Qué es una sesión?</span></h2>
 <p>Una sesión es el periodo de tiempo que pasás usando Huayra, entre el inicio y la salida de la misma. Durante una sesión, podés usar tus aplicaciones, imprimir, navegar por la web, entre otras cosas.
 </p>
 <div class="isa_tip">Generalmente al salir termina tu sesión, pero podés elegir guardar el estado de su sesión (es decir, las modificaciones que hiciste) y restaurarlo la próxima vez que inicies Huayra tal cual dice en el apartado de abajo.</div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=11" title="Editar sección: ¿Cómo ajustar programas para que se inicien automáticamente al iniciar sesión?">editar</a>]</span> <span class="mw-headline" id=".C2.BFC.C3.B3mo_ajustar_programas_para_que_se_inicien_autom.C3.A1ticamente_al_iniciar_sesi.C3.B3n.3F">¿Cómo ajustar programas para que se inicien automáticamente al iniciar sesión?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFC.C3.B3mo_ajustar_programas_para_que_se_inicien_autom.C3.A1ticamente_al_iniciar_sesi.C3.B3n.3F">¿Cómo ajustar programas para que se inicien automáticamente al iniciar sesión?</span></h2>
 <p>Si ya sabes cuáles son los programas que usas con frecuencia, en vez de iniciar uno cada vez, podés hacer que se inicien automáticamente cuando inicies sesión. 
 Por ejemplo, podés hacer que arranque un navegador web tan pronto como inicies sesión.
 Los programas que se inician automáticamente al iniciar la sesión se llaman Programas al inicio. Estos se configuran haciendo clic en el <a href="../../../../articles/p/a/n/Panel_Superior.html" title="Panel Superior" class="mw-redirect">Panel Superior</a> en el Icono de <a href="../../../../articles/c/o/n/Configuraci%C3%B3n_del_Sistema.html" title="Configuración del Sistema" class="mw-redirect">Configuración del Sistema</a>  /Sistema/Preferencias, "Aplicaciones al inicio". Los programas al inicio se guardan y cierran automáticamente por el gestor de sesiones cuando se sale de la sesión, y se reinician cuando inicia sesión.
@@ -226,15 +226,15 @@ La herramienta de preferencia <i>Sesiones</i> contiene dos solapas, la solapa <i
 </p><p><a href="../../../../articles/o/p/a/Archivo:Opalinicio.jpg.html" class="image"><img alt="Opalinicio.jpg" src="../../../../images/3/32/Opalinicio.jpg" width="469" height="344" /></a>
 </p><p><br />
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=12" title="Editar sección: Solapa Programas al inicio">editar</a>]</span> <span class="mw-headline" id="Solapa_Programas_al_inicio">Solapa Programas al inicio</span></h3>
+<h3> <span class="mw-headline" id="Solapa_Programas_al_inicio">Solapa Programas al inicio</span></h3>
 <p>Podés usar la solapa Programas al inicio para añadir, modificar y quitar programas que se ejecuten al inicio.
 En esta solapa vas a ver una lista de programas con una descripción corta de cada uno, junto con una casilla de verificación que muestra si el programa al inicio está activado o no. Por lo tanto, los programas no activados no se iniciarán automáticamente cuando inicie sesión.
 </p>
-<h4><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=13" title="Editar sección: Activar y desactivar programas al inicio">editar</a>]</span> <span class="mw-headline" id="Activar_y_desactivar_programas_al_inicio">Activar y desactivar programas al inicio</span></h4>
+<h4> <span class="mw-headline" id="Activar_y_desactivar_programas_al_inicio">Activar y desactivar programas al inicio</span></h4>
 <p>Para <i>activar un programa al inicio</i> para que se inicie automáticamente seleccioná la casilla de verificación que corresponde al programa.
 Para <i>desactivar un programa</i> y que no se inicie automáticamente, deseleccioná la casilla de verificación.
 </p>
-<h4><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=14" title="Editar sección: Añadir un programa al inicio nuevo">editar</a>]</span> <span class="mw-headline" id="A.C3.B1adir_un_programa_al_inicio_nuevo">Añadir un programa al inicio nuevo</span></h4>
+<h4> <span class="mw-headline" id="A.C3.B1adir_un_programa_al_inicio_nuevo">Añadir un programa al inicio nuevo</span></h4>
 <p>Para añadir un programa al inicio nuevo:
 </p>
 <ol><li> Hacé clic en <i>Añadir</i>. Esto abrirá el diálogo <i>Añadir programa al inicio</i>.
@@ -243,19 +243,19 @@ Para <i>desactivar un programa</i> y que no se inicie automáticamente, deselecc
 </li><li> Ingresá una descripción para la aplicación en la caja de texto <i>Comentarios</i>. Esta descripción del programa va a aparecer en la lista de programas al inicio.
 </li><li> Hacé clic en <i>Añadir</i>. La aplicación se añadirá a la lista de programas al inicio con su casilla de verificación marcada (activada).
 </li></ol>
-<h4><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=15" title="Editar sección: Quitar un programa al inicio">editar</a>]</span> <span class="mw-headline" id="Quitar_un_programa_al_inicio">Quitar un programa al inicio</span></h4>
+<h4> <span class="mw-headline" id="Quitar_un_programa_al_inicio">Quitar un programa al inicio</span></h4>
 <p>Para quitar un programa al inicio selecciónelo de la lista de programas al inicio y hacé clic en <i>Quitar</i>.
 </p><p><br />
 </p>
-<h4><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=16" title="Editar sección: Editar un programa al inicio">editar</a>]</span> <span class="mw-headline" id="Editar_un_programa_al_inicio">Editar un programa al inicio</span></h4>
+<h4> <span class="mw-headline" id="Editar_un_programa_al_inicio">Editar un programa al inicio</span></h4>
 <p>Para editar un programa al inicio existente seleccionalo de la lista de programas al inicio y hacé clic en <i>Editar</i>. Aparecerá un cuadro de diálogo que te permitirá editar las propiedades del programa.
 </p><p><br />
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=17" title="Editar sección: Solapa Opciones de sesión">editar</a>]</span> <span class="mw-headline" id="Solapa_Opciones_de_sesi.C3.B3n">Solapa Opciones de sesión</span></h3>
+<h3> <span class="mw-headline" id="Solapa_Opciones_de_sesi.C3.B3n">Solapa Opciones de sesión</span></h3>
 <p><a href="../../../../articles/r/e/c/Archivo:Recordar-inicio-ses.jpg.html" class="image"><img alt="Recordar-inicio-ses.jpg" src="../../../../images/7/70/Recordar-inicio-ses.jpg" width="568" height="373" /></a>
 </p><p>El gestor de sesiones puede recordar qué aplicaciones se estaban ejecutando cuando salió de la sesión y reiniciarlas automáticamente cuando inicia sesión de nuevo. Si querés que esto suceda cada vez que cierra la sesión, seleccioná <i>Recordar automáticamente las aplicaciones en ejecución al salir de la sesión</i>. Si querés que esto sólo pase una vez, hacé clic en <i>Recordar las aplicaciones ejecutándose actualmente</i> antes de cerrar la sesión.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=18" title="Editar sección: ¿Cómo termino una sesión?">editar</a>]</span> <span class="mw-headline" id=".C2.BFC.C3.B3mo_termino_una_sesi.C3.B3n.3F">¿Cómo termino una sesión?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFC.C3.B3mo_termino_una_sesi.C3.B3n.3F">¿Cómo termino una sesión?</span></h2>
 <p>Cuando hayas terminado de usar el equipo, podés elegir hacer una de las siguientes opciones:
 </p><p><br />
 </p>
@@ -281,7 +281,7 @@ Para <i>desactivar un programa</i> y que no se inicie automáticamente, deselecc
 <div class="isa_important">Cuando termines una sesión, si tenes algunas aplicaciones con trabajo no guardado te va a aparecer un cartel dando aviso. Podés elegir "guardar" o "cancelar" para salir y apagar.</div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=19" title="Editar sección: ¿Bloquear la pantalla?">editar</a>]</span> <span class="mw-headline" id=".C2.BFBloquear_la_pantalla.3F">¿Bloquear la pantalla?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFBloquear_la_pantalla.3F">¿Bloquear la pantalla?</span></h2>
 <p>Bloquear la pantalla permite que dejes tu equipo desatendido porque impide que otros accedan a tu información y aplicaciones. 
 Mientras tu pantalla está bloqueada se ejecuta el salvapantallas.
 Si querés bloquear la pantalla seguí estos pasos:
@@ -293,7 +293,7 @@ Si querés bloquear la pantalla seguí estos pasos:
 Si otro usuario quiere usar el equipo mientras está bloqueado, simplemente con mover el mouse o pulsar alguna tecla, puede seleccionar <i>Cambiar de usuario</i>. Allí, se mostrará la pantalla de inicio de sesión y el usuario podrá iniciar sesión con su propia cuenta. 
 No te preocupes, no podrán acceder a ninguna de tus aplicaciones o información. Cuando finalicen su sesión, la pantalla se bloqueará de nuevo y así vos vas a poder volver a acceder desbloqueando la pantalla nuevamente.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=20" title="Editar sección: ¿Cuándo y cómo debo generar una cuenta de usuario &quot;de invitado&quot;?">editar</a>]</span> <span class="mw-headline" id=".C2.BFCu.C3.A1ndo_y_c.C3.B3mo_debo_generar_una_cuenta_de_usuario_.22de_invitado.22.3F">¿Cuándo y cómo debo generar una cuenta de usuario "de invitado"?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFCu.C3.A1ndo_y_c.C3.B3mo_debo_generar_una_cuenta_de_usuario_.22de_invitado.22.3F">¿Cuándo y cómo debo generar una cuenta de usuario "de invitado"?</span></h2>
 <p>Podés crear una cuenta de usuario para "invitados", es decir, para personas que sólo usen el equipo de forma breve y temporal. El usuario invitado va a poder utilizar los programas en tu equipo, pero no de acceder a tus archivos, o cambiar tu configuración ni instalar aplicaciones.
 </p>
 <ol><li> Entonces, para hacerlo, tenés que repetir los primeros pasos de <a href="#.C2.BFC.C3.B3mo_a.C3.B1adir_una_cuenta_de_usuario.3F">Añadir una cuenta de usuario</a> hasta el paso 8.
@@ -301,7 +301,7 @@ No te preocupes, no podrán acceder a ninguna de tus aplicaciones o información
 </li></ol>
 <p><a href="../../../../articles/i/n/v/Archivo:Invitado.jpg.html" class="image"><img alt="Invitado.jpg" src="../../../../images/4/48/Invitado.jpg" width="398" height="366" /></a>
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=21" title="Editar sección: ¿Cómo hago para eliminar una cuenta de usuario?">editar</a>]</span> <span class="mw-headline" id=".C2.BFC.C3.B3mo_hago_para_eliminar_una_cuenta_de_usuario.3F">¿Cómo hago para eliminar una cuenta de usuario?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFC.C3.B3mo_hago_para_eliminar_una_cuenta_de_usuario.3F">¿Cómo hago para eliminar una cuenta de usuario?</span></h2>
 <p>Si alguno de los usuarios que creaste, no va a volver a usar el equipo, o simplemente porque te diste cuenta que no era necesaria, podes eliminar esa cuenta de usuario, siguiendo estos pasos:
 </p>
 <ol><li> Hacé clic en en Icono de <a href="../../../../articles/c/o/n/Configuraci%C3%B3n_del_Sistema.html" title="Configuración del Sistema" class="mw-redirect">Configuración del Sistema</a> en el <a href="../../../../articles/p/a/n/Panel_Superior.html" title="Panel Superior" class="mw-redirect">Panel Superior</a> entrá en Sistema, Administración y "Usuario y grupos".
@@ -312,7 +312,7 @@ No te preocupes, no podrán acceder a ninguna de tus aplicaciones o información
 <div class="isa_important"><b>Eliminar archivos</b> <br /> Cuando elegís esta opción, los archivos se eliminan permanentemente. No se pueden recuperar. Por lo tanto, te recomendamos hacer una copia de respaldo de los archivos en una unidad externa antes de eliminarlos. </div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_sesiones&amp;action=edit&amp;section=22" title="Editar sección: ¿Cómo agregar un usuario a un grupo?">editar</a>]</span> <span class="mw-headline" id=".C2.BFC.C3.B3mo_agregar_un_usuario_a_un_grupo.3F">¿Cómo agregar un usuario a un grupo?</span></h2>
+<h2> <span class="mw-headline" id=".C2.BFC.C3.B3mo_agregar_un_usuario_a_un_grupo.3F">¿Cómo agregar un usuario a un grupo?</span></h2>
 <p>En GNU/Linux los grupos son, en términos generales, conjuntos de permisos especiales sobre algunos directorios y aplicaciones. Que un usuario pertenezca o no a algún grupo lo habilita o inhabilita a realizar determinadas acciones en el sistema o a utilizar determinadas aplicaciones. Por ejemplo, para utilizar la aplicación <a href="../../../../articles/e/p/o/Epoptes.html" title="Epoptes">Epoptes</a> de gestión del aula, es necesario agregar el usuario al grupo. Para agregar al usuario "alumno" al grupo -epoptes-:.
 </p>
 <ol><li> En el <a href="../../../../articles/p/a/n/Panel_Superior.html" title="Panel Superior" class="mw-redirect">Panel Superior</a>, hacé clic en el ícono de <a href="../../../../articles/c/o/n/Configuraci%C3%B3n_del_Sistema.html" title="Configuración del Sistema" class="mw-redirect">Configuración del Sistema</a> , y después en "Usuarios y grupos" (en el apartado "Sistema").<br /><a href="../../../../articles/g/r/u/Archivo:Grupos1.jpg.html" class="image"><img alt="Grupos1.jpg" src="../../../../images/6/6a/Grupos1.jpg" width="811" height="542" /></a>
@@ -332,7 +332,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/u/s/u/Categor%C3%ADa:Usuarios_y_sesiones.html" title="Categoría:Usuarios y sesiones">Usuarios y sesiones</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/u/s/u/Categor%C3%ADa:Usuarios_y_sesiones.html" title="Categoría:Usuarios y sesiones">Usuarios y sesiones</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -343,8 +343,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/u/s/u/Usuarios_y_sesiones.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Usuarios_y_sesiones&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Usuarios_y_sesiones">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Usuarios_y_sesiones&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Usuarios_y_sesiones">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -408,7 +408,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 15:57, 5 may 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 15:57, 5 may 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

@@ -47,7 +47,7 @@
 	    <h3 id="siteSub">De Huayra</h3>
 	    <div id="contentSub"></div>
 	    	    	    <!-- start content -->
-	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><p><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Especial:SubirArchivo&amp;wpDestFile=Img/epoptes.png" class="new" title="Archivo:Img/epoptes.png">Archivo:Img/epoptes.png</a>
+	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><p><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Especial:SubirArchivo&amp;wpDestFile=Img/epoptes.png" class="new" title="Archivo:Img/epoptes.png">Archivo:Img/epoptes.png</a>
 </p><p>iTALC (Enseñanza inteligente y aprendizaje con computadoras) es un software libre de e-learning que permite a un profesor tomar el control para realizar demostraciones a los estudiantes en un aula de informática en red. El programa fue desarrollado como una alternativa libre del software MasterEye utilizando la biblioteca Qt. Las versiones del software están disponibles para Linux y Windows.iTALC funciona incluso en un entorno heterogéneo. Por ejemplo, un profesor con un portátil con Linux puede administrar una red bajo Windows.
 </p><p>iTALC ofrece muchas oportunidades para los maestros, tales como:
 </p>
@@ -89,14 +89,14 @@
 </li>
 </ul>
 </td></tr></table>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=ITALC&amp;action=edit&amp;section=1" title="Editar sección: Configuración y uso">editar</a>]</span> <span class="mw-headline" id="Configuraci.C3.B3n_y_uso">Configuración y uso</span></h2>
+<h2> <span class="mw-headline" id="Configuraci.C3.B3n_y_uso">Configuración y uso</span></h2>
 <ul><li> Debe configurarse un cliente "maestro" iTALC en la computadora del docente.
 </li></ul>
 <ul><li> La implementación "alumno" se debe hacer en las restantes computadoras.
 </li></ul>
 <ul><li> La seguridad para evitar que algún intruso de fuera de la clase pueda entrar en los ordenadores se garantiza a través de una llave pública copiada en cada equipo "alumno" y una llave privada que permanece en el equipo maestro.
 </li></ul>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=ITALC&amp;action=edit&amp;section=2" title="Editar sección: Trabajo con iTALC">editar</a>]</span> <span class="mw-headline" id="Trabajo_con_iTALC">Trabajo con iTALC</span></h3>
+<h3> <span class="mw-headline" id="Trabajo_con_iTALC">Trabajo con iTALC</span></h3>
 <p>Una vez iniciada la aplicación correctamente, se debe proceder a verificar las conexiones inalámbricas de las computadoras a la red del aula. Las direcciones IP están previamente cargadas en un rango de IP que se debe consultar con el RTE.
 </p><p>Para verificar que todas las computadoras estén conectadas al programa ITALC, se debe seleccionar el vinculo “CLASE” y luego el nombre de la clase.
 </p>
@@ -114,16 +114,16 @@
 </li></ul>
 <ul><li> El vinculo “Auto juste” sirve para reacomodar automáticamente las ventanas actualmente visualizadas en la pantalla.
 </li></ul>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=ITALC&amp;action=edit&amp;section=3" title="Editar sección: Preguntas frecuentes">editar</a>]</span> <span class="mw-headline" id="Preguntas_frecuentes">Preguntas frecuentes</span></h2>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=ITALC&amp;action=edit&amp;section=4" title="Editar sección: ¿Qué pasa si me cambio de aula?">editar</a>]</span> <span class="mw-headline" id=".C2.BFQu.C3.A9_pasa_si_me_cambio_de_aula.3F">¿Qué pasa si me cambio de aula?</span></h3>
+<h2> <span class="mw-headline" id="Preguntas_frecuentes">Preguntas frecuentes</span></h2>
+<h3> <span class="mw-headline" id=".C2.BFQu.C3.A9_pasa_si_me_cambio_de_aula.3F">¿Qué pasa si me cambio de aula?</span></h3>
 <p>Si el alumno/a cambia de curso simplemente el docente que lo tenía en sus cursos lo dará de baja del listado de alumnos y el nuevo docente lo agregará.
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=ITALC&amp;action=edit&amp;section=5" title="Editar sección: ¿Qué pasa si tengo un alumno nuevo?">editar</a>]</span> <span class="mw-headline" id=".C2.BFQu.C3.A9_pasa_si_tengo_un_alumno_nuevo.3F">¿Qué pasa si tengo un alumno nuevo?</span></h3>
+<h3> <span class="mw-headline" id=".C2.BFQu.C3.A9_pasa_si_tengo_un_alumno_nuevo.3F">¿Qué pasa si tengo un alumno nuevo?</span></h3>
 <p>Desde el tablero de administración elegir la opción añadir ordenador,se abrirá una ventana en la que deberá completar:
 </p><p>Nombre del alumno
 </p><p>IP y la Dirección de Hardware → Para saber la IP de la computadora del alumno que está agregando, le debe pedir que se fije el icono de conectividad, botón derecho + Información de la conexión.
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=ITALC&amp;action=edit&amp;section=6" title="Editar sección: ¿Qué pasa si en la misma aula a la mañana tengo a un curso y a la tarde a otro?">editar</a>]</span> <span class="mw-headline" id=".C2.BFQu.C3.A9_pasa_si_en_la_misma_aula_a_la_ma.C3.B1ana_tengo_a_un_curso_y_a_la_tarde_a_otro.3F">¿Qué pasa si en la misma aula a la mañana tengo a un curso y a la tarde a otro?</span></h3>
+<h3> <span class="mw-headline" id=".C2.BFQu.C3.A9_pasa_si_en_la_misma_aula_a_la_ma.C3.B1ana_tengo_a_un_curso_y_a_la_tarde_a_otro.3F">¿Qué pasa si en la misma aula a la mañana tengo a un curso y a la tarde a otro?</span></h3>
 <p>No hay ningún problema, el programa permite armar tantos cursos como se requieran, el concepto aula esta ligado al grupo humano que la conforma y no al factor edilicio.
 </p><p>Para crear una clase o agregar una máquina de alumno, el docente debe ir al tablero en el costado izquierdo, y hacer clic en el icono Administración de clases (hoja con lupa). Se desplegará una ventana donde se podrá ver una lista donde estarán las clases con sus respectivas máquinas asociadas. Deberá hacer clic con el botón derecho y elegir la opción, Añadir clase ó Añadir ordenador (para añadir la computadora de un alumno).
 </p><p>Si elije la opción Añadir clase, se abrirá un cuadro de diálogo donde deberá completar el nombre de la clase y hacer cilc en Aceptar.
@@ -139,7 +139,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Categor%C3%ADa:P%C3%A1ginas_con_enlaces_rotos_a_archivos&amp;action=edit&amp;redlink=1" class="new" title="Categoría:Páginas con enlaces rotos a archivos (la página no existe)">Páginas con enlaces rotos a archivos</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Categor%C3%ADa:P%C3%A1ginas_con_enlaces_rotos_a_archivos&amp;action=edit&amp;redlink=1" class="new" title="Categoría:Páginas con enlaces rotos a archivos (la página no existe)">Páginas con enlaces rotos a archivos</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -150,8 +150,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/i/t/a/ITALC.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:ITALC&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/ITALC">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:ITALC&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/ITALC">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -215,7 +215,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:45, 8 jul 2013 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. </li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:45, 8 jul 2013 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. </li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

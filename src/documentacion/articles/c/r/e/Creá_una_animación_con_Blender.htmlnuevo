@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- headlinks removed -->
+	<link rel="shortcut icon" href="../../../../misc/favicon.ico"/>
+    <title>Creá una animación con Blender - Huayra</title>
+    <style type="text/css">/*<![CDATA[*/ @import "../../../../skins/offline/main.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="../../../../skins/common/commonPrint.css" />
+    <!--[if lt IE 5.5000]><style type="text/css">@import "../../../../skins/monobook/IE50Fixes.css";</style><![endif]-->
+    <!--[if IE 5.5000]><style type="text/css">@import "../../../../skins/monobook/IE55Fixes.css";</style><![endif]-->
+    <!--[if IE 6]><style type="text/css">@import "../../../../skins/monobook/IE60Fixes.css";</style><![endif]-->
+    <!--[if IE]><script type="text/javascript" src="../../../../skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+    <script type="text/javascript" src="../../../../skins/common/wikibits.js"></script>
+    <script type="text/javascript" src="../../../../skins/offline/md5.js"></script>
+    <script type="text/javascript" src="../../../../skins/offline/utf8.js"></script>
+    <script type="text/javascript" src="../../../../skins/offline/lookup.js"></script>
+                      </head>
+  <body class="mediawiki ltr ns-0 ns-subject page-Creá_una_animación_con_Blender">
+    <div id="globalWrapper">
+      <div id="column-content">
+	
+<link rel="stylesheet" type="text/css" href="app://./css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="app://./css/estilo.css"/>
+<link rel="stylesheet" type="text/css" href="app://./css/magnific-popup.css"/>
+<script type="text/javascript" src="app://./js/jquery.min.js"></script>
+
+<script type="text/javascript" src="app://./js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript" src="app://./js/bootstrap.js"></script>
+
+<script type="text/javascript" src="app://./js/barra.js"></script>
+
+<script type="text/javascript" src="app://./js/imagenes.js"></script>
+
+<div id='navegador'> 
+  <a class='btn btn-success btn-xs' onclick='history.back()'>« Atrás</a> 
+  <a class='btn btn-success btn-xs' href='app://./documentacion/index.html'>Inicio</a> 
+  <a class='btn btn-success btn-xs' onclick='history.forward()'>Adelante »</a> 
+  <a class='btn btn-info btn-xs derecha' href='app://./documentacion/buscar.html'>Buscar</a> 
+</div> 
+<div class="contenido" id="content">
+	  <a name="top" id="contentTop"></a>
+	        <h1 class="firstHeading">Creá una animación con Blender</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">De Huayra</h3>
+	    <div id="contentSub"></div>
+	    	    	    <!-- start content -->
+	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><p><a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> es un programa informático dedicado especialmente al modelado, animación y creación de gráficos tridimensionales. <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> te permite crear animaciones para hacer cortos o largometrajes (incluso videojuegos en 3D). 
+Hoy vamos a ver como hacer una pequeña animación combinada con imagen de fondo para que puedan ver los fundamentos básicos de animación en <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a>. Antes de seguir con este tutorial, te recomendamos leer <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html" title="Blender desde 0: la interfaz">Blender desde 0: la interfaz</a> y también los otros tutoriales que están en el sitio.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:402px;"><a href="../../../../articles/b/l/e/Archivo:BlenderAnim1.jpg.html" class="image"><img alt="BlenderAnim1.jpg" src="../../../../images/thumb/f/f0/BlenderAnim1.jpg/400px-BlenderAnim1.jpg" width="400" height="220" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:BlenderAnim1.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contenido</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Arm.C3.A1_tu_espacio_de_trabajo"><span class="tocnumber">1</span> <span class="toctext">Armá tu espacio de trabajo</span></a>
+<ul>
+<li class="toclevel-2 tocsection-2"><a href="#Tus_.C3.A1reas_de_trabajo"><span class="tocnumber">1.1</span> <span class="toctext">Tus áreas de trabajo</span></a></li>
+<li class="toclevel-2 tocsection-3"><a href="#Tama.C3.B1o_y_duraci.C3.B3n_de_la_animaci.C3.B3n"><span class="tocnumber">1.2</span> <span class="toctext">Tamaño y duración de la animación</span></a></li>
+<li class="toclevel-2 tocsection-4"><a href="#Dispon.C3.A9_los_elementos_con_los_que_vas_a_trabajar:_la_c.C3.A1mara"><span class="tocnumber">1.3</span> <span class="toctext">Disponé los elementos con los que vas a trabajar: la cámara</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-5"><a href="#Agreg.C3.A1_el_resto_de_los_elementos:_los_actores_y_el_fondo"><span class="tocnumber">2</span> <span class="toctext">Agregá el resto de los elementos: los actores y el fondo</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Bosquejar_un_borrador_de_la_animacion"><span class="tocnumber">3</span> <span class="toctext">Bosquejar un borrador de la animacion</span></a>
+<ul>
+<li class="toclevel-2 tocsection-7"><a href="#Activa_los_key_frames"><span class="tocnumber">3.1</span> <span class="toctext">Activa los key frames</span></a></li>
+<li class="toclevel-2 tocsection-8"><a href="#inicia_la_animacion"><span class="tocnumber">3.2</span> <span class="toctext">inicia la animacion</span></a></li>
+<li class="toclevel-2 tocsection-9"><a href="#bosqueja_la_animacion"><span class="tocnumber">3.3</span> <span class="toctext">bosqueja la animacion</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-10"><a href="#Refinar_la_animaci.C3.B3n"><span class="tocnumber">4</span> <span class="toctext">Refinar la animación</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Renderizar"><span class="tocnumber">5</span> <span class="toctext">Renderizar</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Arm.C3.A1_tu_espacio_de_trabajo">Armá tu espacio de trabajo</span></h2>
+<h3> <span class="mw-headline" id="Tus_.C3.A1reas_de_trabajo"> Tus áreas de trabajo</span></h3>
+<div class="thumb tleft"><div class="thumbinner" style="width:207px;"><a href="../../../../articles/b/l/e/Archivo:Blender_edicion_video.jpg.html" class="image"><img alt="Blender edicion video.jpg" src="../../../../images/thumb/1/15/Blender_edicion_video.jpg/205px-Blender_edicion_video.jpg" width="205" height="108" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blender_edicion_video.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div>
+<p>Como comentamos en <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html" title="Blender desde 0: la interfaz">Blender desde 0: la interfaz</a> el espacio de trabajo de <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> se divide en <b>módulos</b> y es altamente configurable. La idea es que te sientas cómodo y adaptes la herramienta a tu forma de trabajo, y no al revés, que te veas forzado a limitar tu forma de trabajo por la herramienta que uses. Por eso te recomendamos adaptar los módulo a una configuración que te sea cómoda. Podés usar una configuración por defecto para animación yendo al menu superior y eligiendo <i>Animación</i> en lugar de <i>Default</i>     
+</p><p>También podés usar los módulos que desees. En este tutorial vamos a mostrar en las capturas de pantalla <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> con la siguiente configuración. Partiendo de la configuración por defecto con la que inicia <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a>, solamente cambiamos el área superior derecha para que muestre la <i>Planilla de tiempo</i>.
+</p>
+<h3> <span class="mw-headline" id="Tama.C3.B1o_y_duraci.C3.B3n_de_la_animaci.C3.B3n"> Tamaño y duración de la animación </span></h3>
+<p>Es muy importante que planifiques qué es lo que querés lograr de ante mano. Que sepas hacia dónde querés ir antes de sentarte a hacerlo. Podés dibujar un <i>storyboard</i> como un comic con viñetas que sea un borrador de su animación. Esto te va a ayudar a tener en claro las cosas antes de lanzarte a animar. Una de las cosas a tener en claro es el <a href="../../../../articles/f/o/r/Formatos_de_video.html" title="Formatos de video">formato de video</a> en el que vas a trabajar. Fundamentalmente el tamaño: ¿va a ser, por ejemplo, en HD con definición es 1280x720px y proporción 16:9?  Pero como vamos a usar una netbook, es mejor usar <a href="../../../../articles/f/o/r/Formatos_de_video.html" title="Formatos de video">formatos de video</a> de menor resolución, por ejemplo 640x480 que es el estándar de VGA. Para más información pueden leer el artículo de <a href="../../../../articles/f/o/r/Formatos_de_video.html" title="Formatos de video">Formatos de video</a>. 
+</p><p>Otro aspecto a tener en cuenta es cuánto va a durar la animación. Esto se mide en minutos y segundos, pero tiene mucho que ver también con los <i>frames</i> y especialmente con los <a href="../../../../articles/f/o/r/Formatos_de_video.html#FPS" title="Formatos de video">FPS o frames por segundo</a>. En este caso, vamos a usar una imagen de fondo sobre lo que vamos a animar un objeto (la pelota). Esa imagen es siempre la misma, no cambia, no es un video que tiene una determinada duración y que tenemos que hacer coincidir con nuestra animación. Por eso no tenemos que preocuparnos tanto. Pero si fuese un video, deberíamos coordinar a la perfección la duración de ambos, calculando cuantos frames y que tasa de reproducción. Pero hablaremos más adelante sobre esto. 
+</p><p><b>Paso 1</b>
+</p><p>Por ahora preocupemosnos solamente por el tamaño. Vamos a trabajar en 640x480. Para esto capturá una imagen con la netbook o su celular sobre la que quieran animar un objeto en 3D. No importa el tamaño, siempre se puede achicar la imagen. Pero importa la proporción 4:3. En todo caso se puede cortar para que mantenga la proporción. <a href="../../../../articles/g/i/m/GIMP.html" title="GIMP" class="mw-redirect">GIMP</a> se encuentra instalado en <b>Huayra</b> y te deja hacer estas operaciones. Guardá esa imagen con 640 px de ancho y 430 de alto en la carpeta de trabajo de su proyecto.
+</p>
+<h3> <span class="mw-headline" id="Dispon.C3.A9_los_elementos_con_los_que_vas_a_trabajar:_la_c.C3.A1mara"> Disponé los elementos con los que vas a trabajar: la cámara </span></h3>
+<p>Imaginate ahora que <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> es un estudio de grabación real. Tenemos que empezar por disponer los elementos de trabajo con los que contamos como la cámara, la imagen que vamos a utilizar como fondo y los actores (vamos a dejar un elemento importantísimo para el final: las luces). Como es un estudio <i>virtual</i>, en 3 dimensiones, no es tan sencillo decir dónde vas a poner la cámara. No hay un "piso", un "adelante", un "atrás" tan obvios. La idea del video como podés ver es animar una pelota que se mueva de una mano a la otra. Se va a mover en dos sentidos, en dos <b>dimensiones</b>, hacia un costado y hacia arriba. No va a haber "profundidad", no se va a mover "hacia adentro" o "hacia afuera". Imaginen algo así como un escenario de teatro muy fino, donde los actores pueden solamente moverse de izquierda a derecha y saltar. Tenemos que posicionar la cámara frente a ese escenario.
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:BlenderAnim2.png.html" class="image"><img alt="" src="../../../../images/thumb/8/8a/BlenderAnim2.png/250px-BlenderAnim2.png" width="250" height="202" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:BlenderAnim2.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Vista Superior sin cubo ni cámara</div></div></div>
+<p>Para hacer esto vamos a posicionar la visión que tenemos del <b>Mundo</b> (es decir de todo el estudio virtual que imaginamos hay en nuestra pantalla de <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a>) desde la perspectiva que anula el eje Z. <b>¿Qué es esto?</b> Como probablemente recuerdes de geometría (y si no, repasalo porque te va a servir de mucho) el espacio esta hecho de 3 dimensiones, el eje X para el ancho, el eje Y para el alto y el eje Z para la profundidad. Si queremos animar como dijimos, solamente en 2 dimensiones, para movernos en <i>lo alto</i> y en <i>lo ancho</i>, no necesitamos el eje Z. Por eso vamos a posicionarnos, siguiendo la metáfora del escenario, como si estuviésemos en medio de la platea, frente al escenario, no muy arriba ni muy abajo, justo en frente. Si saliese una linea desde el escenario, esa "línea" sería el eje Z. De este modo estaríamos mirando al plano conformado por el eje X y el eje Y (recuerden que dos rectas conforman un plano).
+</p><p><b>Paso 2</b>
+</p><p>Para hacer esto podés ir al menú <i>Vista</i> en la parte inferior izquierda del área principal y elegir la vista <i>Superior</i>. Esto se puede hacer con el teclado numérico con el 7 (en las netbooks no hay teclado numérico pero se puede simular con la tecla <i>Fn</i> y la tecla <i>Shift</i>). 
+</p><p><b>¿Por qué superior?</b> Ni bien abrís <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> ves un plano cuadriculado. Este plano sería algo así como "el piso". Lo que hacemos ahora es simular como si el piso fuese el fondo del escenario, la pared del fondo en lugar del piso. Por eso es que se llama <i>Vista Superior</i>, porque es como si viésemos el piso. Como en el estudio de <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> no hay gravedad (aunque se puede simular) en realidad es lo mismo usar cualquier vista que anule uno de los ejes. Usamos esta porque vamos a usar la cuadrícula que ya existe para guiarnos en la animación, pero vos podés elegir el que te sea más cómodo. Estos conceptos aparecieron en <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html" title="Blender desde 0: la interfaz">Blender desde 0: la interfaz</a> con más claridad y detalle.
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:BlenderAnim3.jpg.html" class="image"><img alt="" src="../../../../images/thumb/5/5c/BlenderAnim3.jpg/250px-BlenderAnim3.jpg" width="250" height="153" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:BlenderAnim3.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Alejar la cámara</div></div></div>
+<p><b>Paso 3</b>
+</p><p>Una vez que nos posicionado en la <i>Vista superior</i> seleccioná (clic derecho) y eliminá (tecla <i>Suprimir</i>) la cámara y el cubo. Intentá no hacer clic izquierdo en ningún lugar, porque esto cambia el <i>cursor</i>. Si lo hiciste no hay problema, cerrá y abrí <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> de nuevo. Por ahora no avanzamos mucho y no vas a perder mucho trabajo. Te decimos esto porque una vez que estemos en la <i>Vista Superior</i> vamos a agregar la cámara y esta se va a agregar en el lugar exacto del cursor, lugar que esta dado por 3 coordenadas, porque el cursor no deja de estar nunca en 3 dimensiones. Entonces queremos que la cámara se agregue encuadrando en el sentido del eje Z, en plano cenital (desde arriba) al plano que forma nuestro "piso". 
+</p><p><b>Paso 4</b>
+</p><p>Entonces una ves posicionados en la <i>Vista Superior</i>, eliminado la cámara y el cubo, vamos a agregar de nuevo la cámara desde el menú <i>Agregar</i> o con <b>Shift + A</b>. Si rotas la vista un poco moviéndote presionando la ruedita del mouse o ambos botones (o eligiendo por ejemplo la <i>Vista Izquierda</i>, vas a ver el eje Z en azul. En este momento se puede ver que la cámara está casi dentro de lo que llamamos la pared del escenario (la malla cuadriculada). Es necesario alejarla para poder encuadrar todo el escenario. Alejala un poco moviéndola sobre el eje Z, es decir presiona la flecha azul y comenzá a alejarla del "escenario". Ahora volvé a la <i>Vista superior</i>. A partir de ahora no vamos a abandonarla más.
+</p>
+<div class="isa_tip">
+<p>Te dejamos algunos links a videos que logran efectos a partir de mezclar los planos y las orientaciones de cámara. Son efectos sencillos y básicos, pero no por eso menos encantadores y efectivos. Además con muy ejemplificadores de lo que queremos trasmitir acá.
+</p>
+<ul><li> Batman trepando una pared [<a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=Ml09gXbkqHo">link</a>]
+</li></ul>
+<ul><li> Cablín: consejos útiles [<a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=tA8-ejgR6lQ">link</a>]
+</li></ul>
+<ul><li> Corto de <a href="../../../../articles/h/u/a/Huayra_Motion.html" title="Huayra Motion">Stop Motion</a> (utiliza el pasto de una plaza como pared) [<a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=g3p2TZ5q9to">link</a>]
+</li></ul>
+</div>
+<p><br />
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:182px;"><a href="../../../../articles/u/s/i/Archivo:UsinaDelArte.jpg.html" class="image"><img alt="" src="../../../../images/thumb/f/f0/UsinaDelArte.jpg/180px-UsinaDelArte.jpg" width="180" height="269" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/u/s/i/Archivo:UsinaDelArte.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Pared simulada como piso</div></div></div></div>
+<h2> <span class="mw-headline" id="Agreg.C3.A1_el_resto_de_los_elementos:_los_actores_y_el_fondo"> Agregá el resto de los elementos: los actores y el fondo </span></h2>
+<div class="thumb tleft"><div class="thumbinner" style="width:182px;"><a href="../../../../articles/m/a/t/Archivo:MatePainting.jpg.html" class="image"><img alt="" src="../../../../images/thumb/b/b0/MatePainting.jpg/180px-MatePainting.jpg" width="180" height="100" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/m/a/t/Archivo:MatePainting.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Técnica de pintura en mate en la película Star Wars</div></div></div>
+<p><br />
+</p>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:BlenderAnim4.jpg.html" class="image"><img alt="" src="../../../../images/thumb/a/a8/BlenderAnim4.jpg/250px-BlenderAnim4.jpg" width="250" height="138" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:BlenderAnim4.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div><b>Paso 5</b> - Agregar imagen de fondo</div></div></div>
+<p>Lo que vamos a realizar a continuación es poner una imagen de fondo sobre la que vamos a animar nuestro objeto 3D y simular que interactúa con ese fondo. En cine existe una técnica que se llama <b>pintura mate</b> donde los fondos de muchas tomas son en realidad pinturas en mate. En nuestro caso, como viste en el corto que queremos lograr, vamos a agregar la imagen que capturamos y editamos para que tenga la misma proporción. 
+</p><p><b>Paso 5</b>
+</p><p>Desplegá el menú de opciones del área principal con la tecla <i>N</i> y buscá la opción <i>Imágenes de fondo</i>. Habilitala con el tic y hace clic en <i>Abrir</i>. Buscá en el directorio de trabajo que hayas creado para tu proyecto la imagen que quieras usar de fondo. La imagen solo se va a poder ver cuando veas a través de la cámara yendo al menú <i>Vista</i> y eligiendo la opción <i>Cámara</i> o con el  número 0 del teclado numérico. En la imagen se puede ver cómo no aparece la imagen porque estamos en la <i>Vista superior</i> y no desde la cámara. De paso esta imagen sirve para que veas cómo debe quedar posicionada la cámara.
+</p><p><br />
+<b>Paso 6</b>
+</p><p>A continuación tenemos que agregar el actor, el objeto 3D que vamos a animar. En el video de ejemplo es una esfera. Para agregarla andá al menú <i>Agregar -&gt; Malla -&gt; Esfera</i> o llamá a ese menú con <i>Shift + A</i>. La esfera va a aparecer donde estaba el <i>cursor</i> de <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a>, así que es prudente primero posicionar el cursor en el lugar que querés que esté la esfera. Posicionala en el lugar que va a dar comienzo a la animación y, más importante, dale el tamaño que querés que tenga. Recordá que seleccionás con botón derecho, si mantenes apretado movés el objeto, son <i>S</i> escalás y con <i>R</i> rotás. Para más información sobre modelar y manipular objetos en <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> lee el artículo <a href="../../../../articles/m/o/d/Model%C3%A1_una_copa_con_Blender.html" title="Modelá una copa con Blender">Modelá una copa con Blender</a>.
+</p>
+<h2> <span class="mw-headline" id="Bosquejar_un_borrador_de_la_animacion"> Bosquejar un borrador de la animacion </span></h2>
+<h3> <span class="mw-headline" id="Activa_los_key_frames"> Activa los key frames</span></h3>
+<p>ahora vamos a hacer un bosquejo bruto de lo que queremos que ocurra con la pelota. 
+</p><p>para ver el movimiento de la pelota en el contexo y en relacion con la iamgen que elegimos de fondo, apreta 0 asi vemos tal cual lo va a evr la camara.
+</p><p>en la barra de tiempo posicionate en el frame 1, asi arrancamos desde ahi
+</p><p>pone en la barra de tiempo de abajo locrotscale, apreta el boton rojo y pone las llaves
+</p><p>esto guarda key frmase, que son frames claves que belnder va a recorrer automaticamente entre un punto y el otro el objeto va a recorrer una linea recta
+</p><p><br />
+</p>
+<h3> <span class="mw-headline" id="inicia_la_animacion"> inicia la animacion </span></h3>
+<p>empeza a mover la pelota, arrancamos hacia arriba y despues cae
+</p><p>para eso nos apramos en el frame 12 y movemos la pelota hasta el punto maximoq ue queremos que se eleve
+</p><p>despues nos paramos en el frame 24 y volvemos a poner la pelota en el punto de abajo
+</p><p>por que?? 
+</p><p>recorda esto, si vamos a trabajar en 24FPS cada 1 segundo vamos a recorrer 24 frames, asi que esto va a durar 1 segundo en subir y bajar, medio segundo en subiur, medio en bajar.
+</p><p>noten que en  el área de resumen hay nuevos puntos que indican los frmaes
+</p><p>si recorremos la linea de tiempo con el mouse manteinedo clic izquierdo vamos a ver la animacion con el ritmo que querramos, depende cuan rapido movamos el mouse. si apretas atl + a se va a animar automaticamente para que veas como va quedando.
+</p><p>claramente hay un error, vemos que la animacion arranca con la pelota arriba. presetemos antecion al area resumen para ver lo que ocurrio. este area se mueve igual que la linea de tiempo con la ruedita se ahce zoom y presinando la ruedita nos movemos. por lo que se ve, no hay un rombo amarillo en el frame 1. tenemos que cambiar esto. siemplemente nos posicionamos en el frame 1 y volvemos a poner la pelota en el punto que queremos que sea el inicual del movimineto. 
+</p><p>si queremos por ejemplo poner un frame anterior  anteonces simplemente tenemos que correr todos los puntos a la derecha. la seleccion de los keyframse (los rombos) es similar a la de lso objetos, se selecciona con clic derecho, se agrupa con shift o con ctrl. los seleccionados aparecen en anrajana y los no en gris. se mueve presionando la letra G o manteniendo apretado el boton derecho del mouase. esto te permite trabajr sobre los keyfamse ya creados
+</p>
+<h3> <span class="mw-headline" id="bosqueja_la_animacion"> bosqueja la animacion </span></h3>
+<p>podes ahoara hacer un recorrido burdo sobre lo que va a hacer la pelota. anda moviendola de un punto a otro, con puntos intermedios. recorda que entre punto y otro se mueve linealmente. ¿como hago una curva entonces? ahi es doned la geometria viene al rescate. usando tangentes o pensando un poligono de infinitos lados
+</p><p><br />
+en este punto puede se runa buena practica ver el movimiento desde diferentes anfulos para ver como funcionan los ejes que charlamos antes de profundidad ancho y largo
+</p>
+<h2> <span class="mw-headline" id="Refinar_la_animaci.C3.B3n"> Refinar la animación </span></h2>
+<p>para refinar la animacion podemos hacer dos cosas. la primera es un efecto de squash que haga qeu la pelota se doble para saltar y lo mismo cuando cae
+</p><p><br />
+seleccionar un keyframe desde el area Resumen con clic derecho y vamos al menu Clave y Duplicar o Shift + D. este es un key frame que corrue en el "mismo tiempo" que el key que duplicamos, solo que nos permite hacer dos movmineto en simultaneo entre un framse y e otro
+</p><p>por un lado la pelota va subiendo, pero a su vez va recobrando la forma normal
+</p><p>si quieren quee sto tome mas tiempo, denle mas espacio entre los framse, que el punto de llegada a la parte superior no sea en el frame 12, sino en el 24 y va a tardar un segundo en vez de medio segundo.
+</p><p><br />
+tambien podemos hacer que rote la pelotita
+</p>
+<h2> <span class="mw-headline" id="Renderizar"> Renderizar </span></h2>
+<p>Otro aspecto a tener en cuenta es cuánto va a durar la animación. Esto se mide en minutos y segundos, pero tiene mucho que ver también con los <i>frames</i> y especialmente con los <a href="../../../../articles/f/o/r/Formatos_de_video.html#FPS" title="Formatos de video">FPS o frames por segundo</a>. Si alguna vez viste una película en fílmico o celuloide habrás visto que es una tira de imágenes muy similares con pequeñas diferencias,que al pasar rápidamente el ojo las toma como si fuese una sola imagen en movimiento. Cada una de esas imágenes es un fotograma o frame. Las imágenes por segundo (fotogramas por segundo o cuadros por segundo, en inglés frames per second o FPS) es la medida de la frecuencia a la cual un reproductor de imágenes genera distintos fotogramas (frames). Por lo tanto si trabajamos a 24 FPS significa que una animación de 24 frames a esa tasa de reproducción, durará 1 segundo. 48 frames, a 24 FPS durará 2 segundos, y así. Mientras más frames tenga una animación, más fluida será el movimiento que muestre. Veamos por ejemplo una animación burda que recrea los efectos especiales que usaban en [<a rel="nofollow" class="external text" href="https://www.youtube.com/watch?v=PWQCPs0s0es">El Chavo del 8</a>]
+</p><p>Sería mejor si pudiésemos tener un frame con la toalla utilizada en el video moviéndose poco a poco. Como en este video solo hay 2 frames, uno con el chico solo y otro con el chico con la toalla en la boca, es muy brusco el cambio. Si se introducen varios frames, donde la toalla se va acercando poco a poco, entonces el movimiento sería más fluido. Mientras más frames más fluido.
+</p><p><br />
+Después en el área de Propiedades de <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> modificá la resolución y poné esos valores. También asegurate de poner el 100% en el control justo debajo. Esto mantiene el 100% de lo establecido arriba para el ancho y el alto.
+</p>
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 53/1000000
+Preprocessor generated node count: 92/1000000
+Post‐expand include size: 598/2097152 bytes
+Template argument size: 573/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+</div><div class="printfooter">
+</div>
+	    <div id="catlinks"><div id='catlinks' class='catlinks catlinks-allhidden'></div></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-main"
+	       class="selected"	       ><a href="../../../../articles/c/r/e/Cre%C3%A1_una_animaci%C3%B3n_con_Blender.html">Página</a></li><li id="ca-talk"
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Cre%C3%A1_una_animaci%C3%B3n_con_Blender&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Cre%C3%A1_una_animaci%C3%B3n_con_Blender">Revisión actual</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(../../../../misc/wiki.png);"
+	    href="../../../../index.html"
+	    title="¡Bienvenidos a Huayra GNU/Linux!"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+	  <h5>Navegación</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-Bienvenidos"><a href="../../../../index.html">Bienvenidos</a></li>
+	     	      <li id="n-Primeros-pasos"><a href="../../../../articles/p/r/i/Primeros_pasos.html">Primeros pasos</a></li>
+	     	      <li id="n-Tu-escritorio"><a href="../../../../articles/t/u/_/Tu_escritorio.html">Tu escritorio</a></li>
+	     	      <li id="n-Huayra-en-la-Escuela"><a href="../../../../articles/h/u/a/Huayra_en_la_Escuela.html">Huayra en la Escuela</a></li>
+	     	      <li id="n-Instalaci.C3.B3n"><a href="../../../../articles/i/n/s/Instalaci%C3%B3n.html">Instalación</a></li>
+	     	      <li id="n-Aplicaciones"><a href="../../../../articles/a/p/l/Aplicaciones.html">Aplicaciones</a></li>
+	     	      <li id="n-Archivos-y-carpetas"><a href="../../../../articles/a/r/c/Archivos_y_carpetas.html">Archivos y carpetas</a></li>
+	     	      <li id="n-Internet-y-conectividad"><a href="../../../../articles/i/n/t/Internet_y_conectividad.html">Internet y conectividad</a></li>
+	     	      <li id="n-Multimedia"><a href="../../../../articles/m/u/l/Multimedia.html">Multimedia</a></li>
+	     	      <li id="n-Hardware"><a href="../../../../articles/h/a/r/Hardware.html">Hardware</a></li>
+	     	      <li id="n-Usuarios-y-sesiones"><a href="../../../../articles/u/s/u/Usuarios_y_sesiones.html">Usuarios y sesiones</a></li>
+	     	      <li id="n-Accesibilidad"><a href="../../../../articles/a/c/c/Accesibilidad.html">Accesibilidad</a></li>
+	     	      <li id="n-Tutoriales-Huayra"><a href="../../../../articles/t/u/t/Tutoriales_Huayra.html">Tutoriales Huayra</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-SEARCH'>
+	  <h5>SEARCH</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-TOOLBOX'>
+	  <h5>TOOLBOX</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-LANGUAGES'>
+	  <h5>LANGUAGES</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Buscar</label></h5>
+	  <div id="searchBody" class="pBody">
+	    <form action="javascript:goToStatic(3)" id="searchform"><div>
+	      <input id="searchInput" name="search" type="text"
+	        accesskey="f" value="" />
+	      <input type='submit' name="go" class="searchButton" id="searchGoButton"
+	        value="Ir" />
+	    </div></form>
+	  </div>
+	</div>
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+    <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 15:49, 21 ene 2015 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. </li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+      </div>
+    </div>
+  </body>
+</html>

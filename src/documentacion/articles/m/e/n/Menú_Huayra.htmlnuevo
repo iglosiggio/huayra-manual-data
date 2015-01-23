@@ -47,9 +47,7 @@
 	    <h3 id="siteSub">De Huayra</h3>
 	    <div id="contentSub"></div>
 	    	    	    <!-- start content -->
-	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><p><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Especial:SubirArchivo&amp;wpDestFile=Img/sistema.png" class="new" title="Archivo:Img/sistema.png">Archivo:Img/sistema.png</a>
-</p><p><br />  
-El Menú Huayra es el menú desplegable similar al de otros sistemas operativos como Microsoft Windows o MacOS X, donde vas a poder encontrar tus aplicaciones y carpetas. Está ubicado en el <a href="../../../../articles/p/a/n/Paneles.html#Panel_Superior" title="Paneles">Panel superior</a>, sobre el costado izquierdo de la pantalla.
+	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><p>El Menú Huayra es el menú desplegable similar al de otros sistemas operativos como Microsoft Windows o MacOS X, donde vas a poder encontrar tus aplicaciones y carpetas. Está ubicado en el <a href="../../../../articles/p/a/n/Paneles.html#Panel_Superior" title="Paneles">Panel superior</a>, sobre el costado izquierdo de la pantalla.
 </p><p>En este menú podés:
 </p>
 <ul><li> Buscar las Aplicaciones, por las categorías del menú (Accesorios, Educación, Gráficos, Herramientas del sistema, Internet, Juegos, Oficina, Otras, Programación, Sonido y Video). 
@@ -66,8 +64,8 @@ El Menú Huayra es el menú desplegable similar al de otros sistemas operativos 
 </div>
 <p><br />
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Men%C3%BA_Huayra&amp;action=edit&amp;section=1" title="Editar sección: Configurar el Menú Huayra">editar</a>]</span> <span class="mw-headline" id="Configurar_el_Men.C3.BA_Huayra">Configurar el Menú Huayra</span></h1>
-<p><a href="../../../../articles/a/l/a/Archivo:Alacarte.jpg.html" class="image"><img alt="Alacarte.jpg" src="../../../../images/c/c5/Alacarte.jpg" width="800" height="651" /></a>
+<h1> <span class="mw-headline" id="Configurar_el_Men.C3.BA_Huayra">Configurar el Menú Huayra</span></h1>
+<p><a href="../../../../articles/a/l/a/Archivo:Alacarte.jpg.html" class="image"><img alt="Alacarte.jpg" src="../../../../images/c/c5/Alacarte.jpg" width="500" height="407" /></a>
 </p><p><br />
 El <strong class="selflink">Menú Huayra</strong> es altamente configurable siguiendo la filosofía del <a href="../../../../articles/s/o/f/Software_Libre.html" title="Software Libre">Software Libre</a>. Se pueden crear categorías, eliminarlas y crear nuevos items como <a href="../../../../articles/l/a/n/Lanzadores.html" title="Lanzadores">lanzadores</a> o accesos directos a directorios (que son <a href="../../../../articles/l/a/n/Lanzadores.html" title="Lanzadores">lanzadores</a> a una ubicación). 
 </p><p>Para editar el Menú hacé clic con el botón derecho en el menú y después <i>Editar menús</i>. O hacé clic en el Icono de Configuración del sistema <a href="../../../../articles/p/r/i/Primeros_pasos.html#Configuraci.C3.B3n_del_sistema" title="Primeros pasos">Configuración del sistema</a> en el <a href="../../../../articles/p/a/n/Paneles.html" title="Paneles">Panel Superior</a> a la derecha, y después a Menú principal, la aplicación que permite configurar el menú.
@@ -82,7 +80,7 @@ Al abrir Menú principal te vas a encontrar con tres áreas:
 </li></ul>
 <p>Siempre podés volver a la configuración original con el botón "Revertir" que se encuentra debajo a la derecha, en caso de que hayas eliminado un elemento que no querías eliminar o deshacer cualquier otro error.
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Men%C3%BA_Huayra&amp;action=edit&amp;section=2" title="Editar sección: Crear un elemento nuevo">editar</a>]</span> <span class="mw-headline" id="Crear_un_elemento_nuevo">Crear un elemento nuevo</span></h1>
+<h1> <span class="mw-headline" id="Crear_un_elemento_nuevo">Crear un elemento nuevo</span></h1>
 <p>Cada elemento del menú es esencialmente un <a href="../../../../articles/l/a/n/Lanzador.html" title="Lanzador" class="mw-redirect">Lanzador</a>. Por eso al hacer clic en <i>Elemento nuevo</i> esto abre un cuadro de diálogo donde podés generar un nuevo elemento para el menú.  
 </p>
 <div class="isa_important">
@@ -111,7 +109,7 @@ Al abrir Menú principal te vas a encontrar con tres áreas:
 </li><li> Del mismo modo, si quieres hacer un acceso directo a un video tienes que ingresar el nombre de la aplicación para ver videos seguido de la ruta del video. Por ejemplo: <i>vlc /home/Videos/video.ovg</i> (sin comillas).
 </li><li> Si es una aplicación que no es reconocida, podés buscar el archivo que lanza esa aplicación en /usr/bin con "Examinar" y luego haciendo clic en Sistema de archivos.
 </li></ol>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Men%C3%BA_Huayra&amp;action=edit&amp;section=3" title="Editar sección: Icono">editar</a>]</span> <span class="mw-headline" id="Icono">Icono</span></h2>
+<h2> <span class="mw-headline" id="Icono">Icono</span></h2>
 <p>Haciendo clic en el icono <a href="../../../../articles/i/c/o/Archivo:Ico_ele.png.html" class="image"><img alt="Ico ele.png" src="../../../../images/8/86/Ico_ele.png" width="36" height="32" /></a> podés asignarle al elemento el icono que desees, ya sea uno que venga por defecto en Huayra o uno que este en tu carpeta de imágenes. Para algunas aplicaciones ya instaladas, el icono aparecerá automáticamente, aunque puede reemplazarse.
 </p>
 <!-- 
@@ -125,7 +123,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Categor%C3%ADa:P%C3%A1ginas_con_enlaces_rotos_a_archivos&amp;action=edit&amp;redlink=1" class="new" title="Categoría:Páginas con enlaces rotos a archivos (la página no existe)">Páginas con enlaces rotos a archivos</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks catlinks-allhidden'></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -136,8 +134,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Men%C3%BA_Huayra&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Men%C3%BA_Huayra">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Men%C3%BA_Huayra&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Men%C3%BA_Huayra">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -201,7 +199,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 11:59, 21 abr 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 15:32, 24 jul 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

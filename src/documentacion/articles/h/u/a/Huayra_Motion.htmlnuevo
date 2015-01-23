@@ -52,7 +52,7 @@
 </p><p>Es una de las aplicaciones desarrollada por completo desde 0 por nuestro propio equipo de Desarrollo de Huayra, y por lo tanto es <a href="../../../../articles/s/o/f/Software_Libre.html" title="Software Libre">Software Libre</a> que te permite apropiarte completamente de la aplicación, incluso <a href="../../../../articles/h/u/a/Huayra_Motion.html#Modific.C3.A1_Huayra_Motion" title="Huayra Motion">modificarla</a> . <b>Huayra Motion</b> tiene varias funcionalidades, pero se van desplegando a medida que utilizas el programa. Desde esta primera pantalla podés iniciar un proyecto nuevo o seguir trabajando en un proyecto existente. A su vez van a parecer todos los proyectos en los que recientemente estuviste trabajando.
 </p><p>Cuando abrís el programa aparece un asistente que te guia en los primeros pasos:
 </p>
-<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/h/u/a/Archivo:Huayra_motion_inicio.jpg.html" class="image"><img alt="" src="../../../../images/thumb/8/86/Huayra_motion_inicio.jpg/350px-Huayra_motion_inicio.jpg" width="350" height="250" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/h/u/a/Archivo:Huayra_motion_inicio.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Pantalla de inicio de Huayra Motion</div></div></div></div>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/v/a/c/Archivo:Vacas.gif.html" class="image"><img alt="" src="../../../../images/thumb/f/f3/Vacas.gif/350px-Vacas.gif" width="350" height="263" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/v/a/c/Archivo:Vacas.gif.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Animación filmada con Huayra Motion <b>Hacé clic para verla</b></div></div></div></div>
 <p><br />
 </p><p><br />
 </p>
@@ -72,12 +72,14 @@
 <li class="toclevel-2 tocsection-8"><a href="#Opciones"><span class="tocnumber">2.3</span> <span class="toctext">Opciones</span></a></li>
 </ul>
 </li>
-<li class="toclevel-1 tocsection-9"><a href="#Exportar_el_video"><span class="tocnumber">3</span> <span class="toctext">Exportar el video</span></a></li>
-<li class="toclevel-1 tocsection-10"><a href="#Editar_el_video"><span class="tocnumber">4</span> <span class="toctext">Editar el video</span></a></li>
-<li class="toclevel-1 tocsection-11"><a href="#Modific.C3.A1_Huayra_Motion"><span class="tocnumber">5</span> <span class="toctext">Modificá Huayra Motion</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#Capturar_con_dos_c.C3.A1maras"><span class="tocnumber">3</span> <span class="toctext">Capturar con dos cámaras</span></a></li>
+<li class="toclevel-1 tocsection-10"><a href="#Exportar_el_video"><span class="tocnumber">4</span> <span class="toctext">Exportar el video</span></a></li>
+<li class="toclevel-1 tocsection-11"><a href="#Ejemplos"><span class="tocnumber">5</span> <span class="toctext">Ejemplos</span></a></li>
+<li class="toclevel-1 tocsection-12"><a href="#Editar_el_video"><span class="tocnumber">6</span> <span class="toctext">Editar el video</span></a></li>
+<li class="toclevel-1 tocsection-13"><a href="#Modific.C3.A1_Huayra_Motion"><span class="tocnumber">7</span> <span class="toctext">Modificá Huayra Motion</span></a></li>
 </ul>
 </td></tr></table>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=1" title="Editar sección: Capturar las imágenes">editar</a>]</span> <span class="mw-headline" id="Capturar_las_im.C3.A1genes">Capturar las imágenes</span></h2>
+<h2> <span class="mw-headline" id="Capturar_las_im.C3.A1genes">Capturar las imágenes</span></h2>
 <p>Una vez dentro de Huayra Motion vas a encontrarte con su interfaz. Es muy sencilla y fácil de usar. Tiene 4 secciones principales:
 </p>
 <div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/h/u/a/Archivo:Huayra_motion_interfaz.jpg.html" class="image"><img alt="" src="../../../../images/thumb/b/b9/Huayra_motion_interfaz.jpg/350px-Huayra_motion_interfaz.jpg" width="350" height="246" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/h/u/a/Archivo:Huayra_motion_interfaz.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Pantalla de inicio de Huayra Motion</div></div></div></div>
@@ -88,27 +90,30 @@
 </li><li>Las operaciones básicas, como capturar un cuadro o reproducir lo que capturaste hasta ahora 
 </li><li>Una línea de tiempo, con un cursor indicando el cuadro actual, que te permita tener una noción del video en su conjunto.
 </li></ol>
+<div class="isa_tip">
+También podés capturar cada cierto plazo de tiempo, para generar un efecto <i>timelapse</i> haciendo clic en el reloj al lado de <i>+ Capturar cuadro</i><br /><div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:182px;"><a href="../../../../articles/m/o/t/Archivo:Motion_timelapse.jpg.html" class="image"><img alt="Motion timelapse.jpg" src="../../../../images/thumb/d/d1/Motion_timelapse.jpg/180px-Motion_timelapse.jpg" width="180" height="79" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/m/o/t/Archivo:Motion_timelapse.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+</div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=2" title="Editar sección: Panel de ajustes">editar</a>]</span> <span class="mw-headline" id="Panel_de_ajustes">Panel de ajustes</span></h2>
+<h2> <span class="mw-headline" id="Panel_de_ajustes">Panel de ajustes</span></h2>
 <p>Desde este panel podés acceder a diferentes configuraciones que te describimos a continuación.
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=3" title="Editar sección: Capas">editar</a>]</span> <span class="mw-headline" id="Capas">Capas</span></h3>
-<h4><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=4" title="Editar sección: Grilla">editar</a>]</span> <span class="mw-headline" id="Grilla">Grilla</span></h4>
+<h3> <span class="mw-headline" id="Capas">Capas</span></h3>
+<h4> <span class="mw-headline" id="Grilla">Grilla</span></h4>
 <p>La grilla te puede servir para establecer referencias cuando quieras posicionar los objetos para, por ejemplo, centrarlos. También te pueden servir de guía para cuando quieras desplazar un objeto horizontal o verticalmente. Otro uso puede ser para cambiar al velocidad a la que se mueve un objeto. 
 </p><p>En stopmotion si querés que un objeto se mueva lento, tenés que moverlo muy poco cada vez que captures un <i>cuadro</i> o <i>frame</i>. Si querés que parezca ganar velocidad entre <i>cuadro</i> y <i>cuadro</i> vas a tener que moverlo cada vez un poco más. Las grillas te pueden servir como guías para este movimiento, al aumentar el número de celdas y poder usarlas como unidad de medida de la velocidad. O sea, que al principio el objeto se mueva media celda por <i>cuadro</i> para después moverse una celda por <i>cuadro</i> y luego dos.
 </p><p>El primero de los controles de la grilla te permite modificar su opacidad, para que se vea más o menos en el área de previsualización. Los otros dos controles te permiten agregar o quitar filas y columnas, para lograr que la grilla sea más precisa y se ajuste a tus necesidades.
 </p>
-<h4><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=5" title="Editar sección: Capa cebolla">editar</a>]</span> <span class="mw-headline" id="Capa_cebolla">Capa cebolla</span></h4>
+<h4> <span class="mw-headline" id="Capa_cebolla">Capa cebolla</span></h4>
 <p>La capa de cebolla muestra en el área de previsualización la imagen que capturaste en el <i>cuadro</i> anterior. Esto te sirve para que lo  tengas como referencia a la hora de capturar el siguiente cuadro. Esto te permite ver en qué posición estaba el objeto anteriormente para que puedas manipular mejor el efecto de movimiento. 
 </p>
-<h4><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=6" title="Editar sección: Dibujo de referencia">editar</a>]</span> <span class="mw-headline" id="Dibujo_de_referencia">Dibujo de referencia </span></h4>
+<h4> <span class="mw-headline" id="Dibujo_de_referencia">Dibujo de referencia </span></h4>
 <p>Esta herramienta te permite dibujar sobre el área de previsualización para establecer marcas. Este dibujo no va a quedar en la captura final de la imagen. Si, por ejemplo, querés mover un objeto haciendo que recorra determinado camino, con esta herramienta podés dibujarlo primero e ir recorriendo el camino con el objeto en cada uno de los cuadros. EL dibujo permanece como <i>capa</i> por encima de todos los <i>cuadros</i> al igual que la <b>Grilla</b>.
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=7" title="Editar sección: Efectos">editar</a>]</span> <span class="mw-headline" id="Efectos">Efectos</span></h3>
+<h3> <span class="mw-headline" id="Efectos">Efectos</span></h3>
 <p>Esta pestaña te permite configurar el brillo y el contraste de la cámara con la que estás capturando. También te permite modificar la captura dándole un efecto de espejo en sentido vertical u horizontal. 
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=8" title="Editar sección: Opciones">editar</a>]</span> <span class="mw-headline" id="Opciones">Opciones</span></h3>
+<h3> <span class="mw-headline" id="Opciones">Opciones</span></h3>
 <p>Desde esta pestaña podés modificar la velocidad de reproducción en <i>en cuadros o Frames Por Segundo</i> (<a href="../../../../articles/f/o/r/Formatos_de_video.html" title="Formatos de video">FPS</a>), habilitar o deshabilitar los sonidos, abrir el modo desarrollador que te va a permitir <a href="../../../../articles/h/u/a/Huayra_Motion.html#Modific.C3.A1_Huayra_Motion" title="Huayra Motion">modificar la aplicación</a> y compartir cámara.
 </p><p>Con <i>Compartir cámara</i> podés capturar las imágenes usando otra cámara. Podes usar la cámara de otra la netbook que esté conectada a la misma red (por ejemplo la red escolar, aunque no haya Internet), o también podés enchufar otra cámara desde el puerto USB.
 </p><p>Para capturar desde una cámara de otra netbook (llamémosla netbook B)&#160;:
@@ -121,17 +126,30 @@
 </li></ol>
 <p>Al compartir la cámara va a aparecer otra solapa en la esquina superior derecha de <i>Huayra Motion</i> desde donde vas a poder elegir de qué cámara capturar. Todas las capturas se van a montar sobre la misma tira de imágenes.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=9" title="Editar sección: Exportar el video">editar</a>]</span> <span class="mw-headline" id="Exportar_el_video">Exportar el video</span></h2>
+<h2> <span class="mw-headline" id="Capturar_con_dos_c.C3.A1maras">Capturar con dos cámaras</span></h2>
+<p>Usar la cámara de la netbook para capturar y editar al mismo tiempo puede ser incómodo. Por eso <b>Huayra Motion</b> te permite capturar con más de una cámara. Podés conectar una <i>webcam</i> por usb y automáticamente va a identificarla. Pero también podés usar la cámara de otra netbook para capturar, o incluso podés capturar con dos cámaras, para encuadrar diferentes partes de una misma escena. Para eso solamente tenés que seguir los pasos que te explica la misma aplicación y aparecen en la imagen de abajo 
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/m/o/t/Archivo:Motion_camara.jpg.html" class="image"><img alt="Motion camara.jpg" src="../../../../images/thumb/e/e2/Motion_camara.jpg/350px-Motion_camara.jpg" width="350" height="242" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/m/o/t/Archivo:Motion_camara.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/e/s/q/Archivo:Esquema_camara_remota.jpg.html" class="image"><img alt="Esquema camara remota.jpg" src="../../../../images/thumb/4/4f/Esquema_camara_remota.jpg/350px-Esquema_camara_remota.jpg" width="350" height="263" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/e/s/q/Archivo:Esquema_camara_remota.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+<h2> <span class="mw-headline" id="Exportar_el_video">Exportar el video</span></h2>
 <p>Una vez capturadas las imágenes, podés exportarlas a un video y animaciones GIF. Para exportar andá a <i>Archivo → Generar video</i>. El <a href="../../../../articles/f/o/r/Formatos_de_video.html" title="Formatos de video">formato</a> de video que elegimos por defecto es el MPEG4. Para más información podes leer el artículo sobre <a href="../../../../articles/f/o/r/Formatos_de_video.html" title="Formatos de video">formatos de video</a> de nuestra wiki. 
 </p><p>El tamaño por defecto es 640x480. Desde la opción de tamaño podés modificar esta opción, pero recordá que solamente afecta a la exportación. Podés recudir el tamaño, pero no aumentarlo. Para eso es necesario incorporar una cámara de mayor definición que la webcam de la net, por USB o por wifi.
 </p><p><br />
 </p>
 <div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/h/u/a/Archivo:Huayra_motion_exportacion.jpg.html" class="image"><img alt="" src="../../../../images/thumb/6/62/Huayra_motion_exportacion.jpg/350px-Huayra_motion_exportacion.jpg" width="350" height="231" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/h/u/a/Archivo:Huayra_motion_exportacion.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Pantalla de exportación de Huayra Motion</div></div></div></div>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=10" title="Editar sección: Editar el video">editar</a>]</span> <span class="mw-headline" id="Editar_el_video">Editar el video</span></h2>
+<h2> <span class="mw-headline" id="Ejemplos">Ejemplos</span></h2>
+<p>Educ.ar publicó videos de <b>Huayra Motion</b>. Por ejemplo cómo animar un muñeco de plastilina 
+</p><p><a rel="nofollow" class="external text" href="http://www.educ.ar/sitios/educar/recursos/ver?id=122774">Animar un muñeco de plastilina</a>
+</p><p><br />
+También podés usar <b>Huayra Motion</b> para hacer presentaciones con la técnica <i>White Board</i> 
+</p><p><a rel="nofollow" class="external text" href="http://www.educ.ar/sitios/educar/recursos/ver?id=122775">White Board con Huayra</a>
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:272px;"><a href="../../../../articles/h/u/a/Archivo:Huayra_whiteborad.jpg.html" class="image"><img alt="Huayra whiteborad.jpg" src="../../../../images/thumb/8/81/Huayra_whiteborad.jpg/270px-Huayra_whiteborad.jpg" width="270" height="137" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/h/u/a/Archivo:Huayra_whiteborad.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+<h2> <span class="mw-headline" id="Editar_el_video">Editar el video</span></h2>
 <p>En cine una vez que se grabaron las escenas, lo que sería la fotografía principal, viene después la etapa de post producción donde se edita el video, se trabaja sobre el sonido, se agregan efectos etc. En tu netbook literalmente hay todo un set de aplicaciones que te permiten recorrer todo este proceso, integrando <b>Huayra Motion</b> con las otras aplicaciones de Huayra. Por ejemplo, podrías usar <a href="../../../../articles/o/p/e/OpenShot.html" title="OpenShot">OpenShot</a> para integrar los cuadros en un video, hacer un montaje de varias escenas, agregar títulos, etc. O <a href="../../../../articles/a/u/d/Audacity.html" title="Audacity">Audacity</a> para componer los efectos de sonido, agregar audio, música, etc. 
 </p><p>Todos los cuadros de animación se guardan como archivos <i>.png</i> individuales, así que se pueden leer y modificar desde casi cualquier programa multimedia como tira de imágenes.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Huayra_Motion&amp;action=edit&amp;section=11" title="Editar sección: Modificá Huayra Motion">editar</a>]</span> <span class="mw-headline" id="Modific.C3.A1_Huayra_Motion"> Modificá Huayra Motion </span></h2>
+<h2> <span class="mw-headline" id="Modific.C3.A1_Huayra_Motion"> Modificá Huayra Motion </span></h2>
 <p>Como <b>Huayra Motion</b> fue desarrollado por el equipo de Huayra, por lo tanto es <a href="../../../../articles/s/o/f/Software_Libre.html" title="Software Libre">Software Libre</a>. Esto quiere decir que cualquiera lo puede usar, aprender cómo funciona, modificarlo, mejorarlo y volverlo a publicar. Para que sea libre tiene que estar disponible el código fuente, es decir las instrucciones que hacen que el programa funcione. En la aplicación podés darle un primer vistazo a ese código y hasta modificarlo. 
 </p><p>Hacé clic en la rueda dentada de abajo a la izquierda y se va a abrir el interprete de código de <a href="../../../../articles/c/h/r/Chromium.html" title="Chromium">Chromium</a>. Acá vas a poder ir viendo cómo está hecho el programa. A medida que pases por el código van a ir coloreándose las áreas de la ventana que son generadas por ese código. Las flechitas del costado de cada código indican que se puede seguir desplegando.
 </p><p><br />
@@ -143,10 +161,10 @@ En la imagen del ejemplo nos limitamos a modificar el color del texto. Solamente
 </p>
 <!-- 
 NewPP limit report
-Preprocessor visited node count: 61/1000000
-Preprocessor generated node count: 88/1000000
-Post‐expand include size: 0/2097152 bytes
-Template argument size: 0/2097152 bytes
+Preprocessor visited node count: 79/1000000
+Preprocessor generated node count: 140/1000000
+Post‐expand include size: 228/2097152 bytes
+Template argument size: 203/2097152 bytes
 Highest expansion depth: 2/40
 Expensive parser function count: 0/100
 -->
@@ -163,8 +181,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/h/u/a/Huayra_Motion.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Huayra_Motion&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Huayra_Motion">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Huayra_Motion&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Huayra_Motion">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -228,7 +246,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:24, 13 may 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 11:39, 12 ago 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

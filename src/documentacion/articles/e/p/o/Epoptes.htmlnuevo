@@ -51,7 +51,7 @@
 <p><b>Epoptes</b>,  palabra griega que significa "supervisar", es un <a href="../../../../articles/s/o/f/Software_libre.html" title="Software libre" class="mw-redirect">software libre</a> de e-learning que permite a un profesor supervisar la clase y realizar demostraciones desde su netbook a la de los estudiantes en un aula en red. Permite la difusión de la pantalla y el seguimiento, la ejecución remota de comandos, el envío de mensajes, la imposición de restricciones, como el bloqueo de pantalla o silenciar el sonido de los clientes y mucho más.
 Epoptes funciona con un modo servidor (para Docentes) y un modo cliente (para Estudiantes). Los docentes tienen que realizar una primera configuración por única vez y de sólo dos pasos. Por su lado los estudiantes, al comienzo de cada clase, tienen que conectarse a la netbook del docente.
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Epoptes&amp;action=edit&amp;section=1" title="Editar sección: Configuración inicial de Epoptes (Docentes)">editar</a>]</span> <span class="mw-headline" id="Configuraci.C3.B3n_inicial_de_Epoptes_.28Docentes.29">Configuración inicial de Epoptes (Docentes)</span></h1>
+<h1> <span class="mw-headline" id="Configuraci.C3.B3n_inicial_de_Epoptes_.28Docentes.29">Configuración inicial de Epoptes (Docentes)</span></h1>
 <p>Los docentes tienen que realizar una primera configuración muy sencilla para usar <b>Epoptes</b> por primera vez. En primer lugar tienen que asegurarse de cambiar el nombre de su netbook y en segundo lugar agregar su usuario al grupo "epoptes".
 </p>
 <dl><dt>Cambiá el nombre nombre de tu netbook
@@ -70,7 +70,7 @@ Epoptes funciona con un modo servidor (para Docentes) y un modo cliente (para Es
 </dd><dd>Seleccioná el grupo "epoptes" y hacé clic en "Propiedades"
 </dd><dd>Hacé clic en el usuario que querés agregar y después en "Aceptar".
 </dd></dl>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Epoptes&amp;action=edit&amp;section=2" title="Editar sección: Conectarse al comienzo de cada clase (Estudiantes)">editar</a>]</span> <span class="mw-headline" id="Conectarse_al_comienzo_de_cada_clase_.28Estudiantes.29">Conectarse al comienzo de cada clase (Estudiantes)</span></h1>
+<h1> <span class="mw-headline" id="Conectarse_al_comienzo_de_cada_clase_.28Estudiantes.29">Conectarse al comienzo de cada clase (Estudiantes)</span></h1>
 <ol><li>Cada vez que empiece una nueva clase hay que avisarle a la netbook que tiene que conectarse a la netbook del profesor. Para hacer esto: <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a>-&gt; Huayra -&gt; Epoptes (estudiantes)
 </li><li>Ingresá el nombre de la netbook del docente (incluyendo el .local). Por ejemplo si el docente de llama Juan Perez, probablemente se llame <b>juanperez.local</b> o <b>jperez.local</b>.
 </li><li>Cerrá la sesión y volvé a iniciarla
@@ -91,7 +91,7 @@ Epoptes funciona con un modo servidor (para Docentes) y un modo cliente (para Es
 </dd><dd><code>sudo epoptes-client -c</code>
 </dd><dd>Este comando ejecuta con permisos de administrador (sudo) la aplicación epoptes-client (acordate de que al ser estudiante sos el cliente en la relación Cliente-Servidor) y se pide a través de la opción -c que descargue el certificado.
 </dd></dl>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Epoptes&amp;action=edit&amp;section=3" title="Editar sección: ¿Cómo utilizar Epoptes?">editar</a>]</span> <span class="mw-headline" id=".C2.BFC.C3.B3mo_utilizar_Epoptes.3F">¿Cómo utilizar Epoptes?</span></h1>
+<h1> <span class="mw-headline" id=".C2.BFC.C3.B3mo_utilizar_Epoptes.3F">¿Cómo utilizar Epoptes?</span></h1>
 <p>En este apartado vas a poder descubrir como utilizar las principales funcionalidades de <b>Epoptes</b> a la hora de administrar la clase como: monitorear las netbooks de los estudiantes, mostrar el monitor del docente en las netbooks de los estudiantes, enviar mensajes a las netbooks de los estudiantes o imponerles restricciones a las mismas.
 </p>
 <div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:402px;"><a href="../../../../articles/e/p/1/Archivo:Ep1.jpg.html" class="image"><img alt="" src="../../../../images/7/7a/Ep1.jpg" width="400" height="246" class="thumbimage" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/e/p/1/Archivo:Ep1.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Epoptes</div></div></div></div>
@@ -164,7 +164,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/h/u/a/Categor%C3%ADa:Huayra_en_la_escuela.html" title="Categoría:Huayra en la escuela">Huayra en la escuela</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/h/u/a/Categor%C3%ADa:Huayra_en_la_escuela.html" title="Categoría:Huayra en la escuela">Huayra en la escuela</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -175,8 +175,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/e/p/o/Epoptes.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Epoptes&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Epoptes">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Epoptes&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Epoptes">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -240,7 +240,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:22, 24 abr 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:22, 24 abr 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

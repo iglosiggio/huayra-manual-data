@@ -58,7 +58,7 @@
 <li class="toclevel-1 tocsection-5"><a href="#Parece_que_Internet_va_lento"><span class="tocnumber">5</span> <span class="toctext">Parece que Internet va lento</span></a></li>
 </ul>
 </td></tr></table>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Problemas_de_red&amp;action=edit&amp;section=1" title="Editar sección: Otros usuarios no pueden conectarte a Internet">editar</a>]</span> <span class="mw-headline" id="Otros_usuarios_no_pueden_conectarte_a_Internet">Otros usuarios no pueden conectarte a Internet</span></h1>
+<h1> <span class="mw-headline" id="Otros_usuarios_no_pueden_conectarte_a_Internet">Otros usuarios no pueden conectarte a Internet</span></h1>
 <p>Si ha establecido una conexión de red, pero otros usuarios del equipo no podes conectarte, probablemente no están introduciendo la configuración adecuada cuando intentan conectarte. Por ejemplo, si tiene una conexión inalámbrica, podes que no esté introduciendo la contraseña correcta de seguridad inalámbrica.
 </p><p>Podes hacerlo de modo que todos puedan compartir la configuración de una conexión de red una vez que la hayas creado. Esto significa que sólo es necesario configurarla una vez, y todos los demás en el equipo serán capaces de conectarse a ella sin necesidad de contestar ninguna pregunta. Para ello:
 </p>
@@ -68,7 +68,7 @@
 </li><li> Seleccioná Disponible para todos los usuarios y pulsá Guardar. Tendrás que introducir tu contraseña de administrador para guardar los cambios. Solo los usuarios administradores pueden hacerlo (Ver los privilegios del <a href="../../../../articles/p/e/r/Permisos_de_administrador.html" title="Permisos de administrador" class="mw-redirect">administrador</a>).
 </li><li> Ahora otros usuarios del equipo podrán usar esta conexión sin entrar en más detalles.
 </li></ol>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Problemas_de_red&amp;action=edit&amp;section=2" title="Editar sección: Otros usuarios no pueden editar las conexiones de red">editar</a>]</span> <span class="mw-headline" id="Otros_usuarios_no_pueden_editar_las_conexiones_de_red">Otros usuarios no pueden editar las conexiones de red</span></h1>
+<h1> <span class="mw-headline" id="Otros_usuarios_no_pueden_editar_las_conexiones_de_red">Otros usuarios no pueden editar las conexiones de red</span></h1>
 <p>Si podés editar una conexión de red pero los demás usuarios de tu equipo no pueden, podés establecer que la conexión esté disponible para todos los usuarios. Esto permite que cualquier usuario del equipo pueda conectarse usando esa conexión, pero sólo aquellos usuarios con permisos administrativos podrán cambiar sus opciones (Ver los privilegios del <a href="../../../../articles/p/e/r/Permisos_de_administrador.html" title="Permisos de administrador" class="mw-redirect">administrador</a>).
 </p><p>La razón para ésto es que, ya que todos los usuarios se ven afectados por el cambio, sólo los usuarios de confianza (administradores) deberían poder modificar la conexión.
 </p><p>Si es necesario que otros usuarios sean capaces de cambiar las conexiones por ellos mismos, tenés que hacer que la conexión no esté disponible para todos en el equipo. De esta forma, cada uno podrá gestionar sus propios ajustes de conexión en lugar de depender de una configuración compartida, en todo el sistema, para la conexión.
@@ -80,7 +80,7 @@
 </li><li> Deberás introducir tu contraseña de administración para cambiar la conexión. Solamente los administradores pueden hacerlo.
 </li><li> Deseleccioná Disponible para todos los usuarios y pulsá Guardar. Ahora otros usuarios del equipo podrán gestionar la conexión por ellos mismos.
 </li></ol>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Problemas_de_red&amp;action=edit&amp;section=3" title="Editar sección: No puedo ver mi red inalámbrica en la lista">editar</a>]</span> <span class="mw-headline" id="No_puedo_ver_mi_red_inal.C3.A1mbrica_en_la_lista">No puedo ver mi red inalámbrica en la lista</span></h1>
+<h1> <span class="mw-headline" id="No_puedo_ver_mi_red_inal.C3.A1mbrica_en_la_lista">No puedo ver mi red inalámbrica en la lista</span></h1>
 <p><i>El hardware inalámbrico puede estar apagado o roto, puede haber muchas redes inalámbricas cercanas, o puede estar fuera de rango.</i>
 </p><p>Hay una serie de razones por las que podría no ser capaz de ver la red inalámbrica en la lista de redes que aparece al pulsar en el ícono de red en la barra superior.
 </p>
@@ -90,7 +90,7 @@
 </li><li> La lista de redes inalámbricas tarda en actualizarse. Si recién encendiste el equipo o te has movido a una ubicación diferente, espere un minuto y compruebe si la red ha aparecido en la lista.
 </li><li> La red puede estar oculta. Necesitarás conectarte de una manera diferente si es una red oculta.
 </li></ul>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Problemas_de_red&amp;action=edit&amp;section=4" title="Editar sección: ¿Por qué mi red inalámbrica permanece desconectada?">editar</a>]</span> <span class="mw-headline" id=".C2.BFPor_qu.C3.A9_mi_red_inal.C3.A1mbrica_permanece_desconectada.3F">¿Por qué mi red inalámbrica permanece desconectada?</span></h1>
+<h1> <span class="mw-headline" id=".C2.BFPor_qu.C3.A9_mi_red_inal.C3.A1mbrica_permanece_desconectada.3F">¿Por qué mi red inalámbrica permanece desconectada?</span></h1>
 <p>Es posible que tengas baja señal, o la red podría ser la que no te permite conectarte correctamente.
 </p><p>Es posible que se desconecte de una red inalámbrica a pesar de querer mantenerse en contacto. Tu equipo normalmente intenta volverse a conectar a la red tan pronto como esto ocurre (el ícono de red en el <a href="../../../../articles/p/a/n/Panel_Superior.html" title="Panel Superior" class="mw-redirect">Panel Superior</a> girará o parpadeará si está tratando de volver a conectar), pero puede ser molesto, especialmente si estás utilizando Internet en ese momento.
 </p><p><b>Señal inalámbrica débil</b>
@@ -104,7 +104,7 @@
 </p><p><b>Redes inalámbricas ocupadas</b>
 Las redes inalámbricas en lugares concurridos (escuelas y cafeterías, por ejemplo) a menudo tienen muchos equipos tratando de conectarse con ellas a la vez. A veces estas redes están demasiado ocupadas y no son capaces de manejar todos los equipos que están tratando de conectar, por lo que algunos de ellos se desconectan.
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Problemas_de_red&amp;action=edit&amp;section=5" title="Editar sección: Parece que Internet va lento">editar</a>]</span> <span class="mw-headline" id="Parece_que_Internet_va_lento">Parece que Internet va lento</span></h1>
+<h1> <span class="mw-headline" id="Parece_que_Internet_va_lento">Parece que Internet va lento</span></h1>
 <p><i>Es posible que se estén descargando otras cosas, que tengas una conexión pobre o incluso puede ser la hora del día.</i>
 </p><p>Si estás usando Internet y parece muy lento, existe un cierto número de cosas que pueden estar causando la lentitud.
 </p><p>Probá cerrar el navegador web y volverlo a abrir y desconectarte de Internet y volver a conectarte de nuevo (al hacer esto se restablecen un montón de cosas que podrían ser la causa de que Internet funcione lentamente).
@@ -133,7 +133,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Categor%C3%ADa:Internet_y_conectividad&amp;action=edit&amp;redlink=1" class="new" title="Categoría:Internet y conectividad (la página no existe)">Internet y conectividad</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Categor%C3%ADa:Internet_y_conectividad&amp;action=edit&amp;redlink=1" class="new" title="Categoría:Internet y conectividad (la página no existe)">Internet y conectividad</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -144,8 +144,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/p/r/o/Problemas_de_red.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Problemas_de_red&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Problemas_de_red">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Problemas_de_red&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Problemas_de_red">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -209,7 +209,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:50, 6 mar 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. </li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:50, 6 mar 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. </li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

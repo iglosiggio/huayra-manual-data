@@ -47,8 +47,10 @@
 	    <h3 id="siteSub">De Huayra</h3>
 	    <div id="contentSub"></div>
 	    	    	    <!-- start content -->
-	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><div class="thumb tright"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/b/l/e/Archivo:Blender.jpg.html" class="image"><img alt="" src="../../../../images/thumb/b/bf/Blender.jpg/450px-Blender.jpg" width="450" height="280" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blender.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Pantalla de inicio de Blender</div></div></div>
-<p>Blender es un programa informático dedicado especialmente al modelado, animación y creación de gráficos tridimensionales. Tiene capacidad para una gran variedad de primitivas geométricas, incluyendo curvas, mallas poligonales, vacíos, NURBS, metaballs. Junto a las herramientas de animación se incluyen cinemática inversa, deformaciones por armadura o cuadrícula, vértices de carga y partículas estáticas y dinámicas. Cuenta con edición de audio y sincronización de video, además de Características interactivas para juegos como detección de colisiones, recreaciones dinámicas y lógica.
+	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><div class="floatleft"><a href="../../../../articles/b/l/e/Archivo:Blender.png.html" class="image"><img alt="Blender.png" src="../../../../images/thumb/3/39/Blender.png/200px-Blender.png" width="200" height="200"  /></a></div>
+<div class="thumb tright"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/b/l/e/Archivo:Blender.jpg.html" class="image"><img alt="" src="../../../../images/thumb/b/bf/Blender.jpg/450px-Blender.jpg" width="450" height="280" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blender.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Pantalla de inicio de Blender</div></div></div>
+<p>Blender es un programa informático dedicado especialmente al modelado, animación y creación de gráficos tridimensionales. Tiene capacidad para una gran variedad de primitivas geométricas, incluyendo curvas, mallas poligonales, vacíos, NURBS, metaballs. Junto a las herramientas de animación se incluyen cinemática inversa, deformaciones por armadura o cuadrícula, vértices de carga y partículas estáticas y dinámicas. Cuenta con <a href="../../../../articles/e/d/i/Edit%C3%A1_tus_videos_con_Blender.html" title="Editá tus videos con Blender">edición de video</a>, además de características interactivas para juegos como detección de colisiones, recreaciones dinámicas y lógica.
+</p><p>Blender puede parecer muy complicado al principio y abrumador. Pero cuando empieces a entender un poco cómo funciona su espacio de trabajo vas a encontrarlo muy útil. Para eso hicimos el tutorial <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html" title="Blender desde 0: la interfaz">Blender desde 0: la interfaz</a>. Te recomendamos ir siguiendo los tutoriales uno a uno, para ir paso a paso sin abrumarse al comienzo pero terminando con una animación que pueda dejarte satisfecho como el producto final de unos tutoriales sencillos y que cualquiera pueda realizar. Si querés seguir profundizando, no dejes de visitar los miles de videotutoriales que hay en YouTube y otros sitios que, como todo proyecto de <a href="../../../../articles/s/o/f/Software_libre.html" title="Software libre" class="mw-redirect">software libre</a>, se esfuerzan en difundir el conocimiento de modo libre, gratuito y sin restricciones. 
 </p>
 <div class="isa_tip">
 <p>Te recomendamos ver los cortos de la <a rel="nofollow" class="external text" href="https://www.youtube.com/user/BlenderFoundation">Blender Foundation</a>, hechos integramente con Blender:
@@ -61,15 +63,17 @@
 </div>
 <p><br />
 <b>Ubicación</b>: <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a> &gt;&gt; <b>Gráficos</b>
-</p><p><br />
 </p>
-<ul><li> <a href="../../../../articles/e/d/i/Edit%C3%A1_tus_videos_con_Blender.html" title="Editá tus videos con Blender">Editá tus videos con Blender</a>
+<h2> <span class="mw-headline" id="Tutoriales_de_Blender">Tutoriales de Blender</span></h2>
+<ul><li> <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html" title="Blender desde 0: la interfaz">Blender desde 0: la interfaz</a>
+</li><li> <a href="../../../../articles/m/o/d/Model%C3%A1_una_copa_con_Blender.html" title="Modelá una copa con Blender">Modelá una copa con Blender</a>
+</li><li> <a href="../../../../articles/e/d/i/Edit%C3%A1_tus_videos_con_Blender.html" title="Editá tus videos con Blender">Editá tus videos con Blender</a>
 </li></ul>
 
 <!-- 
 NewPP limit report
-Preprocessor visited node count: 9/1000000
-Preprocessor generated node count: 48/1000000
+Preprocessor visited node count: 13/1000000
+Preprocessor generated node count: 52/1000000
 Post‐expand include size: 417/2097152 bytes
 Template argument size: 392/2097152 bytes
 Highest expansion depth: 2/40
@@ -77,7 +81,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categorías</a>: <ul><li><a href="../../../../articles/a/p/l/Categor%C3%ADa:Aplicaciones.html" title="Categoría:Aplicaciones">Aplicaciones</a></li><li><a href="../../../../articles/m/u/l/Categor%C3%ADa:Multimedia.html" title="Categoría:Multimedia">Multimedia</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categorías</a>: <ul><li><a href="../../../../articles/a/p/l/Categor%C3%ADa:Aplicaciones.html" title="Categoría:Aplicaciones">Aplicaciones</a></li><li><a href="../../../../articles/m/u/l/Categor%C3%ADa:Multimedia.html" title="Categoría:Multimedia">Multimedia</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -88,8 +92,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/b/l/e/Blender.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Blender&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Blender">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Blender&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Blender">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -153,7 +157,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 15:12, 2 jun 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 16:38, 20 ene 2015 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

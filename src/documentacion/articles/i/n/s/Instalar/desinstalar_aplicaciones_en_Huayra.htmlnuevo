@@ -67,7 +67,7 @@
 </li>
 </ul>
 </td></tr></table>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;section=1" title="Editar sección: Instalar desde el Centro de Software">editar</a>]</span> <span class="mw-headline" id="Instalar_desde_el_Centro_de_Software">Instalar desde el Centro de Software</span></h1>
+<h1> <span class="mw-headline" id="Instalar_desde_el_Centro_de_Software">Instalar desde el Centro de Software</span></h1>
 <p>El programa que se encarga de esta tarea es el Centro de software. Es importante recordar que necesitamos conexión a Internet. Por ejemplo para instalar el navegador Chromium (el navegador libre en el que se basa Chrome):
 </p>
 <ol><li> Abrir el <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a>/Sistema/Administración y luego Centro de Software.
@@ -82,7 +82,7 @@
 </p><p>Es aconsejable navegar por el Centro de software en el menú por categorías, recorrer y probar nuevas aplicaciones. Lo peor que nos puede pasar es que no nos guste y no sirva, en tal caso lo desinstalamos sin problemas. Pero es seguro que nos encontraremos con programas desconocidos para nosotros pero que al probarlos se convertirán en herramientas de primera necesidad.
 </p><p><br />
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;section=2" title="Editar sección: Instalar desde un paquete Deb">editar</a>]</span> <span class="mw-headline" id="Instalar_desde_un_paquete_Deb">Instalar desde un paquete Deb</span></h1>
+<h1> <span class="mw-headline" id="Instalar_desde_un_paquete_Deb">Instalar desde un paquete Deb</span></h1>
 <p>Huayra se basa en una de las distribuciones de GNU/Linux más conocidas y estables: <a href="../../../../articles/d/e/b/Debian.html" title="Debian">Debian</a>. Por eso los paquetes de instalación validos para <a href="../../../../articles/d/e/b/Debian.html" title="Debian">Debian</a> son válidos para Huayra.
 </p><p><i><b>¿Qué quiere decir esto?</b></i>
 </p><p>Si quieres instalar una aplicación que sabés que se encuentra disponible para Linux pero no la encontrás en Centro de Software, entonces podés buscar en Internet el paquete <a href="../../../../articles/d/e/b/Deb.html" title="Deb">.deb</a> para bajar e instalar en tu computadora. Estos son archivos que bajás de un sitio de internet que tienen la extensión <a href="../../../../articles/d/e/b/Deb.html" title="Deb">.deb</a>. Por ejemplo aplicaciones conocidas como <b>Dropbox</b> se bajan de este modo. Tenés que ir a la sección Descargas del sitio y buscar la opción .deb de 32bits 8la arquitectura de las netbooks del Programa Conectar Igualdad son de 32 bits)
@@ -94,7 +94,7 @@
 </li></ol>
 <p>Para descargar el navegador Chrome, solo hay que ir a <a rel="nofollow" class="external free" href="http://www.google.com/chrome">http://www.google.com/chrome</a>, elegir para descargar el paquete 32bit .deb y abrirlo con GDebi.
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;section=3" title="Editar sección: Instalar aplicaciones desde el Gestor de Paquetes Synaptic">editar</a>]</span> <span class="mw-headline" id="Instalar_aplicaciones_desde_el_Gestor_de_Paquetes_Synaptic">Instalar aplicaciones desde el Gestor de Paquetes Synaptic</span></h1>
+<h1> <span class="mw-headline" id="Instalar_aplicaciones_desde_el_Gestor_de_Paquetes_Synaptic">Instalar aplicaciones desde el Gestor de Paquetes Synaptic</span></h1>
 <p>Synaptic es un sistema avanzado para instalar o eliminar <a href="../../../../articles/a/p/l/Aplicaciones.html" title="Aplicaciones">aplicaciones</a>. Si bien utiliza un entorno gráfico como el Centro de Software, es mucho más potente, porque tenés el control completo de todos los paquetes (aplicaciones) instalados en tu sistema.
 </p><p>Para entrar a Synaptic tenés que:
 </p>
@@ -108,7 +108,7 @@
 <div class="isa_note">Muchas veces al tildar uno de los paquetes vas a ver que Synaptic te marca otros. Esto te indica que otros paquetes o son necesarios para que funcione la aplicación que querés instalar o pueden ser de utilidad para que funcione mejor la aplicación. Estos son los <b>paquetes recomendados</b>. <br /> Synaptic te permite instalar cualquier tipo de paquete, ya sea una aplicación en sí o alguna librería o cualquier pieza de software que necesite el sistema.</div>
 <p><br />
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;section=4" title="Editar sección: Instalar desde Terminal">editar</a>]</span> <span class="mw-headline" id="Instalar_desde_Terminal">Instalar desde  <a href="../../../../articles/t/e/r/Terminal.html" title="Terminal">Terminal</a></span></h1>
+<h1> <span class="mw-headline" id="Instalar_desde_Terminal">Instalar desde  <a href="../../../../articles/t/e/r/Terminal.html" title="Terminal">Terminal</a></span></h1>
 <p>Para instalar una aplicación desde la consola (o terminal) sólo hay que seguir dos pasos:
 </p>
 <ol><li> Abrir la <a href="../../../../articles/t/e/r/Terminal.html" title="Terminal">Terminal</a> en <a href="../../../../articles/p/r/i/Primeros_pasos.html#Men.C3.BA_Huayra" title="Primeros pasos">Menú Huayra</a>/Accesorios/Terminal
@@ -126,7 +126,7 @@
 </li></ul>
 <p>Resumiendo sudo apt-get install chromium significa: con permisos de superusuario (<i>sudo</i>) que la aplicación apt (<i>apt-get</i>) instale (<i>install</i>) chromium (<i>chromium</i>).
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;section=5" title="Editar sección: Instalar desde binarios compilados para GNU/Linux">editar</a>]</span> <span class="mw-headline" id="Instalar_desde_binarios_compilados_para_GNU.2FLinux">Instalar desde binarios compilados para GNU/Linux</span></h1>
+<h1> <span class="mw-headline" id="Instalar_desde_binarios_compilados_para_GNU.2FLinux">Instalar desde binarios compilados para GNU/Linux</span></h1>
 <p>Existe otra alternativa para instalar una aplicación en Huayra: instalando desde los archivos binarios compilados. Suena complejo, pero en realidad es muy fácil. Para instalar cualquier aplicación que no esté en los <a href="../../../../articles/r/e/p/Repositorios.html" title="Repositorios" class="mw-redirect">repositorios</a> oficiales de Debian o Huayra, tienen que ir al sitio de la aplicación y buscar algún archivo <b>.deb</b> para Debian 32bits. En caso que no tenga un paquete <b>.deb</b> entonces podés instalar desde los binarios compilados.  Vamos a usar de ejemplo cómo instalar <a href="../../../../articles/f/i/r/Firefox.html" title="Firefox">Firefox</a> en Huayra.
 </p>
 <div class="thumb tright"><div class="thumbinner" style="width:182px;"><a href="../../../../articles/f/i/r/Archivo:Firefox_huayra.jpg.html" class="image"><img alt="" src="../../../../images/thumb/c/c2/Firefox_huayra.jpg/180px-Firefox_huayra.jpg" width="180" height="99" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/f/i/r/Archivo:Firefox_huayra.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Instalar Firefox en Huayra</div></div></div>
@@ -141,14 +141,14 @@
 </li></ol>
 </li></ol>
 <div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/p/a/n/Archivo:Pantallazo-Crear_lanzador.jpg.html" class="image"><img alt="" src="../../../../images/thumb/4/4c/Pantallazo-Crear_lanzador.jpg/250px-Pantallazo-Crear_lanzador.jpg" width="250" height="122" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/p/a/n/Archivo:Pantallazo-Crear_lanzador.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Crear <a href="../../../../articles/l/a/n/Lanzador.html" title="Lanzador" class="mw-redirect">lanzador</a> de Firefox</div></div></div></div>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;section=6" title="Editar sección: Actualización de aplicaciones">editar</a>]</span> <span class="mw-headline" id="Actualizaci.C3.B3n_de_aplicaciones">Actualización de aplicaciones</span></h1>
+<h1> <span class="mw-headline" id="Actualizaci.C3.B3n_de_aplicaciones">Actualización de aplicaciones</span></h1>
 <div class="isa_important">
 <p>Al instalar de este modo, la actualización depende de cómo esté pensada la aplicación. Al instalar desde los <a href="../../../../articles/r/e/p/Repositorios.html" title="Repositorios" class="mw-redirect">repositorios</a> desde <i>Centro de software</i> o <i>Terminal</i>, cuando <a href="../../../../articles/a/c/t/Actualizar.html" title="Actualizar" class="mw-redirect">actualices Huayra</a> se van a actualizar todas las aplicaciones a la versión más reciente que esté en los repositorios. En cambio, al instalar desde los binarios, la actualización depende de sí la aplicación busca las actualizaciones (aunque en general esto es así). A su vez, las versiones de los sitios de los proyectos que los usuarios descargan en binario compilado, en paquete <b>.deb</b> o desde el repositorio del proyecto (y no del de Huayra o Debian), en general son las versiones más nuevas. Pero pueden ser las menos estables y testeadas. Como siempre, la elección de qué método usar es del usuario  
 </p>
 </div>
 <p><br />
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;section=7" title="Editar sección: Lista de los repositorios">editar</a>]</span> <span class="mw-headline" id="Lista_de_los_repositorios"><a href="../../../../articles/r/e/p/Repositorio.html" title="Repositorio">Lista de los repositorios</a> </span></h1>
+<h1> <span class="mw-headline" id="Lista_de_los_repositorios"><a href="../../../../articles/r/e/p/Repositorio.html" title="Repositorio">Lista de los repositorios</a> </span></h1>
 <div class="thumb tright"><div class="thumbinner" style="width:352px;"><a href="../../../../articles/o/r/i/Archivo:Orig_soft.jpg.html" class="image"><img alt="" src="../../../../images/thumb/6/64/Orig_soft.jpg/350px-Orig_soft.jpg" width="350" height="151" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/o/r/i/Archivo:Orig_soft.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Orígenes de Software</div></div></div>
 <p>Instalar un <a href="../../../../articles/p/a/q/Paquete.html" title="Paquete">paquete</a> o aplicación desde la Terminal, Synaptic o Centro de Software es posible siempre y cuando ese <a href="../../../../articles/p/a/q/Paquete.html" title="Paquete">paquete</a> se encuentre en los repositorios que vienen listados en Huayra o en Debian. Un repositorio es un sitio centralizado donde se almacena y mantiene información digital. En el caso de Huayra, es un lugar donde se almacenan los paquetes que pueden ser desde aplicaciones completas hasta librerías, codecs, etc.
 </p><p>Estos repositorios se encuentran listados en Huayra y es allí donde busca si existe una aplicación o su actualización. En una analogía extremadamente simple, los repositorios son como las secciones de una librería. Si uno necesita buscar un libro de historia debe hacerlo en la sección correspondiente. Si necesita una de Economía la biblioteca debe tener una sección con libros de esa disciplina. En caso de no tenerla, debe agregársele.
@@ -164,7 +164,7 @@
 </p><p><br />
 </p><p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;section=8" title="Editar sección: Editar la lista de repositorios desde Terminal">editar</a>]</span> <span class="mw-headline" id="Editar_la_lista_de_repositorios_desde_Terminal"> Editar la lista de repositorios desde <a href="../../../../articles/t/e/r/Terminal.html" title="Terminal">Terminal</a> </span></h2>
+<h2> <span class="mw-headline" id="Editar_la_lista_de_repositorios_desde_Terminal"> Editar la lista de repositorios desde <a href="../../../../articles/t/e/r/Terminal.html" title="Terminal">Terminal</a> </span></h2>
 <p>Usando la <a href="../../../../articles/t/e/r/Terminal.html" title="Terminal">Terminal</a> se puede editar esta lista. La misma se encuentra en un archivo que se llama <code>sources.list</code> que se encuentra en la siguiente <a href="../../../../articles/e/s/t/Estructura_de_los_directorios_en_GNU/Linux.html" title="Estructura de los directorios en GNU/Linux">ubicación</a> <code>/etc/apt</code> . Para editar este archivo hay dos formas:
 </p>
 <pre>$ sudo pluma /etc/apt/sources.list                      Este comando abre el <i>sources.list</i> con el editor de textos Pluma en una ventana aparte
@@ -181,7 +181,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/a/p/l/Categor%C3%ADa:Aplicaciones.html" title="Categoría:Aplicaciones">Aplicaciones</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/a/p/l/Categor%C3%ADa:Aplicaciones.html" title="Categoría:Aplicaciones">Aplicaciones</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -192,8 +192,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/i/n/s/Instalar/desinstalar_aplicaciones_en_Huayra.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Instalar/desinstalar_aplicaciones_en_Huayra">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Instalar/desinstalar_aplicaciones_en_Huayra&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Instalar/desinstalar_aplicaciones_en_Huayra">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -257,7 +257,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 16:51, 23 abr 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 16:51, 23 abr 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

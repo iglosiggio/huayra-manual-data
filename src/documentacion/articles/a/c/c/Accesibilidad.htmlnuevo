@@ -72,14 +72,14 @@ Por eso en Huayra tenes un escritorio accesible que permite adaptar tu <a href="
 <li class="toclevel-1 tocsection-6"><a href="#Aplicaciones_de_accesibilidad"><span class="tocnumber">2</span> <span class="toctext">Aplicaciones de accesibilidad</span></a></li>
 </ul>
 </td></tr></table>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Accesibilidad&amp;action=edit&amp;section=1" title="Editar sección: Escritorio Accesible">editar</a>]</span> <span class="mw-headline" id="Escritorio_Accesible">Escritorio Accesible</span></h2>
+<h2> <span class="mw-headline" id="Escritorio_Accesible">Escritorio Accesible</span></h2>
 <p>El Escritorio Accesible de Huayra es fácil de usar e incorpora muchas características de accesibilidad al permitir personalizar fácilmente su entorno. 
 </p><p>Hay diversas opciones de adaptación que podes usar:
 </p>
 <div class="isa_important">Si queres que tu escritorio sea accesible, antes de empezar a trabajar asegurate que esté instalado el Soporte de Accesibilidad. Ver más abajo</div>
 <p><br />
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Accesibilidad&amp;action=edit&amp;section=2" title="Editar sección: Activar el soporte del escritorio accesible">editar</a>]</span> <span class="mw-headline" id="Activar_el_soporte_del_escritorio_accesible">Activar el soporte del escritorio accesible</span></h3>
+<h3> <span class="mw-headline" id="Activar_el_soporte_del_escritorio_accesible">Activar el soporte del escritorio accesible</span></h3>
 <div class="isa_note">Antes de realizar este paso, chequeá que no tengas este soporte ya instalado. En el caso positivo debería aparecerte dentro del Menú Huayra&gt; Accesibilidad, o bien con un ícono en el escritorio. Sino esta en ninguno de los dos lados, entonces sí, seguí los pasos a continuación </div>
 <p><br />
 </p>
@@ -103,21 +103,21 @@ Por eso en Huayra tenes un escritorio accesible que permite adaptar tu <a href="
 Haciendo clic en <b>Configurar Accesibilidad</b> tenés acceso al <b>centro de accesibilidad</b>. 
 </p><p>Desde el Centro de Accesibilidad podés administrar desde un solo lugar todas las configuraciones pertinentes como Temas, Lector de pantalla, Alertas visuales, Teclas especiales, etc.
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Accesibilidad&amp;action=edit&amp;section=3" title="Editar sección: La apariencia del Escritorio">editar</a>]</span> <span class="mw-headline" id="La_apariencia_del_Escritorio"> La apariencia del Escritorio</span></h3>
+<h3> <span class="mw-headline" id="La_apariencia_del_Escritorio"> La apariencia del Escritorio</span></h3>
 <p>¿Los íconos son pequeños? ¿Queres agrandar una parte o toda la pantalla? 
 Para conocer más sobre el escritorio de Huayra 
 </p>
-<h4><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Accesibilidad&amp;action=edit&amp;section=4" title="Editar sección: Temas">editar</a>]</span> <span class="mw-headline" id="Temas">Temas</span></h4>
+<h4> <span class="mw-headline" id="Temas">Temas</span></h4>
 <p>En Temas, podes cambiar la forma en que visualizas los fondos de tu escritorio, como por ejemplo si necesitaras una impresión más grande o Personalizar tipografías.
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Accesibilidad&amp;action=edit&amp;section=5" title="Editar sección: Configuración de Teclado">editar</a>]</span> <span class="mw-headline" id="Configuraci.C3.B3n_de_Teclado">Configuración de Teclado</span></h3>
+<h3> <span class="mw-headline" id="Configuraci.C3.B3n_de_Teclado">Configuración de Teclado</span></h3>
 <p>Podes modificar cambiar la manera en que utilizas las teclas según:
 </p>
 <ul><li>si tendes a pulsar las teclas varias veces, podes ver <i>Rechazo de teclas</i>
 </li><li>si tendes a pulsar las teclas en repetidas ocasiones
 </li><li>o incluso podes hacer que se vea el teclado en pantalla <b>Florence</b>
 </li></ul>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Accesibilidad&amp;action=edit&amp;section=6" title="Editar sección: Aplicaciones de accesibilidad">editar</a>]</span> <span class="mw-headline" id="Aplicaciones_de_accesibilidad">Aplicaciones de accesibilidad</span></h2>
+<h2> <span class="mw-headline" id="Aplicaciones_de_accesibilidad">Aplicaciones de accesibilidad</span></h2>
 <p>Dentro del conjunto de <a href="../../../../articles/a/p/l/Aplicaciones.html" title="Aplicaciones">aplicaciones</a> que viene incluido dentro de Huayra, dentro del <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a> hay un apartado de <b>Acceso Universal</b> donde están compiladas las aplicaciones específicas de accesibilidad, desde: 
 </p>
 <ul><li> un lector de pantalla libre y magnificador <a href="../../../../articles/o/r/c/Orca.html" title="Orca">Orca</a>. 
@@ -147,8 +147,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/a/c/c/Accesibilidad.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Accesibilidad&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Accesibilidad">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Accesibilidad&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Accesibilidad">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -212,7 +212,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:10, 12 jun 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a> y <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Cmandrut&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Cmandrut (la página no existe)">anishuara</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:10, 12 jun 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a> y <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Cmandrut&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Cmandrut (la página no existe)">anishuara</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

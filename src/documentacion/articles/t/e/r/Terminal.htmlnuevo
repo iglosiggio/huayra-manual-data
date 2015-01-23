@@ -78,7 +78,7 @@
 <li class="toclevel-1 tocsection-13"><a href="#Hac.C3.A9_hablar_a_la_vaca_de_Huayra"><span class="tocnumber">8</span> <span class="toctext">Hacé hablar a la vaca de Huayra</span></a></li>
 </ul>
 </td></tr></table>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=1" title="Editar sección: Primeros pasos">editar</a>]</span> <span class="mw-headline" id="Primeros_pasos">Primeros pasos</span></h2>
+<h2> <span class="mw-headline" id="Primeros_pasos">Primeros pasos</span></h2>
 <p>Para acceder a la Terminal hay que ir a <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a>/Accesorios y hacer clic en <i>Terminal</i>. También puede accederse con <i>Ctrl+Alt+T</i>. 
 </p><p>Lo primero que vas a ver al abrir la Terminal es un indicador de línea de órdenes (en inglés se utiliza la palabra prompt o "prontuario" que se puede definir como ayuda visual o palabra que ayuda) esperando que el usuario introduzca una orden. 
 </p><p>Así es como aparece en general una vista de la terminal
@@ -111,7 +111,7 @@
 <p><br />
 </p><p>Otra forma de acceder a la terminal es salirse del <a href="../../../../articles/e/n/t/Entorno_de_escritorio.html" title="Entorno de escritorio">Entorno de escritorio</a> y acceder a un entorno completamente en modo texto. Para esto último debemos teclear Control+Alt+F1. Los sistemas GNU/Linux proporcionan por defecto seis terminales de este tipo, de Control+Alt+F1 a Control+Alt+F6. Si queremos volver al modo gráfico lo hacemos con Alt+F8. Este es el modo texto puro, tal cual eran los sistemas operativos antes de utilizar interfaces gráficas. Por lo tanto, en realidad cuando abrís la terminal desde el entorno de escritorio en realidad estas usando una aplicación de <a href="../../../../articles/m/a/t/MATE.html" title="MATE">MATE</a> que es un emulador de la terminal dentro de una interfaz visual.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=2" title="Editar sección: Estructura de los Comandos">editar</a>]</span> <span class="mw-headline" id="Estructura_de_los_Comandos">Estructura de los Comandos</span></h2>
+<h2> <span class="mw-headline" id="Estructura_de_los_Comandos">Estructura de los Comandos</span></h2>
 <p>Dijimos que la Terminal te permite darle órdenes al sistema pero no a través de los menúes gráficos, sino usando ordenes o <a href="../../../../articles/c/o/m/Comandos.html" title="Comandos" class="mw-redirect">comandos</a>. Sin embargo éstos no pueden escribirse en un orden caprichoso, sino que tienen que seguir reglas, una estructura, o sea una sintaxis. Igual que cualquier otro idioma tiene sus reglas. Si en castellano desordenás las palabras sin respetar el órden de la sintaxis que tanto se estudia en la escuela, no vas a entender nada. <i>La perro del Juan traé cadena" es una orden que difícilmente pueda cumplir Juan, a quién le piden que traiga la cadena del perro. Del mismo modo, si ingresás en la terminal </i>computadora apagate<i> no va a pasar nada. </i>
 </p><p>Por eso existe una sintaxis o estructura de los comandos que el sistema operativo puede comprender. Más adelante enumeramos el listado de comandos que más vas a usar, así como también tareas que son recomendables realizar a través de la consola y no del <a href="../../../../articles/e/n/t/Entorno_de_escritorio.html" title="Entorno de escritorio">entorno gráfico</a>.
 </p><p>En una orden simple, la primera palabra indica la orden a ser ejecutada y las palabras restantes se pasan como <b>opciones'<i> o </i></b><i>parámetros</i> y <b>argumentos</b> de la orden:
@@ -160,7 +160,7 @@ mkdir: se ha creado el directorio «2»
 <p><br />
 </p><p><br />
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=3" title="Editar sección: El uso de espacios en los comandos">editar</a>]</span> <span class="mw-headline" id="El_uso_de_espacios_en_los_comandos">El uso de espacios en los comandos</span></h3>
+<h3> <span class="mw-headline" id="El_uso_de_espacios_en_los_comandos">El uso de espacios en los comandos</span></h3>
 <p>Al escribir <i>$ mkdir directorio 2</i> no se crea un directorio de nombre <i>directorio 2</i> sino dos directorios <i>directorio</i> y <i>2</i>. Esto pasa porque en la sintaxis de los comandos, el espacio es lo que separa <b>comandos</b> de <b>opciones</b> y de <b>argumentos</b>. Por eso para crear un directorio que se llame <i>directorio 2</i> hay que ingresar el comando usando comillas dobles del siguiente modo:
 </p>
 <pre>$ mkdir "directorio 2"
@@ -175,7 +175,7 @@ mkdir: se ha creado el directorio «2»
 </div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=4" title="Editar sección: Manuales y ayuda para cada comando">editar</a>]</span> <span class="mw-headline" id="Manuales_y_ayuda_para_cada_comando">Manuales y ayuda para cada comando</span></h2>
+<h2> <span class="mw-headline" id="Manuales_y_ayuda_para_cada_comando">Manuales y ayuda para cada comando</span></h2>
 <p><b>¿Pero cómo hacés para acordarte de todos estos comandos con sus opciones, parámetros y la sintaxis correcta?</b>
 </p><p>No desesperes. La mayoría de las órdenes disponen de una ayuda en forma de manual donde muestra la sintaxis para usar el comando, con sus opciones explicadas brevemente. Para acceder a este tipo de ayuda basta con introducir en la terminal:
 </p>
@@ -216,7 +216,7 @@ para las opciones cortas.
  -b, --escape               imprime escapes en estilo C para los caracteres no
                             gráficos
 </pre>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=5" title="Editar sección: Permisos en la Terminal: su y sudo">editar</a>]</span> <span class="mw-headline" id="Permisos_en_la_Terminal:_su_y_sudo"> <a href="../../../../articles/p/e/r/Permisos.html" title="Permisos">Permisos</a> en la Terminal: <code>su</code> y <code>sudo</code> </span></h2>
+<h2> <span class="mw-headline" id="Permisos_en_la_Terminal:_su_y_sudo"> <a href="../../../../articles/p/e/r/Permisos.html" title="Permisos">Permisos</a> en la Terminal: <code>su</code> y <code>sudo</code> </span></h2>
 <p>Como explicamos en otras secciones, Huayra funciona con <a href="../../../../articles/u/s/u/Usuarios_y_sesiones.html" title="Usuarios y sesiones">usuarios</a> múltiples, cada uno con diferentes <a href="../../../../articles/p/e/r/Permisos.html" title="Permisos">permisos</a>, que le permiten o no hacer determinadas tareas. Desde la Terminal se pueden realizar todas las tareas usando dos comandos: <code>su</code> y <code>sudo</code>
 </p>
 <dl><dt>$ su
@@ -225,10 +225,10 @@ para las opciones cortas.
 <pre>root@equipo:directorio actual# 
 </pre>
 <dl><dt>$ sudo
-</dt><dd> Este comando significa <i><b>S</b>uper <b>U</b>ser <b>DO</b></i>, es decir nos mantiene logueados con el mismo usuario que creaste pero te permite que la instrucción que siga la ejecutes con <a href="../../../../articles/u/s/u/Usuarios_y_sesiones.html#.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F" title="Usuarios y sesiones">permisos de administrador</a>. Para esto es necesario que en la configuración de <b><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuarios_y_grupos&amp;action=edit&amp;redlink=1" class="new" title="Usuarios y grupos (la página no existe)">Usuarios y grupos</a></b> el usuario tenga <i>Tipo de cuenta:Administrador</i> y esté en el grupo <i>sudo</i>
+</dt><dd> Este comando significa <i><b>S</b>uper <b>U</b>ser <b>DO</b></i>, es decir nos mantiene logueados con el mismo usuario que creaste pero te permite que la instrucción que siga la ejecutes con <a href="../../../../articles/u/s/u/Usuarios_y_sesiones.html#.C2.BFQu.C3.A9_son_los_.22Privilegios_de_administrador.22.3F" title="Usuarios y sesiones">permisos de administrador</a>. Para esto es necesario que en la configuración de <b><a href="../../../../articles/u/s/u/Usuarios_y_sesiones.html" title="Usuarios y sesiones">Usuarios y sesiones</a></b> el usuario tenga <i>Tipo de cuenta:Administrador</i> y esté en el grupo <i>sudo</i>
 </dd></dl>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=6" title="Editar sección: Tareas simplificadas por usar la Terminal">editar</a>]</span> <span class="mw-headline" id="Tareas_simplificadas_por_usar_la_Terminal"> Tareas simplificadas por usar la Terminal</span></h2>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=7" title="Editar sección: Actualizar">editar</a>]</span> <span class="mw-headline" id="Actualizar"><a href="../../../../articles/a/c/t/Actualizar.html" title="Actualizar" class="mw-redirect">Actualizar</a></span></h3>
+<h2> <span class="mw-headline" id="Tareas_simplificadas_por_usar_la_Terminal"> Tareas simplificadas por usar la Terminal</span></h2>
+<h3> <span class="mw-headline" id="Actualizar"><a href="../../../../articles/a/c/t/Actualizar.html" title="Actualizar" class="mw-redirect">Actualizar</a></span></h3>
 <p><a href="../../../../articles/a/c/t/Actualizar.html" title="Actualizar" class="mw-redirect">Actualizar</a> Huayra es uno de los ejemplos más claros de una tarea que si la hacés por Terminal te va a resultar mucho más fácil y rápido. 
 </p>
 <ul><li> Buscá las actualizaciones disponibles en los repositorios, tipeando:
@@ -241,7 +241,7 @@ para las opciones cortas.
 </pre>
 <ul><li> Sólo queda confirmar las actualizaciones con presionando <i>S</i>.
 </li></ul>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=8" title="Editar sección: Instalar">editar</a>]</span> <span class="mw-headline" id="Instalar"><a href="../../../../articles/i/n/s/Instalar.html" title="Instalar" class="mw-redirect">Instalar</a></span></h3>
+<h3> <span class="mw-headline" id="Instalar"><a href="../../../../articles/i/n/s/Instalar.html" title="Instalar" class="mw-redirect">Instalar</a></span></h3>
 <p>Desde Terminal es muy fácil <a href="../../../../articles/%C2%BF/c/%C3%B3/%C2%BFC%C3%B3mo_instalar/desinstalar_aplicaciones_en_Huayra%3F.html" title="¿Cómo instalar/desinstalar aplicaciones en Huayra?" class="mw-redirect">instalar</a> una aplicación. Solo hay que saber el nombre del <a href="../../../../articles/p/a/q/Paquete.html" title="Paquete">paquete</a> de la aplicación que se quiere instalar y tipear:
 </p>
 <pre>$ sudo apt-get install nombre_del_paquete
@@ -256,7 +256,7 @@ para las opciones cortas.
 </div>
 <p><br />
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=9" title="Editar sección: Administrar permisos de directorios y archivos">editar</a>]</span> <span class="mw-headline" id="Administrar_permisos_de_directorios_y_archivos"> Administrar <a href="../../../../articles/p/e/r/Permisos.html" title="Permisos">permisos</a> de directorios y archivos</span></h3>
+<h3> <span class="mw-headline" id="Administrar_permisos_de_directorios_y_archivos"> Administrar <a href="../../../../articles/p/e/r/Permisos.html" title="Permisos">permisos</a> de directorios y archivos</span></h3>
 <p>Como podés ver en la sección <a href="../../../../articles/p/e/r/Permisos.html" title="Permisos">Permisos</a>, para poder abrir o ejecutar algunos directorios y archivos, hay que tener permisos especiales de <a href="../../../../articles/r/o/o/Root.html" title="Root">root</a>. Un ejemplo de esos directorios es <code>/usr/share/cdpedia</code> donde se guardan los datos de la <a href="../../../../articles/c/d/p/CDPedia.html" title="CDPedia">CDPedia</a>, la aplicación para ver contenido de la Wikipedia offline. Las netbooks que vienen con Huayra instalado ya traen los datos de la CDPedia, pero aún así podés bajarte los datos para tenerlos actualizados.
 </p><p>Para poder hacerlo tenés que descargar esos datos comprimidos en tar.gz y <a href="../../../../articles/a/r/c/Archivos_y_Carpetas.html#Comprimir_y_descomprimir_archivos_o_carpetas" title="Archivos y Carpetas">descomprimirlos</a> en el directorio <code>/usr/share/cdpedia</code>. Pero para modificar este directorio tenés que tener permisos especiales. Por eso si lo abrís directamente desde la interfaz gráfica no te va a dejar modificar nada. 
 </p><p>Por eso te conviene usar la Terminal. Siguiendo la estructura de los comandos podés indicarle a Huayra que habrá con permisos de super usuario ese directorio usando <i>Caja</i>, el visor de directorios. La instrucción es la siguiente:
@@ -266,7 +266,7 @@ para las opciones cortas.
 <p>Ahora vas a poder copiar contenido dentro de esa carpeta usando la interfaz gráfica. También todas estas actividades se pueden hacer usando los comandos de la Terminal que se listan más abajo.
 </p><p>También podés cambiar los permisos que tiene un directorio usando el comando <code>chmod</code>. Para más información: <a href="../../../../articles/p/e/r/Permisos.html" title="Permisos">Permisos</a>
 </p>
-<h3><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=10" title="Editar sección: &quot;Matar&quot; aplicaciones">editar</a>]</span> <span class="mw-headline" id=".22Matar.22_aplicaciones">"Matar" aplicaciones </span></h3>
+<h3> <span class="mw-headline" id=".22Matar.22_aplicaciones">"Matar" aplicaciones </span></h3>
 <p>Huayra tiene la enorme ventaja de que si una aplicación <i>se cuelga</i> no te hace imposible usar el resto del sistema, teniendo que reiniciar todo. Solamente tenes que "matarla" y el resto va a seguir funcionando como si nada hubiese pasado. 
 </p><p>Para "matar" aplicaciones podés hacerlo desde el <a href="../../../../articles/22/m/a/%22Matar%22_aplicaciones.html" title="&quot;Matar&quot; aplicaciones">entorno gráfico</a> o desde la Terminal. En este caso vas a necesitar saber el ID del proceso (PID) o el <a href="../../../../articles/l/a/n/Lanzadores.html#Comandos" title="Lanzadores">comando del programa</a>. Para saber esto ingresá en una terminal
 </p>
@@ -292,7 +292,7 @@ $ kill -KILL PID
 </div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=11" title="Editar sección: Listado de comandos más comunes">editar</a>]</span> <span class="mw-headline" id="Listado_de_comandos_m.C3.A1s_comunes"> Listado de comandos más comunes</span></h2>
+<h2> <span class="mw-headline" id="Listado_de_comandos_m.C3.A1s_comunes"> Listado de comandos más comunes</span></h2>
 <ul><li> Cambiar el directorio de trabajo (change directory):
 </li></ul>
 <pre>$ cd &lt;opciones&gt; &lt;ruta&gt;
@@ -347,7 +347,7 @@ $ kill -KILL PID
 </li></ul>
 <pre>$ pwd &lt;opciones&gt;
 </pre>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=12" title="Editar sección: Copiar y pegar en una terminal">editar</a>]</span> <span class="mw-headline" id="Copiar_y_pegar_en_una_terminal">Copiar y pegar en una terminal</span></h2>
+<h2> <span class="mw-headline" id="Copiar_y_pegar_en_una_terminal">Copiar y pegar en una terminal</span></h2>
 <p>Mientras que en cualquier lugar Ctrl + C es copiar y Ctrl + V es pegar, en la Terminal hay que agregarle la tecla Shift. <b>Ctrl+C</b> termina el proceso que actualmente está corriendo la Terminal, por eso se buscó una alternativa.
 </p>
 <div class="isa_important">
@@ -357,7 +357,7 @@ Ctrl + Shift + V es pegar
 </div>
 <p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Terminal&amp;action=edit&amp;section=13" title="Editar sección: Hacé hablar a la vaca de Huayra">editar</a>]</span> <span class="mw-headline" id="Hac.C3.A9_hablar_a_la_vaca_de_Huayra">Hacé hablar a la vaca de Huayra</span></h2>
+<h2> <span class="mw-headline" id="Hac.C3.A9_hablar_a_la_vaca_de_Huayra">Hacé hablar a la vaca de Huayra</span></h2>
 <pre>$ cowsay hola soy la vaca de Huayra
 </pre>
 <!-- 
@@ -382,8 +382,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/t/e/r/Terminal.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Terminal&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Terminal">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Terminal&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Terminal">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -447,7 +447,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 18:26, 12 nov 2013 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 11:34, 25 jul 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

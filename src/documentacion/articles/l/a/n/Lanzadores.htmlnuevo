@@ -74,23 +74,23 @@
 <li class="toclevel-1 tocsection-9"><a href="#Modificar_un_lanzador"><span class="tocnumber">4</span> <span class="toctext">Modificar un lanzador</span></a></li>
 </ul>
 </td></tr></table>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Lanzadores&amp;action=edit&amp;section=1" title="Editar sección: Añadir un lanzador a un panel">editar</a>]</span> <span class="mw-headline" id="A.C3.B1adir_un_lanzador_a_un_panel">Añadir un lanzador a un panel</span></h1>
+<h1> <span class="mw-headline" id="A.C3.B1adir_un_lanzador_a_un_panel">Añadir un lanzador a un panel</span></h1>
 <p>Podés añadir un lanzador a un <a href="../../../../articles/p/a/n/Panel.html" title="Panel" class="mw-redirect">panel</a> o al <a href="../../../../articles/e/s/c/Escritorio.html" title="Escritorio">escritorio</a> de una de las siguientes maneras:
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Lanzadores&amp;action=edit&amp;section=2" title="Editar sección: Desde el Menú Huayra">editar</a>]</span> <span class="mw-headline" id="Desde_el_Men.C3.BA_Huayra">Desde el <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a></span></h2>
+<h2> <span class="mw-headline" id="Desde_el_Men.C3.BA_Huayra">Desde el <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a></span></h2>
 <p>Podés añadir un lanzador desde el <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a>. Encontrá en el Menú la aplicación que querés y arrastrá el ícono al <a href="../../../../articles/p/a/n/Panel.html" title="Panel" class="mw-redirect">panel</a> que quieras o al <a href="../../../../articles/e/s/c/Escritorio.html" title="Escritorio">escritorio</a>  para crear el lanzador. También podés hacer botón derecho sobre ese ícono y elegir <i>Añadir este lanzador a...</i>
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Lanzadores&amp;action=edit&amp;section=3" title="Editar sección: Desde un panel">editar</a>]</span> <span class="mw-headline" id="Desde_un_panel">Desde un <a href="../../../../articles/p/a/n/Panel.html" title="Panel" class="mw-redirect">panel</a></span></h2>
+<h2> <span class="mw-headline" id="Desde_un_panel">Desde un <a href="../../../../articles/p/a/n/Panel.html" title="Panel" class="mw-redirect">panel</a></span></h2>
 <ol><li> Hacé clic con el botón derecho en cualquier espacio vacío en el <a href="../../../../articles/p/a/n/Panel.html" title="Panel" class="mw-redirect">panel</a> 
 </li><li> Elegí <i>Añadir al panel</i>. Se abre el cuadro de diálogo de <a href="../../../../articles/p/a/n/Paneles.html#A.C3.B1adir_un_objeto_a_un_panel" title="Paneles">Añadir un objeto a un panel</a>.
 <ul><li> Podés seleccionar <i>Lanzador de aplicaciones...</i> para agregar un lanzador a una aplicación que figure en el <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a>, seleccionando la aplicación que aparecen en la lista. 
 </li><li> También podés seleccionar <i>Lanzador de aplicación personalizado</i> de la lista. Esta opción te permite configurar más propiedades del lanzador. Para eso se muestra el cuadro <i>Crear lanzador</i> donde edit+as los Elementos del Lanzador. 
 </li></ul>
 </li></ol>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Lanzadores&amp;action=edit&amp;section=4" title="Editar sección: Añadirlo a Docky">editar</a>]</span> <span class="mw-headline" id="A.C3.B1adirlo_a_Docky">Añadirlo a <a href="../../../../articles/d/o/c/Docky.html" title="Docky">Docky</a></span></h2>
+<h2> <span class="mw-headline" id="A.C3.B1adirlo_a_Docky">Añadirlo a <a href="../../../../articles/d/o/c/Docky.html" title="Docky">Docky</a></span></h2>
 <p>Con solo arrastrar una aplicación, carpeta o archivo al <a href="../../../../articles/d/o/c/Docky.html" title="Docky">Docky</a>, vas a crear un lanzador dentro del dock. Tenés que esperar hasta que aparezca el mensaje <i>Soltar para añadir al dock</i>. Para más información: <a href="../../../../articles/d/o/c/Docky.html" title="Docky">Docky</a>
 </p>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Lanzadores&amp;action=edit&amp;section=5" title="Editar sección: Elementos del lanzador">editar</a>]</span> <span class="mw-headline" id="Elementos_del_lanzador">Elementos del lanzador</span></h1>
+<h1> <span class="mw-headline" id="Elementos_del_lanzador">Elementos del lanzador</span></h1>
 <p>Un lanzador y su acción está definido por sus propiedades que son altamente configurables. Cuando crees o edites un lanzador, podés establecer las siguientes propiedades:
 </p>
 <dl><dt>Tipo
@@ -132,7 +132,7 @@
 Debajo podés encontrar ejemplos de comandos y lugares que podés usar en el diálogo <i>Propiedades del lanzador</i>.
 </p><p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Lanzadores&amp;action=edit&amp;section=6" title="Editar sección: Ejemplos de comandos para el Lanzadores">editar</a>]</span> <span class="mw-headline" id="Ejemplos_de_comandos_para_el_Lanzadores">Ejemplos de comandos para el Lanzadores</span></h2>
+<h2> <span class="mw-headline" id="Ejemplos_de_comandos_para_el_Lanzadores">Ejemplos de comandos para el Lanzadores</span></h2>
 <p>Si elegís <i>Aplicación</i> o <i>Aplicación en terminal</i> de la caja desplegable de combinación <b>Tipo</b>, entonces se va a mostrar una caja de texto Comando. La siguiente tabla muestra algunos comandos de ejemplo y las acciones que los comandos realizan:
 </p>
 <table class="wikitable">
@@ -171,7 +171,7 @@ Debajo podés encontrar ejemplos de comandos y lugares que podés usar en el di�
 <td> <a rel="nofollow" class="external free" href="http://http://huayra.conectarigualdad.gob.ar/">http://http://huayra.conectarigualdad.gob.ar/</a> </td>
 <td> Abre el sitio web de Huayra en su navegador predeterminado.
 </td></tr></table>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Lanzadores&amp;action=edit&amp;section=7" title="Editar sección: Comandos">editar</a>]</span> <span class="mw-headline" id="Comandos">Comandos</span></h1>
+<h1> <span class="mw-headline" id="Comandos">Comandos</span></h1>
 <p>Los <a href="../../../../articles/c/o/m/Comandos.html" title="Comandos" class="mw-redirect">comandos</a> son instrucciones que se le envían al sistema operativo para que éste realice una tarea determinada. Pueden usarse comandos para ejecutar o lanzar una aplicación. En la mayoría de los casos coincide el nombre de la aplicación con el del comando (por ejemplo el reproductor de Videos <b>VLC</b>: <i>vlc</i>). Pero en otros son diferentes (por ejemplo el procesador de textos <b>LibreOffice Writer</b>: <i>libreoffice --writer </i>). Para ver el listado de aplicaciones y el nombre del paquete que te corresponde, podés apretar ALT + F2, desplegar "Mostrar la lista de aplicaciones conocidas" y hacer clic en la aplicación. Arriba aparecerá el nombre del paquete. Para crear un lanzador a esa aplicación, copiá y pega ese nombre en "Comando". 
 </p><p>A su vez, pueden utilizarse los comandos para abrír un Lugar dentro de la estructura de archivos y directorios, o incluso un sitio web.
 </p>
@@ -182,7 +182,7 @@ Debajo podés encontrar ejemplos de comandos y lugares que podés usar en el di�
 <p><br />
 </p><p><br />
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Lanzadores&amp;action=edit&amp;section=8" title="Editar sección: Comandos de las aplicaciones más utilizadas">editar</a>]</span> <span class="mw-headline" id="Comandos_de_las_aplicaciones_m.C3.A1s_utilizadas">Comandos de las aplicaciones más utilizadas</span></h2>
+<h2> <span class="mw-headline" id="Comandos_de_las_aplicaciones_m.C3.A1s_utilizadas">Comandos de las aplicaciones más utilizadas</span></h2>
 <table class="wikitable" align="middle">
 <tr>
 <th> Aplicación </th>
@@ -256,7 +256,7 @@ Debajo podés encontrar ejemplos de comandos y lugares que podés usar en el di�
 <td> <a href="../../../../articles/t/e/r/Terminal.html" title="Terminal">Terminal</a> </td>
 <td> <i>mate-terminal</i>
 </td></tr></table>
-<h1><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Lanzadores&amp;action=edit&amp;section=9" title="Editar sección: Modificar un lanzador">editar</a>]</span> <span class="mw-headline" id="Modificar_un_lanzador">Modificar un lanzador</span></h1>
+<h1> <span class="mw-headline" id="Modificar_un_lanzador">Modificar un lanzador</span></h1>
 <p>Para modificar las propiedades de un lanzador en un panel:
 </p>
 <ol><li> Hacé clic con el botón derecho en el lanzador para abrir el menú emergente del objeto del panel.
@@ -275,7 +275,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/e/s/c/Categor%C3%ADa:Escritorio_y_apariencia.html" title="Categoría:Escritorio y apariencia">Escritorio y apariencia</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/e/s/c/Categor%C3%ADa:Escritorio_y_apariencia.html" title="Categoría:Escritorio y apariencia">Escritorio y apariencia</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -286,8 +286,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/l/a/n/Lanzadores.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Lanzadores&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Lanzadores">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Lanzadores&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Lanzadores">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -351,7 +351,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:06, 24 abr 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 12:06, 24 abr 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>

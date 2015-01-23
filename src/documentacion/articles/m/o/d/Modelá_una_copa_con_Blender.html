@@ -1,0 +1,283 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es" dir="ltr">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<!-- headlinks removed -->
+	<link rel="shortcut icon" href="../../../../misc/favicon.ico"/>
+    <title>Modelá una copa con Blender - Huayra</title>
+    <style type="text/css">/*<![CDATA[*/ @import "../../../../skins/offline/main.css"; /*]]>*/</style>
+    <link rel="stylesheet" type="text/css" media="print" href="../../../../skins/common/commonPrint.css" />
+    <!--[if lt IE 5.5000]><style type="text/css">@import "../../../../skins/monobook/IE50Fixes.css";</style><![endif]-->
+    <!--[if IE 5.5000]><style type="text/css">@import "../../../../skins/monobook/IE55Fixes.css";</style><![endif]-->
+    <!--[if IE 6]><style type="text/css">@import "../../../../skins/monobook/IE60Fixes.css";</style><![endif]-->
+    <!--[if IE]><script type="text/javascript" src="../../../../skins/common/IEFixes.js"></script>
+    <meta http-equiv="imagetoolbar" content="no" /><![endif]-->
+    <script type="text/javascript" src="../../../../skins/common/wikibits.js"></script>
+    <script type="text/javascript" src="../../../../skins/offline/md5.js"></script>
+    <script type="text/javascript" src="../../../../skins/offline/utf8.js"></script>
+    <script type="text/javascript" src="../../../../skins/offline/lookup.js"></script>
+                      </head>
+  <body class="mediawiki ltr ns-0 ns-subject page-Modelá_una_copa_con_Blender">
+    <div id="globalWrapper">
+      <div id="column-content">
+	
+<link rel="stylesheet" type="text/css" href="app://./css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="app://./css/estilo.css"/>
+<link rel="stylesheet" type="text/css" href="app://./css/magnific-popup.css"/>
+<script type="text/javascript" src="app://./js/jquery.min.js"></script>
+
+<script type="text/javascript" src="app://./js/jquery.magnific-popup.js"></script>
+
+<script type="text/javascript" src="app://./js/bootstrap.js"></script>
+
+<script type="text/javascript" src="app://./js/barra.js"></script>
+
+<script type="text/javascript" src="app://./js/imagenes.js"></script>
+
+<div id='navegador'> 
+  <a class='btn btn-success btn-xs' onclick='history.back()'>« Atrás</a> 
+  <a class='btn btn-success btn-xs' href='app://./documentacion/index.html'>Inicio</a> 
+  <a class='btn btn-success btn-xs' onclick='history.forward()'>Adelante »</a> 
+  <a class='btn btn-info btn-xs derecha' href='app://./documentacion/buscar.html'>Buscar</a> 
+</div> 
+<div class="contenido" id="content">
+	  <a name="top" id="contentTop"></a>
+	        <h1 class="firstHeading">Modelá una copa con Blender</h1>
+	  <div id="bodyContent">
+	    <h3 id="siteSub">De Huayra</h3>
+	    <div id="contentSub"></div>
+	    	    	    <!-- start content -->
+	    <div id="mw-content-text" lang="es" dir="ltr" class="mw-content-ltr"><div class="thumb tright"><div class="thumbinner" style="width:202px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa_alambre.png.html" class="image"><img alt="" src="../../../../images/thumb/f/fb/Blen_copa_alambre.png/200px-Blen_copa_alambre.png" width="200" height="122" class="thumbimage" srcset="../../../../images/thumb/f/fb/Blen_copa_alambre.png/300px-Blen_copa_alambre.png 1.5x, ../../../../images/thumb/f/fb/Blen_copa_alambre.png/400px-Blen_copa_alambre.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa_alambre.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Modo alambre</div></div></div>
+<p>En este tutorial vamos a modelar una copa usando Blender. Vamos a partir de un cubo y vamos a convertirlo paso a paso en una copa. Es posible que el hardware de algunos modelos de netbook no soporten del todo la aceleración 3D, con lo cual no van a poder ver el cubo en su forma <i>sólida</i> con texturas. De todos modos, para realizar la mayor parte del tutorial, este va a ser el modo en el que convenga trabajar.
+</p><p>Para ver los fundamentos básicos de Blender pueden leer: <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html" title="Blender desde 0: la interfaz">Blender desde 0: la interfaz</a> 
+</p><p>Al terminar el tutorial esto es lo que habremos logramos:
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/c/o/p/Archivo:Copa_blender.gif.html" class="image"><img alt="" src="../../../../images/thumb/9/9f/Copa_blender.gif/450px-Copa_blender.gif" width="450" height="253" class="thumbimage" srcset="../../../../images/thumb/9/9f/Copa_blender.gif/675px-Copa_blender.gif 1.5x, ../../../../images/9/9f/Copa_blender.gif 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/c/o/p/Archivo:Copa_blender.gif.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>La Copa <b>Hacé clic para ver la animación</b></div></div></div></div>
+<p><br />
+</p><p><br />
+</p>
+<table id="toc" class="toc"><tr><td><div id="toctitle"><h2>Contenido</h2></div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Repaso_de_las_transformaciones_b.C3.A1sicas_en_3D"><span class="tocnumber">1</span> <span class="toctext">Repaso de las transformaciones básicas en 3D</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#Ingresar_en_Modo_edici.C3.B3n"><span class="tocnumber">2</span> <span class="toctext">Ingresar en Modo edición</span></a>
+<ul>
+<li class="toclevel-2 tocsection-3"><a href="#Selecci.C3.B3n"><span class="tocnumber">2.1</span> <span class="toctext">Selección</span></a></li>
+</ul>
+</li>
+<li class="toclevel-1 tocsection-4"><a href="#Edici.C3.B3n_b.C3.A1sica"><span class="tocnumber">3</span> <span class="toctext">Edición básica</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#Modelado:_Del_cubo_a_la_copa"><span class="tocnumber">4</span> <span class="toctext">Modelado: Del cubo a la copa</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#Modificadores:_Subdivisi.C3.B3n_de_la_superficie"><span class="tocnumber">5</span> <span class="toctext">Modificadores: Subdivisión de la superficie</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#Renderizado"><span class="tocnumber">6</span> <span class="toctext">Renderizado</span></a></li>
+</ul>
+</td></tr></table>
+<h2> <span class="mw-headline" id="Repaso_de_las_transformaciones_b.C3.A1sicas_en_3D">Repaso de las transformaciones básicas en 3D</span></h2>
+<p>Este es un repaso de las operaciones básicas sobre objetos en Blender. Para más información pueden leer <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html" title="Blender desde 0: la interfaz">Blender desde 0: la interfaz</a>. Como el método de trabajo en general en <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> usar el mouse con la mano derecha y con la izquierda el teclado, la mayoría de las teclas de atajos se ubican en la parte izquierda del teclado. Es importante recordar que <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> esta pensado para usar en un teclado convencional completo y no en uno de netbook. Por eso es conveniente en las netbooks usar un teclado numérico periférico por usb. 
+</p>
+<dl><dt>Rotación (R)
+</dt></dl>
+<p>Rotamos el objeto. Si presionamos X, Z o Y nos limitamos a rotar el objeto sobre ese eje. Para más información sobre rotación <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html#Las_coordenadas_X.2C_Y.2C_Z_en_el_mundo_en_3D" title="Blender desde 0: la interfaz">hacé clic acá</a>
+</p>
+<dl><dt>Traslación  (G)
+</dt></dl>
+<p>Movemos el objeto libremente. Si presionamos X, Z o Y nos limitamos a mover el objeto sobre ese eje.
+</p>
+<dl><dt>Escala (S)
+</dt></dl>
+<p>Cambiamos el tamaño del objeto. Al igual que con las operaciones anteriores, si presionamos X, Z o Y nos limitamos a escalar el objeto sobre ese eje. 
+</p><p><br />
+Al apretar cualquiera de estas teclas (<b>R</b>, <b>G</b> o <b>S</b>) entramos en el modo de transferencia. Haciendo clic en el botón izquierdo del mouse confirmamos la acción, y <i>Esc</i> o botón derecho la cancelamos (presionando <b>Alt +</b> la tecla de la trasformación, deshacemos por completo esa transformación. Por ejemplo <b>Alt + R</b> deshace cualquier rotación del objeto, volviéndolo a sus coordenadas originales. 
+</p><p>En medio de la transformación, podemos presionar las teclas <b>X</b>, <b>Y</b> o <b>Z</b> para que la transformación se realice en el sentido de los ejes que llevan esos nombres y están representados por los manipuladores. Los manipuladores son esas flechas de color azul (Z), verde (Y) y rojo (X) que representan los ejes de una vista en 3D. Convencionalmente <b>X</b> representa el ancho, <b>Y</b> la altura y <b>Z</b> la profundidad. 
+</p><p>Usando los manipuladores también podemos realizar todas estas operaciones. En los iconos de la cabecera de la vista 3D podemos ver la flecha (traslación), la curva (rotación) o una linea con un cuadro (escalar). Si usamos los manipuladores siempre vamos a mantener las transformaciones en el sentido de los ejes. Si queremos agrandar o achicar un objeto en su totalidad, debemos usar <b>S</b> 
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:162px;"><a href="../../../../articles/b/l/e/Archivo:Blen_rotar_escalar.png.html" class="image"><img alt="" src="../../../../images/f/f7/Blen_rotar_escalar.png" width="160" height="61" class="thumbimage" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_rotar_escalar.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Controles para rotar y escalar</div></div></div></div>
+<p>El ícono de los ejes en colores habilita o deshabilita los manipuladores. "Global" indica que el sentido de los ejes no esta dado por la orientación del objeto. Es decir, si yo por ejemplo roto el cubo levemente, las aristas no van a coincidir con los ejes. Por eso para poder manipular el objeto teniendo los ejes alineados al objeto, se puede poner "Local". Si quiero que los ejes se alineen con la mirada uso "Vista". Para más información <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html#Las_coordenadas_X.2C_Y.2C_Z_en_el_mundo_en_3D" title="Blender desde 0: la interfaz">hacé clic acá</a>.
+</p>
+<h2> <span class="mw-headline" id="Ingresar_en_Modo_edici.C3.B3n">Ingresar en Modo edición</span></h2>
+<p>Hasta ahora veníamos usando <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> en <i>Modo Objeto</i> en el cual se manipulaban objetos y se podían agregar objetos. El <b>Modo edición</b> nos permite editar esos objetos. Ahora vamos a ver como editar un objeto <i>mesh</i>, que en castellano significa <i>malla</i>, ya que es un objeto que puede ser pensado como una red de puntos o <i>vértices</i> unidos por <i>aristas</i>.
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:182px;"><a href="../../../../articles/b/l/e/Archivo:Blen_modo_edicion.png.html" class="image"><img alt="" src="../../../../images/thumb/5/51/Blen_modo_edicion.png/180px-Blen_modo_edicion.png" width="180" height="155" class="thumbimage" srcset="../../../../images/thumb/5/51/Blen_modo_edicion.png/270px-Blen_modo_edicion.png 1.5x, ../../../../images/thumb/5/51/Blen_modo_edicion.png/360px-Blen_modo_edicion.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_modo_edicion.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Modo edición</div></div></div></div>
+<p>Notemos que al pasar a <b>Modo edición</b> la opciones que aparecen en el menú de la izquierda pasan de ser unas pocas (Rotar, Escalar, Trasladar) a incluir muchas más como <i>Extrudar</i> que vamos a ver en breve. Las opciones de esta barra izquierda son contextuales, es decir varían de acuerdo al Modo y al Objeto seleccionado. 
+</p>
+<h3> <span class="mw-headline" id="Selecci.C3.B3n"> Selección </span></h3>
+<div class="thumb tright"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_seleccionB.png.html" class="image"><img alt="Blen seleccionB.png" src="../../../../images/thumb/e/e7/Blen_seleccionB.png/250px-Blen_seleccionB.png" width="250" height="206" class="thumbimage" srcset="../../../../images/thumb/e/e7/Blen_seleccionB.png/375px-Blen_seleccionB.png 1.5x, ../../../../images/thumb/e/e7/Blen_seleccionB.png/500px-Blen_seleccionB.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_seleccionB.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div>
+<div class="thumb tleft"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_seleccionC.png.html" class="image"><img alt="Blen seleccionC.png" src="../../../../images/thumb/0/00/Blen_seleccionC.png/250px-Blen_seleccionC.png" width="250" height="209" class="thumbimage" srcset="../../../../images/thumb/0/00/Blen_seleccionC.png/375px-Blen_seleccionC.png 1.5x, ../../../../images/0/00/Blen_seleccionC.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_seleccionC.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div>
+<p>Cuando seleccionamos podemos seleccionar, con clic derecho, un objeto completo, pero también sus partes. Recordemos que son objetos <i>mesh</i> que tienen aristas y vértices. Entonces pueden seleccionar un nodo o varios nodos. Para seleccionar más de objeto hay que presionar la tecla <b>Shift</b>. Para seleccionar una arista, debemos seleccionar los dos nodos que la conformar (recuerden las clases de geometría: <i>dos puntos hacen una recta</i>). Del mismo modo, y por el mismo principio geométrico, para seleccionar un plano (por ejemplo una cara del cubo que vemos al comienzo) debemos seleccionar los 4 nodos que conforman el plano. 
+</p><p><br />
+</p>
+<dl><dt>tecla B
+</dt><dd>Se pueden seleccionar múltiples objetos usando un área de selección
+</dd></dl>
+<p><br />
+</p>
+<dl><dt>tecla C
+</dt><dd>Se pueden seleccionar múltiples objetos un puntero circular (con la ruedita del mouse lo agrandamos y achicamos)
+</dd></dl>
+<p>Al usar estas opciones, la selección la hacemos con <b>clic izquierdo</b>, haciendo clic con la ruedita del mouse eliminamos esa selección. Finalmente con clic derecho salimos de la opción de selección múltiple.
+</p><p>Si queremos establecer por defecto que queremos seleccionar planos o aristas directamente en lugar de nodos, en la barra inferior del panel 3D tenemos estas opciones
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_seleccion_tools.png.html" class="image"><img alt="Blen seleccion tools.png" src="../../../../images/thumb/0/0a/Blen_seleccion_tools.png/250px-Blen_seleccion_tools.png" width="250" height="188" class="thumbimage" srcset="../../../../images/thumb/0/0a/Blen_seleccion_tools.png/375px-Blen_seleccion_tools.png 1.5x, ../../../../images/thumb/0/0a/Blen_seleccion_tools.png/500px-Blen_seleccion_tools.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_seleccion_tools.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+<p>Para volver a seleccionar un objeto en su conjunto o varios objetos, pueden volver a <i>Modo Objeto</i>.
+</p>
+<h2> <span class="mw-headline" id="Edici.C3.B3n_b.C3.A1sica"> Edición básica </span></h2>
+<div class="thumb tleft"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_cortar.png.html" class="image"><img alt="Blen cortar.png" src="../../../../images/thumb/f/f8/Blen_cortar.png/250px-Blen_cortar.png" width="250" height="215" class="thumbimage" srcset="../../../../images/thumb/f/f8/Blen_cortar.png/375px-Blen_cortar.png 1.5x, ../../../../images/f/f8/Blen_cortar.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_cortar.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div>
+<p>Saber seleccionar los nodos y aristas es muy importante para poder editar el objeto. En la barra superior, en el centro, al lado del número de versión de <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> muestra que tenemos seleccionado en términos de vértices, aristas o caras. 
+</p><p>Para poder transformar un objeto primero seleccionamos las partes sobre las que queremos operar y luego aplicamos la operación. Ya vimos algunas como <b>Escalar</b>, <b>Rotar</b> y <b>Trasladar</b> que estaban presentes en el <i>Modo Objeto</i>. En el <i>Modo edición</i> se agregan algunas opciones más a <b>Transformación</b> (Contraer/Engordar, Empujón/Tirón). Probarlas sobre el cubo va a hacer que entiendan mejor cómo funcionan que cualquier descripción que podamos darles acá.
+</p><p><br />
+</p><p>La verdadera novedad en <i>Modo edición</i> pasa por <b>Agregar</b>. Esto nos va a permitir realmente modificar los objetos para, por ejemplo, convertir el cubo en una copa.
+</p><p>Vamos a ver algunas, no todas, ya que <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> es muy potente y complejo, y no queremos abrumarlo. Con estas pocas opciones vamos a poder lograr muchas cosas. Además preferimos que continúen investigando por su cuenta.
+</p>
+<div class="thumb tleft"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_extrudar.png.html" class="image"><img alt="" src="../../../../images/thumb/6/6a/Blen_extrudar.png/250px-Blen_extrudar.png" width="250" height="201" class="thumbimage" srcset="../../../../images/thumb/6/6a/Blen_extrudar.png/375px-Blen_extrudar.png 1.5x, ../../../../images/thumb/6/6a/Blen_extrudar.png/500px-Blen_extrudar.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_extrudar.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Plano subdividido y extrudado</div></div></div>
+<dl><dt>Extrudar región
+</dt><dd>Para entender el concepto de extrusión conviene pensar en los juegos de plastilina, cuando se la empujaba a través de un molde para darle forma.   
+</dd><dt>Estrusiona Individual 
+</dt><dd>Esta opción hace lo mismo que la anterior, solo que si, por ejemplo, tenemos seleccionados 4 vértices que forman un plano, no se extruda el plano sino individualmente cada vértice.
+</dd><dt>Subdividir
+</dt><dd>Esta opción subdivide un área en partes iguales. No puede aplicarse a un vértice o a una arista, solo a planos. 
+</dd><dt>Cortar y deslizar bucle
+</dt><dd>Esta opción permite subdividir un objeto y antes de hacer <i>el corte</i> elegir en qué lugar hacerlo.
+</dd><dt>Duplicar
+</dt><dd>Esta opción es sencilla, duplica un objeto creado.
+</dd></dl>
+<p><br />
+</p><p><br />
+</p><p>Les pasamos algunos consejos para combinar estas técnicas 
+</p>
+<ul><li> Para extrudar también se puede usar la <b>tecla E</b>. Si se extruda varias veces el mismo plano, esto tiene el mismo efecto que <i>Cortar y deslizar</i>. 
+</li><li> Para <i>Cortar y deslizar</i> se puede usar la combinación <b>Ctrl + R</b> . Usando la ruedita del mouse se aumenta la cantidad de cortes. 
+</li><li> Se puede extrudar un plano seleccionándolo y haciendo <b>Ctrl + clic izquierdo</b>. Esto proyecta el plano hasta donde hicimos clic. No se extruda en forma paralela y ordenada.
+</li></ul>
+<h2> <span class="mw-headline" id="Modelado:_Del_cubo_a_la_copa">Modelado: Del cubo a la copa</span></h2>
+<ol><li> Seleccionamos el cubo y luego el <i>Modo edición</i> para comenzar a editar el objeto.
+</li><li> Luego elegimos el modo de selección de planos y seleccionar el plano superior del cubo.
+</li><li> Extrudamos (<b>tecla E</b>) sobre el eje Z (presionar <b>tecla Z</b>) para llevar <i>hacia arriba</i>. 
+</li><li> Volvemos a hacer esto de modo que nos queden como si fuesen 3 cubos iguales apilados. Esto va a ser el cubo de más abajo la base de la copa, el cubo del medio el tallo de la copa (la parte más fina) y el ultimo el balón de la copa<br /><div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-2.jpg.html" class="image"><img alt="Blen copa-2.jpg" src="../../../../images/thumb/8/81/Blen_copa-2.jpg/250px-Blen_copa-2.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/8/81/Blen_copa-2.jpg/375px-Blen_copa-2.jpg 1.5x, ../../../../images/thumb/8/81/Blen_copa-2.jpg/500px-Blen_copa-2.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-2.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+</li><li> Seleccionamos, presionando <b>Shift</b>, las 4 caras del cubo medio y presionamos la <b>tecla S</b> para escalar. <br /><div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-3.jpg.html" class="image"><img alt="Blen copa-3.jpg" src="../../../../images/thumb/6/66/Blen_copa-3.jpg/250px-Blen_copa-3.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/6/66/Blen_copa-3.jpg/375px-Blen_copa-3.jpg 1.5x, ../../../../images/thumb/6/66/Blen_copa-3.jpg/500px-Blen_copa-3.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-3.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+</li><li> Hacemos que esa parte se vuelva más fina, como si fuese un reloj de arena.<br /><div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-4.jpg.html" class="image"><img alt="Blen copa-4.jpg" src="../../../../images/thumb/a/aa/Blen_copa-4.jpg/250px-Blen_copa-4.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/a/aa/Blen_copa-4.jpg/375px-Blen_copa-4.jpg 1.5x, ../../../../images/thumb/a/aa/Blen_copa-4.jpg/500px-Blen_copa-4.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-4.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+</li><li> Ahora seleccionamos solo las aristas que forman el plano inferior del cubo.
+</li><li> Presionamos la <b>tecla G</b> para trasladar ese plano <i>hacia abajo</i> , e inmediatamente después la <b>tecla Z</b> para restringir ese movimiento al <i>eje Z</i>, así el tallo no queda chueco.
+</li><li> Llevamos <i>hacia abajo</i> por el <b>eje Z</b> ese plano, dejando un tallo fino que va desde la base al balón.<br /><div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-5.jpg.html" class="image"><img alt="Blen copa-5.jpg" src="../../../../images/thumb/1/1e/Blen_copa-5.jpg/250px-Blen_copa-5.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/1/1e/Blen_copa-5.jpg/375px-Blen_copa-5.jpg 1.5x, ../../../../images/thumb/1/1e/Blen_copa-5.jpg/500px-Blen_copa-5.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-5.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+</li><li> Ahora elegimos la selección de plano y seleccionamos el plano superior de la copa, imagínense por donde volcamos el líquido a la copa.
+</li><li> Elegimos extrudar y lo llevamos <i>hacia arriba</i> también utilizando el <b>eje Z</b> <br /><div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-6.jpg.html" class="image"><img alt="Blen copa-6.jpg" src="../../../../images/thumb/6/67/Blen_copa-6.jpg/250px-Blen_copa-6.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/6/67/Blen_copa-6.jpg/375px-Blen_copa-6.jpg 1.5x, ../../../../images/thumb/6/67/Blen_copa-6.jpg/500px-Blen_copa-6.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-6.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div> 
+</li><li> Volvemos a repetir la operación pero solo lo llevamos arriba muy poco. <br /><div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-7.jpg.html" class="image"><img alt="Blen copa-7.jpg" src="../../../../images/thumb/d/d0/Blen_copa-7.jpg/250px-Blen_copa-7.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/d/d0/Blen_copa-7.jpg/375px-Blen_copa-7.jpg 1.5x, ../../../../images/thumb/d/d0/Blen_copa-7.jpg/500px-Blen_copa-7.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-7.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div> 
+</li><li> Con el plano seleccionado, elegimos escalar y la reducimos, tambien solo un poco.<br /><div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-8.jpg.html" class="image"><img alt="Blen copa-8.jpg" src="../../../../images/thumb/2/21/Blen_copa-8.jpg/250px-Blen_copa-8.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/2/21/Blen_copa-8.jpg/375px-Blen_copa-8.jpg 1.5x, ../../../../images/thumb/2/21/Blen_copa-8.jpg/500px-Blen_copa-8.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-8.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div> 
+</li><li> Volvemos trasladar con la <b>tecla G</b>, presionando la <b>tecla Z</b> para que se deslice paralelo, pero ahora en lugar de ir hacia arriba, vamos hacia abajo, para darle profundidad al balón de la copa. 
+</li><li> Para entender este movimiento, vamos a ver la copa en modo <i>Alambre</i>, que además nos permite hacer ediciones <i>dentro</i> de la copa (se cambia lado del menú de selección de <i>Modo edición</i>, cambiando la opción <i>Sólido</i> por <i>Alambre</i>).<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-10.jpg.html" class="image"><img alt="Blen copa-10.jpg" src="../../../../images/thumb/1/17/Blen_copa-10.jpg/250px-Blen_copa-10.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/1/17/Blen_copa-10.jpg/375px-Blen_copa-10.jpg 1.5x, ../../../../images/thumb/1/17/Blen_copa-10.jpg/500px-Blen_copa-10.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-10.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div>
+</li></ol>
+<h2> <span class="mw-headline" id="Modificadores:_Subdivisi.C3.B3n_de_la_superficie"> Modificadores: Subdivisión de la superficie </span></h2>
+<p>Para que la copa no tenga este aspecto tan rudimentario y tenga un acabado más fino, vamos a utilizar los <i>Modificadores</i> de <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a>, puntualmente <i>Subdivisión de superficie</i>
+</p>
+<div class="isa_note">La <b>geometría</b> nos ayuda a entender esto. Un cuadrado es un polígono de 4 lados. Un pentágono tiene 5. Un pentágono se parece más a un círculo que un cuadrado. Y si tomamos un hexágono de 6 lados, más aún. Entonces podemos pensar a un círculo como un polígono de infinitas caras. Mientras más caras tenga, más redondeada es la forma y va a tener un acabado más fino. Si yo tengo un hexágono y divido todas las caras por 2 tengo un polígono de 12 caras. Este <b>modificador</b> como dice su nombre (<i>Subdivisión de superficie</i>) hace justamente eso: subdivide todas las caras de nuestro objeto 3D para, digamos, <i>redondearlo</i>.</div>
+<p><br />
+Entonces vamos a hacer que <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> subdivida los planos haciendo que las superficies cuadradas vayan pareciéndose a superficies redondeadas. Para ello vamos al área de propiedades que está a la derecha y en lugar de elegir las propiedaeds de la renderización (el ícono de la cámara de fotos, que vamos a ver más adelante) elegimos los <i>Modificadores de objetos</i> (el icono de una llave inglesa).
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_subdividir.jpg.html" class="image"><img alt="Blen subdividir.jpg" src="../../../../images/thumb/e/e2/Blen_subdividir.jpg/250px-Blen_subdividir.jpg" width="250" height="83" class="thumbimage" srcset="../../../../images/thumb/e/e2/Blen_subdividir.jpg/375px-Blen_subdividir.jpg 1.5x, ../../../../images/thumb/e/e2/Blen_subdividir.jpg/500px-Blen_subdividir.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_subdividir.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div> 
+<p>Acá vemos dos tipos de subdivisiones, las de la <i>Vista</i> y las de la <i>Renderización</i>. Las primeras son para que trabajemos nosotros y nos demos una idea de como va a ir quedando. Mientras mas subdivisiones haya mas redondeada y definida va a quedar la copa, pero más pesada va a ser y más lenta va a ser la renderización. La otra es para cuando vamos a la renderización final, donde ahí sí tenemos que tener la calidad final. Por eso ponemos 3 en la <i>Vista</i>, para que al trabajar no exigir mucho a la net y que se haga lento, y podemos dejar en mas alto (6) la de renderizado. 
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-13.jpg.html" class="image"><img alt="Blen copa-13.jpg" src="../../../../images/thumb/d/d7/Blen_copa-13.jpg/250px-Blen_copa-13.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/d/d7/Blen_copa-13.jpg/375px-Blen_copa-13.jpg 1.5x, ../../../../images/thumb/d/d7/Blen_copa-13.jpg/500px-Blen_copa-13.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-13.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div> 
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:252px;"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-14.jpg.html" class="image"><img alt="Blen copa-14.jpg" src="../../../../images/thumb/e/e4/Blen_copa-14.jpg/250px-Blen_copa-14.jpg" width="250" height="141" class="thumbimage" srcset="../../../../images/thumb/e/e4/Blen_copa-14.jpg/375px-Blen_copa-14.jpg 1.5x, ../../../../images/thumb/e/e4/Blen_copa-14.jpg/500px-Blen_copa-14.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_copa-14.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div></div> 
+<p>Puede ser que una vez <i>redondeada</i> no nos guste la forma y queramos hacerle alguna modificación más. Para eso siempre es conveniente volver a la forma anterior de la copa, a la que no se le aplicó ningún <i>modificador</i>. Para eso podemos eliminar el <i>modificador</i> haciendo clic en la X o directamente poner las subdivisiones de la <i>Vista</i> en 0. 
+</p><p><b>¡¡Listo!! Ya tenemos nuestra copa</b>. Ahora tenemos que finalmente renderizarla.
+</p>
+<h2> <span class="mw-headline" id="Renderizado"> Renderizado </span></h2>
+<div class="thumb tright"><div class="thumbinner" style="width:152px;"><a href="../../../../articles/b/l/e/Archivo:Blen_camara.png.html" class="image"><img alt="Blen camara.png" src="../../../../images/thumb/1/12/Blen_camara.png/150px-Blen_camara.png" width="150" height="114" class="thumbimage" srcset="../../../../images/thumb/1/12/Blen_camara.png/225px-Blen_camara.png 1.5x, ../../../../images/thumb/1/12/Blen_camara.png/300px-Blen_camara.png 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_camara.png.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div></div></div></div>
+<p>Renderizado (render en inglés) es un término usado en jerga informática para referirse al proceso de generar una imagen o vídeo mediante el cálculo de iluminación GI partiendo de un modelo en 3D. Este término técnico es utilizado por los animadores o productores audiovisuales (CG) y en programas de diseño en 3D como <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a>. El grado de avance en las computadoras de hoy en día hace que sea extremadamente difícil, sino imposible, diferenciar una imagen real de una <a rel="nofollow" class="external text" href="http://es.wikipedia.org/wiki/Renderizaci%C3%B3n#mediaviewer/Archivo:Glasses_800_edit.png">imagen renderizada</a>. 
+</p><p>Lo primero que tenemos que tener en cuenta es que solo se va a renderizar lo que muestre la cámara. Hasta ahora nos movimos en el entorno de trabajo 3D de <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> con total libertad. Esto es como moverse en el estudio de grabación. Pero para poder renderizar una imagen, tenemos que ponerla delante de la cámara. La cámara de <a href="../../../../articles/b/l/e/Blender.html" title="Blender">Blender</a> está representada por el cono negro que tiene una especie de solapa, que indica la rotación de la cámara.  
+</p><p>Como vimos en <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html" title="Blender desde 0: la interfaz">Blender desde 0: la interfaz</a>, presionando 0 en el numpad podemos ver a través de la cámara. Esto es exactamente lo que vamos a renderizar. Es decir, que si la copa esta fuera de cuadro, tenemos que moder a la cámara o a la copa o ambos para encuadrar lo que queramos. La cámara se selecciona y mueve como cualquier objeto. Para eso les aconsejamos que vean el tema de movimiento y rotación de objetos en <a href="../../../../articles/l/a/_/Blender_desde_0:_la_interfaz.html" title="Blender desde 0: la interfaz">Blender desde 0: la interfaz</a>. A la hora de mover la cámara, el tema de los ejes en relación al espacio <i>Global</i> y <i>Local</i> son de mucha utilidad.
+</p><p>Ahora sí, para renderizar podemos presionar la '<i>tecla F12</i> o volvemos dentro del panel de <i>Propiedades</i> (el que usamos para los <i>Modificadores</i> de subdivisión) a las propiedades de la renderización (icono de camarita). Hacemos clic en <i>Imagen</i>. Presionando la <i>tecla Esc</i> vuelvo a la vista 3D.
+</p><p>Para guardar el proyecto voy a <i>Archivo / Guardar</i> (o presionamos <b>Ctrl + S</b>) para guardar el proyecto en un archivo <i>.blend</i>. Esto guarda el proyecto en sí mismo, no la renderización. 
+Para exportar la renderización, por ejemplo, en una imagen, una vez que estamos en la pantalla de renderizacion vamos a <i>Imagen / Guardar como imagen</i> o presionamos la <b>tecla F3</b>. 
+</p>
+<div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:402px;"><a href="../../../../articles/b/l/e/Archivo:Blen_render.jpg.html" class="image"><img alt="" src="../../../../images/thumb/d/d2/Blen_render.jpg/400px-Blen_render.jpg" width="400" height="225" class="thumbimage" srcset="../../../../images/thumb/d/d2/Blen_render.jpg/600px-Blen_render.jpg 1.5x, ../../../../images/d/d2/Blen_render.jpg 2x" /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/b/l/e/Archivo:Blen_render.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>Copa final renderizada</div></div></div></div>
+
+<!-- 
+NewPP limit report
+Preprocessor visited node count: 37/1000000
+Preprocessor generated node count: 76/1000000
+Post‐expand include size: 677/2097152 bytes
+Template argument size: 652/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+</div><div class="printfooter">
+</div>
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categorías</a>: <ul><li><a href="../../../../articles/m/u/l/Categor%C3%ADa:Multimedia.html" title="Categoría:Multimedia">Multimedia</a></li><li><a href="../../../../articles/t/u/t/Categor%C3%ADa:Tutoriales.html" title="Categoría:Tutoriales">Tutoriales</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div class="visualClear"></div>
+	  </div>
+	</div>
+      </div>
+      <div id="column-one">
+	<div id="p-cactions" class="portlet">
+	  <h5>Views</h5>
+	  <ul>
+	    <li id="ca-nstab-main"
+	       class="selected"	       ><a href="../../../../articles/m/o/d/Model%C3%A1_una_copa_con_Blender.html">Página</a></li><li id="ca-talk"
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Model%C3%A1_una_copa_con_Blender&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Model%C3%A1_una_copa_con_Blender">Revisión actual</a></li>	  </ul>
+	</div>
+	<div class="portlet" id="p-logo">
+	  <a style="background-image: url(../../../../misc/wiki.png);"
+	    href="../../../../index.html"
+	    title="¡Bienvenidos a Huayra GNU/Linux!"></a>
+	</div>
+	<script type="text/javascript"> if (window.isMSIE55) fixalpha(); </script>
+		<div class='portlet' id='p-navigation'>
+	  <h5>Navegación</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	      <li id="n-Bienvenidos"><a href="../../../../index.html">Bienvenidos</a></li>
+	     	      <li id="n-Primeros-pasos"><a href="../../../../articles/p/r/i/Primeros_pasos.html">Primeros pasos</a></li>
+	     	      <li id="n-Tu-escritorio"><a href="../../../../articles/t/u/_/Tu_escritorio.html">Tu escritorio</a></li>
+	     	      <li id="n-Huayra-en-la-Escuela"><a href="../../../../articles/h/u/a/Huayra_en_la_Escuela.html">Huayra en la Escuela</a></li>
+	     	      <li id="n-Instalaci.C3.B3n"><a href="../../../../articles/i/n/s/Instalaci%C3%B3n.html">Instalación</a></li>
+	     	      <li id="n-Aplicaciones"><a href="../../../../articles/a/p/l/Aplicaciones.html">Aplicaciones</a></li>
+	     	      <li id="n-Archivos-y-carpetas"><a href="../../../../articles/a/r/c/Archivos_y_carpetas.html">Archivos y carpetas</a></li>
+	     	      <li id="n-Internet-y-conectividad"><a href="../../../../articles/i/n/t/Internet_y_conectividad.html">Internet y conectividad</a></li>
+	     	      <li id="n-Multimedia"><a href="../../../../articles/m/u/l/Multimedia.html">Multimedia</a></li>
+	     	      <li id="n-Hardware"><a href="../../../../articles/h/a/r/Hardware.html">Hardware</a></li>
+	     	      <li id="n-Usuarios-y-sesiones"><a href="../../../../articles/u/s/u/Usuarios_y_sesiones.html">Usuarios y sesiones</a></li>
+	     	      <li id="n-Accesibilidad"><a href="../../../../articles/a/c/c/Accesibilidad.html">Accesibilidad</a></li>
+	     	      <li id="n-Tutoriales-Huayra"><a href="../../../../articles/t/u/t/Tutoriales_Huayra.html">Tutoriales Huayra</a></li>
+	     	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-SEARCH'>
+	  <h5>SEARCH</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-TOOLBOX'>
+	  <h5>TOOLBOX</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	    </ul>
+	  </div>
+	</div>
+		<div class='portlet' id='p-LANGUAGES'>
+	  <h5>LANGUAGES</h5>
+	  <div class='pBody'>
+	    <ul>
+	    	    </ul>
+	  </div>
+	</div>
+		<div id="p-search" class="portlet">
+	  <h5><label for="searchInput">Buscar</label></h5>
+	  <div id="searchBody" class="pBody">
+	    <form action="javascript:goToStatic(3)" id="searchform"><div>
+	      <input id="searchInput" name="search" type="text"
+	        accesskey="f" value="" />
+	      <input type='submit' name="go" class="searchButton" id="searchGoButton"
+	        value="Ir" />
+	    </div></form>
+	  </div>
+	</div>
+	      </div><!-- end of the left (by default at least) column -->
+      <div class="visualClear"></div>
+      <div id="footer">
+    <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 11:45, 12 ago 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Malefico&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Malefico (la página no existe)">malefico</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+      </div>
+    </div>
+  </body>
+</html>

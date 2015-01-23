@@ -63,12 +63,12 @@
 <li class="toclevel-1 tocsection-4"><a href="#Perfiles_de_control"><span class="tocnumber">4</span> <span class="toctext">Perfiles de control</span></a></li>
 </ul>
 </td></tr></table>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Grab%C3%A1_tus_videos_con_GUVCView&amp;action=edit&amp;section=1" title="Editar sección: Primer vistazo a GUVCView">editar</a>]</span> <span class="mw-headline" id="Primer_vistazo_a_GUVCView">Primer vistazo a GUVCView</span></h2>
+<h2> <span class="mw-headline" id="Primer_vistazo_a_GUVCView">Primer vistazo a GUVCView</span></h2>
 <p>Para acceder a <a href="../../../../articles/g/u/v/GUVCView.html" title="GUVCView">GUVCView</a> solamente tenés que entrar en el <a href="../../../../articles/m/e/n/Men%C3%BA_Huayra.html" title="Menú Huayra">Menú Huayra</a> y buscar la aplicación dentro de la opción <i>Sonido y Video</i>. Si no podés buscarlo usando <a href="../../../../articles/s/y/n/Synapse.html" title="Synapse">Synapse</a>
 </p><p>Cuando lo abras vas a ver las dos pantallas principales componen a esta aplicación: en primer lugar el <b>Centro de control</b>, donde se encuentran las diferentes herramientas que ofrece para personalizar tus capturas y en segundo lugar la <b>Ventana de captura</b>, donde se ve la imagen que la webcam está tomando.
 </p>
 <div class="center"><div class="thumb tnone"><div class="thumbinner" style="width:452px;"><a href="../../../../articles/g/u/v/Archivo:Guvcview_abierto.jpg.html" class="image"><img alt="" src="../../../../images/thumb/a/ab/Guvcview_abierto.jpg/450px-Guvcview_abierto.jpg" width="450" height="264" class="thumbimage"  /></a>  <div class="thumbcaption"><div class="magnify"><a href="../../../../articles/g/u/v/Archivo:Guvcview_abierto.jpg.html" class="internal" title="Aumentar"><img src="../../../../skins/common/images/magnify-clip.png" width="15" height="11" alt="" /></a></div>GUstavo Victor Carlos View</div></div></div></div>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Grab%C3%A1_tus_videos_con_GUVCView&amp;action=edit&amp;section=2" title="Editar sección: Centro de Control">editar</a>]</span> <span class="mw-headline" id="Centro_de_Control">Centro de Control</span></h2>
+<h2> <span class="mw-headline" id="Centro_de_Control">Centro de Control</span></h2>
 <p>El <b>Centro de Control</b> incluye tres pestañas:
 </p>
 <dl><dt>Controles de la imagen
@@ -100,7 +100,7 @@
 			</div>
 		</div></li>
 </ul>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Grab%C3%A1_tus_videos_con_GUVCView&amp;action=edit&amp;section=3" title="Editar sección: Capturar un video">editar</a>]</span> <span class="mw-headline" id="Capturar_un_video">Capturar un video</span></h2>
+<h2> <span class="mw-headline" id="Capturar_un_video">Capturar un video</span></h2>
 <p>Para capturar un video lo que tenés que hacer en primer lugar es elegir el <a href="../../../../articles/f/o/r/Formatos_de_video.html" title="Formatos de video">formato</a> en la pestaña <b>Video y archivos</b>. Para capturar en una netbook de Conectar Igualdad te recomendamos las siguientes opciones:
 </p>
 <ul><li> <b>FPS:</b> 15 fps
@@ -123,7 +123,7 @@ Es importante que te asegures de que el <a href="../../../../articles/s/o/n/Soni
 </p><p><b>¿Cómo hacés para regular este volumen?</b>
 </p><p>Muy sencillo, mientras estés capturando tu video, se activará el icono volumen de entrada en el <a href="../../../../articles/p/a/n/Paneles.html#Panel_Superior" title="Paneles">Panel superior</a>, al lado del icono del volumen, ahí no tenés más que hacer clic y regularlo. También podés hacerlo a través de <i>Preferencias del volumen</i> haciendo clic derecho en el ícono de sónido. Al ingresar, andá a la pestaña <i>Entrada</i> y regulá el volumen desde ahí.
 </p>
-<h2><span class="editsection">[<a href="http://wiki.huayragnulinux.com.ar/index.php?title=Grab%C3%A1_tus_videos_con_GUVCView&amp;action=edit&amp;section=4" title="Editar sección: Perfiles de control">editar</a>]</span> <span class="mw-headline" id="Perfiles_de_control">Perfiles de control</span></h2>
+<h2> <span class="mw-headline" id="Perfiles_de_control">Perfiles de control</span></h2>
 <p><b>Guardar</b> → Este botón te permite guardar perfiles de control ¿Qué quiere decir esto? Que podrás guardar los ajustes de imagen, video y audio que hayas seleccionado para no tener que realizar los cambios cada vez. El archivo que recordará todos estos ajustes se guardará (al igual que las capturas de imagen y videos) en la carpeta “alumno” con el nombre “default.gpfl”
 </p><p><b>Abrir</b> → Desde aquí podrás abrir justamente los perfiles de control que hayas guardado. Al hacerlo, las diferentes opciones de ajustes de imagen, video y audio, adoptarán los valores del perfil de control que abriste.
 </p><p><b>Predeterminados</b> → Con este botón se vuelve a los valores predeterminados de cada categoría (brillo, contraste, resolución, dispositivo de entrada, etcétera). Por ejemplo si abrís uno de los perfiles de control que guardaste y no te gusta cómo queda, sólo tenés que tocar este botón y las categorías volverán a sus valores predeterminados.
@@ -140,7 +140,7 @@ Expensive parser function count: 0/100
 -->
 </div><div class="printfooter">
 </div>
-	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayragnulinux.com.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/t/u/t/Categor%C3%ADa:Tutoriales.html" title="Categoría:Tutoriales">Tutoriales</a></li></ul></div></div></div>	    <!-- end content -->
+	    <div id="catlinks"><div id='catlinks' class='catlinks'><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Especial:Categor%C3%ADas" title="Especial:Categorías">Categoría</a>: <ul><li><a href="../../../../articles/t/u/t/Categor%C3%ADa:Tutoriales.html" title="Categoría:Tutoriales">Tutoriales</a></li></ul></div></div></div>	    <!-- end content -->
 	    <div class="visualClear"></div>
 	  </div>
 	</div>
@@ -151,8 +151,8 @@ Expensive parser function count: 0/100
 	  <ul>
 	    <li id="ca-nstab-main"
 	       class="selected"	       ><a href="../../../../articles/g/r/a/Grab%C3%A1_tus_videos_con_GUVCView.html">Página</a></li><li id="ca-talk"
-	       class="new"	       ><a href="http://wiki.huayragnulinux.com.ar/index.php?title=Discusi%C3%B3n:Grab%C3%A1_tus_videos_con_GUVCView&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
-	       	       ><a href="http://wiki.huayragnulinux.com.ar/index.php/Grab%C3%A1_tus_videos_con_GUVCView">Revisión actual</a></li>	  </ul>
+	       class="new"	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Discusi%C3%B3n:Grab%C3%A1_tus_videos_con_GUVCView&amp;action=edit&amp;redlink=1">Discusión</a></li><li id="ca-current"
+	       	       ><a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php/Grab%C3%A1_tus_videos_con_GUVCView">Revisión actual</a></li>	  </ul>
 	</div>
 	<div class="portlet" id="p-logo">
 	  <a style="background-image: url(../../../../misc/wiki.png);"
@@ -216,7 +216,7 @@ Expensive parser function count: 0/100
       <div class="visualClear"></div>
       <div id="footer">
     <div id="f-poweredbyico"><a href="//www.mediawiki.org/"><img src="../../../../skins/common/images/poweredby_mediawiki_88x31.png" height="31" width="88" alt="Powered by MediaWiki" /></a></div>	<div id="f-copyrightico"><a href="../../../../../COPYING.html"><img src="/skins/common/images/cc-by-sa.png" alt="Creative Commons Reconocimiento Compartir Igual" width="88" height="31" /></a></div>	<ul id="f-list">
-	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 15:59, 22 abr 2014 por <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a> y <a href="http://wiki.huayragnulinux.com.ar/index.php?title=Usuario:Cmandrut&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Cmandrut (la página no existe)">anishuara</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
+	  	  	  <li id="f-credits">Esta página fue modificada por última vez en 15:59, 22 abr 2014 por <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Orne&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Orne (la página no existe)">Ornella</a>. Basado en el trabajo de <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Fgonzalez&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Fgonzalez (la página no existe)">Felipe</a> y <a href="http://wiki.huayra.conectarigualdad.gob.ar/index.php?title=Usuario:Cmandrut&amp;action=edit&amp;redlink=1" class="new" title="Usuario:Cmandrut (la página no existe)">anishuara</a>.</li>	  <li id="f-copyright">El contenido está disponible bajo los términos de la <a class="external" rel="nofollow" href="../../../../../COPYING.html">Creative Commons Reconocimiento Compartir Igual</a>.</li>	  <li id="f-about"><a href="../../../../articles/a/c/e/Huayra:Acerca_de.html" title="Huayra:Acerca de">Acerca de Huayra</a></li>	  <li id="f-disclaimer"><a href="../../../../articles/l/i/m/Huayra:Limitaci%C3%B3n_general_de_responsabilidad.html" title="Huayra:Limitación general de responsabilidad">Aviso legal</a></li>	  	</ul>
       </div>
     </div>
   </body>
