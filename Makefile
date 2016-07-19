@@ -56,7 +56,6 @@ _mover_docs:
 	@rm -r -f src/documentacion
 	@mv export documentacion
 	@mv documentacion src/
-	@cp -r -f src/buscar.html src/documentacion/buscar.html
 	@rm -r -f src/documentacion/images/deleted
 	@rm -r -f src/documentacion/images/temp/
 	@rm -r -f src/documentacion/images/archive/

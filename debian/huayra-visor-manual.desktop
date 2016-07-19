@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Ayuda
-Comment=Visor de manual
-Exec=/usr/bin/huayra-visor-manual
-Terminal=false
-Type=Application
-Icon=huayra-visor-manual
-Categories=Documentation;Huayra
-MimeType=x-scheme-handler/ghelp;x-scheme-handler/help;x-scheme-handler/info;x-scheme-handler/man;

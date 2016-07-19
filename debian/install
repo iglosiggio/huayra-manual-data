@@ -1,4 +1,1 @@
-src/* usr/share/huayra-visor-manual/src
-bin/huayra-visor-manual usr/bin/
-debian/huayra-visor-manual.desktop usr/share/applications
-debian/huayra-visor-manual.svg /usr/share/icons/hicolor/scalable/apps
+src/documentacion usr/share/huayra-visor-manual/
